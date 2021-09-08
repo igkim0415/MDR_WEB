@@ -112,7 +112,7 @@
         <div class="row">
           <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="section-headline text-center">
-              <h2>문의 하기</h2>
+              <h2>인증 및 특허</h2>
             </div>
           </div>
         </div>
