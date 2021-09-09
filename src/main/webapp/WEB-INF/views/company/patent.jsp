@@ -130,9 +130,79 @@
 			    </li>		
 		    </ul>
 		</div>
+		
+		<div id="team" class="our-team-area area-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="section-headline text-center">
+            <h2>제품 소개</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="team-top">
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="single-team-member">
+              <div class="team-img">
+                <a href="#">
+										<img src="resources/img/upload/특허1.PNG" alt="">
+									</a>
+                <div class="team-social-icon text-center">
+              <ul>
+            
+                    <li>
+                      <a href="#">
+													<i class="fa fa-search-plus"></i>
+					</a>
+                    </li>
+           
+           
+                  </ul>
+                </div>
+              </div>
+              <div class="team-content text-center">
+                <h4>제품명</h4>
+                <p>제품 설명</p>
+              </div>
+            </div>
+          </div>
+          <!-- End column -->
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="single-team-member">
+              <div class="team-img">
+                <a href="#">
+										<img src="resources/img/team/2.jpg" alt="">
+									</a>
+                <div class="team-social-icon text-center">
+                  <ul>
+            
+                    <li>
+                      <a href="#">
+													<i class="fa fa-search-plus"></i>
+					</a>
+                    </li>
+           
+           
+                  </ul>
+                </div>
+              </div>
+              <div class="team-content text-center">
+                <h4>제품명</h4>
+                <p>제품 설명</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- End column -->
+        </div>
+      </div>								
+    </div>
+  </div>
       </div>
     </div>
   </div>
+  
 <jsp:include page="/WEB-INF/views/commons/footer.jsp"></jsp:include>	
 	
   <!-- JavaScript Libraries -->
