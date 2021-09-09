@@ -117,44 +117,19 @@
           </div>
         </div>
         
-        <div class="row">
-          <!-- Start  contact -->
-          <div class="col-md-12 col-sm-12 col-xs-12">
-            <div class="form contact-form">
-              <div id="sendmessage">Your message has been sent. Thank you!</div>
-              <div id="errormessage"></div>
-              <form action="" method="post" role="form" class="contactForm">
-                <div class="col-md-6">
-                  이름
-                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validation"></div>
-                </div>
-                <div class="col-md-6">
-                  회사명
-                  <input type="email" class="form-control" name="company" id="email"  data-rule="email" data-msg="Please enter a valid email" />
-                  <div class="validation"></div>
-                </div>
-                <div class="col-md-6">
-                연락처
-                  <input type="text" class="form-control" name="phone" id="subject"  data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                  <div class="validation"></div>
-                </div>
-                <div class="col-md-6">
-                이메일
-                  <input type="text" class="form-control" name="email" id="subject"  data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                  <div class="validation"></div>
-                </div>
-                <div class="col-md-12">
-                내용
-                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us"></textarea>
-                  <div class="validation"></div>
-                </div>
-                <div class="text-center"><button type="submit">메일 발송</button></div>
-              </form>
-            </div>
-          </div>
-          <!-- End Left contact -->
-        </div>
+        <div class="row" style="margin-left: 2%;">
+			<ul class="nav nav-pills">
+			    <li class="nav-item">
+			      <a class="nav-link" href="writeMyRecom.do" style="color: #ba90c4;">메인</a>
+			    </li>		
+			    <li class="nav-item">
+			      <a class="nav-link" href="writeMyReview.do">인증</a>
+			    </li>		
+			    <li class="nav-item">
+			      <a class="nav-link" href="writeMyFile.do">특허</a>
+			    </li>		
+		    </ul>
+		</div>
       </div>
     </div>
   </div>
