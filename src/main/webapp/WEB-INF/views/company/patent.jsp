@@ -71,6 +71,19 @@
  
 }
 
+.patent {
+	margin-top: 5%;
+	
+}
+
+.patentimg {
+	border-width : 2px; 
+	border-style : solid; 
+	border-color : #000; 
+
+
+}
+
 }  
 </style>
 </head>
@@ -120,33 +133,23 @@
         <div class="row" style="margin-left: 2%;">
 			<ul class="nav nav-pills">
 			    <li class="nav-item">
-			      <a class="nav-link" href="writeMyRecom.do" style="color: #ba90c4;">메인</a>
+			      <a class="nav-link" href="certify.do" >인증</a>
 			    </li>		
 			    <li class="nav-item">
-			      <a class="nav-link" href="writeMyReview.do">인증</a>
-			    </li>		
-			    <li class="nav-item">
-			      <a class="nav-link" href="writeMyFile.do">특허</a>
+			      <a class="nav-link">특허</a>
 			    </li>		
 		    </ul>
 		</div>
 		
-		<div id="team" class="our-team-area area-padding">
+<div id="team" class="our-team-area area-padding">
     <div class="container">
-      <div class="row">
-        <div class="col-md-12 col-sm-12 col-xs-12">
-          <div class="section-headline text-center">
-            <h2>제품 소개</h2>
-          </div>
-        </div>
-      </div>
       <div class="row">
         <div class="team-top">
           <div class="col-md-6 col-sm-6 col-xs-12">
-            <div class="single-team-member">
+            
               <div class="team-img">
-                <a href="#">
-										<img src="resources/img/upload/특허1.PNG" alt="">
+                <a href="resources/pdf/특허1.pdf" target="_blank">
+										<img src="resources/img/upload/특허1.jpg" alt="" class="patentimg">
 									</a>
                 <div class="team-social-icon text-center">
               <ul>
@@ -157,25 +160,20 @@
 					</a>
                     </li>
            
-           
                   </ul>
                 </div>
               </div>
-              <div class="team-content text-center">
-                <h4>제품명</h4>
-                <p>제품 설명</p>
-              </div>
-            </div>
+           
           </div>
-          <!-- End column -->
-          <div class="col-md-6 col-sm-6 col-xs-12">
-            <div class="single-team-member">
+    
+           <div class="col-md-6 col-sm-6 col-xs-12">
+            
               <div class="team-img">
-                <a href="#">
-										<img src="resources/img/team/2.jpg" alt="">
+                <a href="resources/pdf/특허2.pdf" target="_blank">
+										<img src="resources/img/upload/특허2.jpg" alt="" class="patentimg">
 									</a>
                 <div class="team-social-icon text-center">
-                  <ul>
+              <ul>
             
                     <li>
                       <a href="#">
@@ -183,21 +181,106 @@
 					</a>
                     </li>
            
+                  </ul>
+                </div>
+              </div>
+           
+          </div>
+          
+          <div class="col-md-6 col-sm-6 col-xs-12" style="margin-top: 5%;">
+            
+              <div class="team-img">
+                <a href="resources/pdf/특허3.pdf" target="_blank">
+										<img src="resources/img/upload/특허3.jpg" alt="" class="patentimg">
+									</a>
+                <div class="team-social-icon text-center">
+              <ul>
+            
+                    <li>
+                      <a href="#">
+													<i class="fa fa-search-plus"></i>
+					</a>
+                    </li>
            
                   </ul>
                 </div>
               </div>
-              <div class="team-content text-center">
-                <h4>제품명</h4>
-                <p>제품 설명</p>
-              </div>
-            </div>
+           
           </div>
           
-          <!-- End column -->
+            <div class="col-md-6 col-sm-6 col-xs-12" style="margin-top: 5%;">
+            
+              <div class="team-img">
+                <a href="resources/pdf/특허4.pdf" target="_blank">
+										<img src="resources/img/upload/특허4.jpg" alt="" class="patentimg">
+									</a>
+                <div class="team-social-icon text-center">
+              <ul>
+            
+                    <li>
+                      <a href="#">
+													<i class="fa fa-search-plus"></i>
+					</a>
+                    </li>
+           
+                  </ul>
+                </div>
+              </div>
+           
+          </div>
+          
+          <div class="col-md-6 col-sm-6 col-xs-12" style="margin-top: 5%;">
+            
+              <div class="team-img">
+                <a href="resources/pdf/특허5.pdf" target="_blank">
+										<img src="resources/img/upload/특허5.jpg" alt="" class="patentimg">
+									</a>
+                <div class="team-social-icon text-center">
+              <ul>
+            
+                    <li>
+                      <a href="#">
+													<i class="fa fa-search-plus"></i>
+					</a>
+                    </li>
+           
+                  </ul>
+                </div>
+              </div>
+           
+ 
+          
+     
         </div>
-      </div>								
+          <div class="col-md-6 col-sm-6 col-xs-12" style="margin-top: 5%;">
+            
+              <div class="team-img">
+                <a href="resources/pdf/특허6.pdf" target="_blank">
+										<img src="resources/img/upload/특허6.jpg" alt="" class="patentimg">
+									</a>
+                <div class="team-social-icon text-center">
+              <ul>
+            
+                    <li>
+                      <a href="#">
+													<i class="fa fa-search-plus"></i>
+					</a>
+                    </li>
+           
+                  </ul>
+                </div>
+              </div>
+           </div>
+ 
+          
+     
+        </div>
+      </div>		
+      
+      						
     </div>
+    
+    
   </div>
       </div>
     </div>

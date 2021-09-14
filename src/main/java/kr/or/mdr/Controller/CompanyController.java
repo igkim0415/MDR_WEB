@@ -23,6 +23,11 @@ public class CompanyController {
 		return "company/history";
 	}
 	
+	@RequestMapping(value = "certify.do" , method = RequestMethod.GET)
+	public String certifyPage() {
+		return "company/certify";
+	}
+	
 	@RequestMapping(value = "patent.do" , method = RequestMethod.GET)
 	public String patentPage() {
 		return "company/patent";

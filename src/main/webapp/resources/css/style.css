@@ -304,7 +304,7 @@ div#preloader {
 }
 
 .main-menu ul.navbar-nav li.active a:focus {
-  color: #fff;
+  color: #000;
 }
 
 .main-menu ul.navbar-nav li.active a {
@@ -431,7 +431,7 @@ div#preloader {
 
 .stick .main-menu ul.navbar-nav li.active a {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  color: #fff;
+  color: #000;
   position: relative;
 }
 

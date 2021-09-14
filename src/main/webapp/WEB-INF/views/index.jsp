@@ -58,6 +58,10 @@
 	width: 375px;
 	height: 290px;
 }  
+
+body {
+	font-family: Consolas, monospace;
+}
 </style>
 </head>
 
@@ -93,7 +97,7 @@
                 </div>
                 <!-- layer 3 -->
                 <div class="layer-1-3 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
-                  <a class="ready-btn right-btn page-scroll" href="company.do">더	보기</a>
+                  <a class="ready-btn right-btn page-scroll" href="company.do">더 보기</a>
                   <a class="ready-btn page-scroll" href="#about">제품 보기</a>
                 </div>
               </div>
@@ -179,13 +183,9 @@
             <div class="single-well">         
                 <h1 style="color: #09112c;">회사소개</h1>
                          
-              <p>
-               주식회사 MDR은 국내 최초로 자체 부품 장비 개발 및 제조에서부터 PC환경상에 맞는 
-              </p>
-              <p>
+              <p style="font-size: 20px; letter-spacing: 2px;">
+               주식회사 MDR은 국내 최초로 자체 부품 장비 개발 및 제조에서부터 PC환경상에 맞는              
                시스템 소프트웨어 연구 개발, 그리고 더 나아가 의학·약학·공업 등
-              </p>
-               <p>
                자체 연구 개발하는 글로벌 사업망이 갖춰진 선도적인 기업입니다
               </p>
             </div>

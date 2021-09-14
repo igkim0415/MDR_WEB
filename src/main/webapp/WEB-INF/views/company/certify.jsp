@@ -71,12 +71,24 @@
  
 }
 
+.patent {
+	margin-top: 5%;
+	
+}
+
+.patentimg {
+	border-width : 2px; 
+	border-style : solid; 
+	border-color : #000; 
+
+
+}
+
 }  
 </style>
 </head>
 
 <body>
-
 <jsp:include page="/WEB-INF/views/commons/headerAndLeft.jsp"></jsp:include>	
 
        
@@ -86,7 +98,7 @@
                    <div class="mail-text">
                 <!-- layer 1 -->
             
-                   <h1 id=hfont> 위치 </h1>
+                   <h1 id=hfont> 인증 및 특허 </h1>
             
                 <!-- layer 2 -->
                 
@@ -113,51 +125,144 @@
         <div class="row">
           <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="section-headline text-center">
-              <h2>회사 위치</h2>
+              <h2>인증 및 특허</h2>
             </div>
           </div>
         </div>
         
-       <div class="row">
-
-        
+        <div class="row" style="margin-left: 2%;">
+			<ul class="nav nav-pills">
+			    <li class="nav-item">
+			      <a class="nav-link">인증</a>
+			    </li>		
+			    <li class="nav-item">
+			      <a class="nav-link" href="patent.do">특허</a>
+			    </li>		
+		    </ul>
+		</div>
+		
+<div id="team" class="our-team-area area-padding">
+    <div class="container">
+      <div class="row">
+        <div class="team-top">
           <div class="col-md-6 col-sm-6 col-xs-12">
+            
+              <div class="team-img">
+                <a href="resources/pdf/벤처기업.pdf" target="_blank">
+										<img src="resources/img/upload/벤처기업.jpg" alt="" class="patentimg">
+									</a>
+                <div class="team-social-icon text-center">
+              <ul>
+            
+                    <li>
+                      <a href="#">
+													<i class="fa fa-search-plus"></i>
+					</a>
+                    </li>
            
-				<div id="map" style="width:500px;height:379px;"></div>
-       
+                  </ul>
+                </div>
+              </div>
+           
           </div>
     
-          <div class="col-md-6 col-sm-6 col-xs-12">
-            <div class="form contact-form">
-              <div id="sendmessage">Your message has been sent. Thank you!</div>
-              <div id="errormessage"></div>
-              <form action="" method="post" role="form" class="contactForm">
-                <div class="form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validation"></div>
+           <div class="col-md-6 col-sm-6 col-xs-12">
+            
+              <div class="team-img">
+                <a href="resources/pdf/저작권1.pdf" target="_blank">
+										<img src="resources/img/upload/저작권1.jpg" alt="" class="patentimg">
+									</a>
+                <div class="team-social-icon text-center">
+              <ul>
+            
+                    <li>
+                      <a href="#">
+													<i class="fa fa-search-plus"></i>
+					</a>
+                    </li>
+           
+                  </ul>
                 </div>
-                <div class="form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                  <div class="validation"></div>
-                </div>
-                <div class="form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                  <div class="validation"></div>
-                </div>
-                <div class="form-group">
-                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                  <div class="validation"></div>
-                </div>
-                <div class="text-center"><button type="submit">Send Message</button></div>
-              </form>
-            </div>
+              </div>
+           
           </div>
-          <!-- End Left contact -->
+          
+          <div class="col-md-6 col-sm-6 col-xs-12" style="margin-top: 5%;">
+            
+              <div class="team-img">
+                <a href="resources/pdf/저작권2.pdf" target="_blank">
+										<img src="resources/img/upload/저작권2.jpg" alt="" class="patentimg">
+									</a>
+                <div class="team-social-icon text-center">
+              <ul>
+            
+                    <li>
+                      <a href="#">
+													<i class="fa fa-search-plus"></i>
+					</a>
+                    </li>
+           
+                  </ul>
+                </div>
+              </div>
+           
+          </div>
+          
+            <div class="col-md-6 col-sm-6 col-xs-12" style="margin-top: 5%;">
+            
+              <div class="team-img">
+                <a href="resources/pdf/저작권3.pdf" target="_blank">
+										<img src="resources/img/upload/저작권3.jpg" alt="" class="patentimg">
+									</a>
+                <div class="team-social-icon text-center">
+              <ul>
+            
+                    <li>
+                      <a href="#">
+													<i class="fa fa-search-plus"></i>
+					</a>
+                    </li>
+           
+                  </ul>
+                </div>
+              </div>
+           
+          </div>
+          
+          <div class="col-md-6 col-sm-6 col-xs-12" style="margin-top: 5%;">
+            
+              <div class="team-img">
+                <a href="resources/pdf/저작권4.pdf" target="_blank">
+										<img src="resources/img/upload/저작권4.jpg" alt="" class="patentimg">
+									</a>
+                <div class="team-social-icon text-center">
+              <ul>
+            
+                    <li>
+                      <a href="#">
+													<i class="fa fa-search-plus"></i>
+					</a>
+                    </li>
+           
+                  </ul>
+                </div>
+              </div>
+           
+ 
+          
+     </div>
         </div>
+      </div>		
+      
+      						
+    </div>
+    
+    
+  </div>
       </div>
     </div>
   </div>
-  <!-- End Contact Area -->
+  
 <jsp:include page="/WEB-INF/views/commons/footer.jsp"></jsp:include>	
 	
   <!-- JavaScript Libraries -->
@@ -177,27 +282,6 @@
   <script src="resources/contactform/contactform.js"></script>
 
   <script src="resources/js/main.js"></script>
-  <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=981aa31d5f0215d1020b91731495714d"></script>
-<script>
-var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
-    mapOption = { 
-        center: new kakao.maps.LatLng(36.887029, 127.160122), // 지도의 중심좌표
-        level: 4 // 지도의 확대 레벨
-    };
-// 지도를 표시할 div와  지도 옵션으로  지도를 생성합니다
-var map = new kakao.maps.Map(mapContainer, mapOption); 
-
-//마커가 표시될 위치입니다 
-var markerPosition  = new kakao.maps.LatLng(36.887227 , 127.160277); 
-
-// 마커를 생성합니다
-var marker = new kakao.maps.Marker({
-    position: markerPosition
-});
-
-// 마커가 지도 위에 표시되도록 설정합니다
-marker.setMap(map);
-</script>
 </body>
 
 </html>

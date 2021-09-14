@@ -41,7 +41,7 @@
                       <li><a href="company.do" >회사소개</a></li>
                       <li><a href="vision.do" >비전</a></li>
                       <li><a href="history.do" >연혁</a></li>
-                      <li><a href="patent.do" >인증 및 특허</a></li>
+                      <li><a href="certify.do" >인증 및 특허</a></li>
                       <li><a href="location.do" >위치</a></li>
                     </ul> 
                   <li>
