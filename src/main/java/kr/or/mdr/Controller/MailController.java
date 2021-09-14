@@ -1,6 +1,5 @@
 package kr.or.mdr.Controller;
 
-import javax.mail.internet.MimeBodyPart;
 import javax.mail.internet.MimeMessage;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
@@ -11,8 +10,6 @@ import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-
-import com.sun.activation.viewers.TextViewer;
 
 
 
@@ -33,13 +30,13 @@ public class MailController {
 	public String mailSending(HttpServletRequest request,HttpSession session,String email) {
 		
 		String setfrom = request.getParameter("email");	
-		String title = request.getParameter("mtitle"); // Á¦¸ñ
-		String content = request.getParameter("message"); // ³»¿ë
-		String name = request.getParameter("name"); //ÀÌ¸§
+		String title = request.getParameter("mtitle"); // ï¿½ï¿½ï¿½ï¿½
+		String content = request.getParameter("message"); // ï¿½ï¿½ï¿½ï¿½
+		String name = request.getParameter("name"); //ï¿½Ì¸ï¿½
 		String company = request.getParameter("company");
 		String phone = request.getParameter("phone");
-		String frommail = request.getParameter("email"); // ¹ÞÀ» ÀÌ¸ÞÀÏ
-		String tosend = request.getParameter("tosend"); //¹Þ´Â»ç¶÷
+		String frommail = request.getParameter("email"); // ï¿½ï¿½ï¿½ï¿½ ï¿½Ì¸ï¿½ï¿½ï¿½
+		String tosend = request.getParameter("tosend"); //ï¿½Þ´Â»ï¿½ï¿½
 		String tomail = "chdl1229@naver.com"; 
 		
 		
@@ -49,10 +46,10 @@ public class MailController {
 			MimeMessageHelper messageHelper = new MimeMessageHelper(message,
 					true, "UTF-8");
 			
-			messageHelper.setFrom(setfrom); // º¸³»´Â»ç¶÷ »ý·«ÇÏ¸é Á¤»óÀÛµ¿À» ¾ÈÇÔ
-			messageHelper.setTo(tomail); // ¹Þ´Â»ç¶÷ ÀÌ¸ÞÀÏ
-			messageHelper.setSubject(title); // ¸ÞÀÏÁ¦¸ñÀº »ý·«ÀÌ °¡´ÉÇÏ´Ù
-			 messageHelper.setText("ÀÌ¸§ : " + name + "\n" + "ÈÞ´ëÆù ¹øÈ£ : " + phone + "\n" + "È¸»ç¸í : " + company + "\n" + "ÀÌ¸ÞÀÏ : " + frommail + "\n\n" + "³»¿ë : " + content); 
+			messageHelper.setFrom(setfrom); // ï¿½ï¿½ï¿½ï¿½ï¿½Â»ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ûµï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+			messageHelper.setTo(tomail); // ï¿½Þ´Â»ï¿½ï¿½ ï¿½Ì¸ï¿½ï¿½ï¿½
+			messageHelper.setSubject(title); // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½
+			 messageHelper.setText("ï¿½Ì¸ï¿½ : " + name + "\n" + "ï¿½Þ´ï¿½ï¿½ï¿½ ï¿½ï¿½È£ : " + phone + "\n" + "È¸ï¿½ï¿½ï¿½ : " + company + "\n" + "ï¿½Ì¸ï¿½ï¿½ï¿½ : " + frommail + "\n\n" + "ï¿½ï¿½ï¿½ï¿½ : " + content); 
 		
 			
 			
