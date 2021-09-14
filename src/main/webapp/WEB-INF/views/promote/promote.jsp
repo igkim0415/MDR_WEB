@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>Company - MDR Co.,  Ltd</title>
+<title>Promote - MDR Co.,  Ltd</title>
 
   <!-- Favicons -->
   <link href="resources/img/favicon.png" rel="icon">
@@ -71,6 +71,19 @@
  
 }
 
+.patent {
+	margin-top: 5%;
+	
+}
+
+.patentimg {
+	border-width : 2px; 
+	border-style : solid; 
+	border-color : #000; 
+
+
+}
+
 }  
 </style>
 </head>
@@ -85,7 +98,7 @@
                    <div class="mail-text">
                 <!-- layer 1 -->
             
-                   <h1 id=hfont> 회사 소개 </h1>
+                   <h1 id=hfont> 홍보 센터 </h1>
             
                 <!-- layer 2 -->
                 
@@ -112,38 +125,75 @@
         <div class="row">
           <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="section-headline text-center">
-              <h2>CEO 인사말</h2>
+              <h2>기업 브로슈어</h2>
             </div>
           </div>
         </div>
         
-        <div class="row">
-          <!-- Start  contact -->
-          <div class="col-md-12 col-sm-12 col-xs-12">
-            <div class="form contact-form">
-              <div id="sendmessage">Your message has been sent. Thank you!</div>
-              <div id="errormessage"></div>
-              <form action="" method="post" role="form" class="contactForm" style="text-align: center;">
-          		주식회사 ITBIO는 국내 최초로 자체 부품 장비 개발 및 제조에서부터 PC환경상에 맞는 시스템 소프트웨어 연구 개발, 
-          		의학•약학•공업 자체 연구 개발, 그리고 더 나아가 외국의 정유 관련 사업 경험 등 글로벌 사업망이 갖춰진 선도적인 기업이며, 
-          		항상 새로운 혁신 그리고 글로벌 적인 기업을 목표로 삼아 지향하여, 비즈니스 환경과 Lifestyle에 있어 새로운 패러다임을 제시하기 위해 
-          		창의적인 사고와 접근방법을 통해 지금까지 경험하지 못한 혁신적인 솔루션을 자체 개발/공급, 그리고 경영 철칙 등을 지켜감으로써 
-          		국내 고객은 물론 외국 고객들의 니즈등을 이해 할수 있는 역량을 가지고, 매해 새로운 성장을 이루어 거듭해 나가는 기업입니다.
-                <div class="col-md-12">
-  					<br>
-  					<br>
-                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us"></textarea>
-                  <div class="validation"></div>
+		
+<div id="team" class="our-team-area area-padding">
+    <div class="container">
+      <div class="row">
+        <div class="team-top">
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            
+          
+										<img src="resources/img/upload/벤처기업.jpg" alt="" class="patentimg center-block">
+                <div class="team-social-icon text-center">
+              <ul>
+            
+                    <li>
+                      <a href="#">
+													<i class="fa fa-search-plus"></i>
+					</a>
+                    </li>
+           
+                  </ul>
                 </div>
-                <div class="text-center"><button type="submit">메일 발송</button></div>
-              </form>
-            </div>
+           
+           	<div class="team-content text-center">
+               <a href="resources/pdf/저작권1.pdf" target="_blank" class="ready-btn" style="color: #444;border: 1px solid #444;">Korean ↑</a>
+              </div>
           </div>
-          <!-- End Left contact -->
+    
+           <div class="col-md-6 col-sm-6 col-xs-12">
+            
+          
+										<img src="resources/img/upload/저작권1.jpg" alt="" class="patentimg center-block">
+                <div class="team-social-icon text-center">
+              <ul>
+            
+                    <li>
+                      <a href="#">
+													<i class="fa fa-search-plus"></i>
+					</a>
+                    </li>
+           
+                  </ul>
+                </div>
+           
+           	<div class="team-content text-center">
+               <a href="resources/pdf/저작권1.pdf" target="_blank" class="ready-btn" style="color: #444;border: 1px solid #444;">English ↑</a>
+              </div>
+          </div>
+    
+          
+          
+          
+ 
+          
+     </div>
         </div>
+      </div>		
+      
+      						
+    </div>
+    
+    
+  </div>
       </div>
     </div>
-  </div>
+    
 <jsp:include page="/WEB-INF/views/commons/footer.jsp"></jsp:include>	
 	
   <!-- JavaScript Libraries -->

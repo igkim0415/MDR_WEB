@@ -149,7 +149,7 @@
             
               <div class="team-img">
                 <a href="resources/pdf/특허1.pdf" target="_blank">
-										<img src="resources/img/upload/특허1.jpg" alt="" class="patentimg">
+										<img src="resources/img/upload/특허1.jpg" alt="" class="patentimg center-block">
 									</a>
                 <div class="team-social-icon text-center">
               <ul>
@@ -170,7 +170,7 @@
             
               <div class="team-img">
                 <a href="resources/pdf/특허2.pdf" target="_blank">
-										<img src="resources/img/upload/특허2.jpg" alt="" class="patentimg">
+										<img src="resources/img/upload/특허2.jpg" alt="" class="patentimg center-block">
 									</a>
                 <div class="team-social-icon text-center">
               <ul>
@@ -191,7 +191,7 @@
             
               <div class="team-img">
                 <a href="resources/pdf/특허3.pdf" target="_blank">
-										<img src="resources/img/upload/특허3.jpg" alt="" class="patentimg">
+										<img src="resources/img/upload/특허3.jpg" alt="" class="patentimg center-block">
 									</a>
                 <div class="team-social-icon text-center">
               <ul>
@@ -212,7 +212,7 @@
             
               <div class="team-img">
                 <a href="resources/pdf/특허4.pdf" target="_blank">
-										<img src="resources/img/upload/특허4.jpg" alt="" class="patentimg">
+										<img src="resources/img/upload/특허4.jpg" alt="" class="patentimg center-block">
 									</a>
                 <div class="team-social-icon text-center">
               <ul>
@@ -233,7 +233,7 @@
             
               <div class="team-img">
                 <a href="resources/pdf/특허5.pdf" target="_blank">
-										<img src="resources/img/upload/특허5.jpg" alt="" class="patentimg">
+										<img src="resources/img/upload/특허5.jpg" alt="" class="patentimg center-block">
 									</a>
                 <div class="team-social-icon text-center">
               <ul>
@@ -256,7 +256,7 @@
             
               <div class="team-img">
                 <a href="resources/pdf/특허6.pdf" target="_blank">
-										<img src="resources/img/upload/특허6.jpg" alt="" class="patentimg">
+										<img src="resources/img/upload/특허6.jpg" alt="" class="patentimg center-block">
 									</a>
                 <div class="team-social-icon text-center">
               <ul>

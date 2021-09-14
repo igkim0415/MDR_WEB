@@ -149,7 +149,7 @@
             
               <div class="team-img">
                 <a href="resources/pdf/벤처기업.pdf" target="_blank">
-										<img src="resources/img/upload/벤처기업.jpg" alt="" class="patentimg">
+										<img src="resources/img/upload/벤처기업.jpg" alt="" class="patentimg center-block">
 									</a>
                 <div class="team-social-icon text-center">
               <ul>
@@ -170,7 +170,7 @@
             
               <div class="team-img">
                 <a href="resources/pdf/저작권1.pdf" target="_blank">
-										<img src="resources/img/upload/저작권1.jpg" alt="" class="patentimg">
+										<img src="resources/img/upload/저작권1.jpg" alt="" class="patentimg center-block">
 									</a>
                 <div class="team-social-icon text-center">
               <ul>
@@ -191,7 +191,7 @@
             
               <div class="team-img">
                 <a href="resources/pdf/저작권2.pdf" target="_blank">
-										<img src="resources/img/upload/저작권2.jpg" alt="" class="patentimg">
+										<img src="resources/img/upload/저작권2.jpg" alt="" class="patentimg center-block">
 									</a>
                 <div class="team-social-icon text-center">
               <ul>
@@ -212,7 +212,7 @@
             
               <div class="team-img">
                 <a href="resources/pdf/저작권3.pdf" target="_blank">
-										<img src="resources/img/upload/저작권3.jpg" alt="" class="patentimg">
+										<img src="resources/img/upload/저작권3.jpg" alt="" class="patentimg center-block">
 									</a>
                 <div class="team-social-icon text-center">
               <ul>
@@ -233,7 +233,7 @@
             
               <div class="team-img">
                 <a href="resources/pdf/저작권4.pdf" target="_blank">
-										<img src="resources/img/upload/저작권4.jpg" alt="" class="patentimg">
+										<img src="resources/img/upload/저작권4.jpg" alt="" class="patentimg center-block">
 									</a>
                 <div class="team-social-icon text-center">
               <ul>

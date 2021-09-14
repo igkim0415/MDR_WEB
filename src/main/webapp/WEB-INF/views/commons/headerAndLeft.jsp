@@ -28,7 +28,7 @@
 									</button>
                 <!-- Brand -->
                 <a class="navbar-brand page-scroll sticky-logo" href="index.do">
-                  <img src="resources/img/mr4.png" alt=""/>
+                  <img src="resources/img/Ci2.png" alt=""/>
                   <!-- Uncomment below if you prefer to use an image logo -->
                   <!-- <img src="img/logo.png" alt="" title=""> -->
 								</a>
@@ -48,12 +48,12 @@
                     <a href="">사업분야</a>
                   </li>
                   <li>
-                    <a  href="">제품소개</a>
+                    <a  href="product.do">제품소개</a>
                   </li>
                   <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">홍보센터<span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
                       <li><a href=# >CI소개</a></li>
-                      <li><a href=# >기업브로슈어</a></li>
+                      <li><a href="promote.do" >기업브로슈어</a></li>
                       <li><a href=# >최신뉴스</a></li>
                     </ul> 
                   </li>

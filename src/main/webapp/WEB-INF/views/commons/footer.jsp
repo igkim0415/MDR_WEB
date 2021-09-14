@@ -16,10 +16,13 @@
             <div class="copyright text-center">
             <img src="resources/img/mr.png" alt="">
               <p>
-              본사 : 충청남도 천안시 서북구 직산읍 직산로 136 번영관 2106호
+              본사 : 충청남도 천안시 서북구 직산읍 직산로 136 충남 테크노파크 번영관 2106호
               </p>
               <P>
-              TEL : +82-41-588-0903 FAX 041-588-0902
+              TEL : 041-588-0903
+              </P>
+              <p> 
+              FAX : 041-588-0902
               </P>
             </div>
             <div class="credits">

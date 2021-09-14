@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
-public class CompanyController {
+public class PageController {
 	
 	
 	@RequestMapping(value = "company.do" , method = RequestMethod.GET)
@@ -36,6 +36,16 @@ public class CompanyController {
 	@RequestMapping(value = "location.do" , method = RequestMethod.GET)
 	public String locationPage() {
 		return "company/location";
+	}
+	
+	@RequestMapping(value = "product.do" , method = RequestMethod.GET)
+	public String productPage() {
+		return "product/product";
+	}
+	
+	@RequestMapping(value = "promote.do" , method = RequestMethod.GET)
+	public String promotePage() {
+		return "promote/promote";
 	}
 		
 }
