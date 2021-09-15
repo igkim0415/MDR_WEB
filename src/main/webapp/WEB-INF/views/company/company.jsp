@@ -129,9 +129,27 @@
           		항상 새로운 혁신 그리고 글로벌 적인 기업을 목표로 삼아 지향하여, 비즈니스 환경과 Lifestyle에 있어 새로운 패러다임을 제시하기 위해 
           		창의적인 사고와 접근방법을 통해 지금까지 경험하지 못한 혁신적인 솔루션을 자체 개발/공급, 그리고 경영 철칙 등을 지켜감으로써 
           		국내 고객은 물론 외국 고객들의 니즈등을 이해 할수 있는 역량을 가지고, 매해 새로운 성장을 이루어 거듭해 나가는 기업입니다.
-                <div class="col-md-12">
+                <div class="col-md-12 col-sm-6 col-xs-12">
   					<br>
   					<br>
+  					<div class="col-md-6 col-sm-6 col-xs-12">
+              		<div class="team-img">
+                	<a href="resources/pdf/벤처기업.pdf" target="_blank">
+					<img src="resources/img/upload/벤처기업.jpg" alt="" class="patentimg center-block">
+					</a>
+               			 <div class="team-social-icon text-center">
+             			<ul>
+                    <li>
+                      <a href="#">
+						<i class="fa fa-search-plus"></i>
+					</a>
+                    </li>
+           
+                  </ul>
+                </div>
+              </div>
+           
+          </div>
                   <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us"></textarea>
                   <div class="validation"></div>
                 </div>
