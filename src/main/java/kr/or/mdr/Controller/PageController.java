@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class PageController {
 	
-	
+	 // 회사소개 드롭다운 
 	@RequestMapping(value = "company.do" , method = RequestMethod.GET)
 	public String CompanyPage() {
 		return "company/company";
@@ -28,24 +28,34 @@ public class PageController {
 		return "company/certify";
 	}
 	
-	@RequestMapping(value = "patent.do" , method = RequestMethod.GET)
-	public String patentPage() {
-		return "company/patent";
-	}
-	
 	@RequestMapping(value = "location.do" , method = RequestMethod.GET)
 	public String locationPage() {
 		return "company/location";
 	}
 	
+	//////////////////////////////////////////
+	
+	//제품소개 
 	@RequestMapping(value = "product.do" , method = RequestMethod.GET)
 	public String productPage() {
 		return "product/product";
 	}
 	
-	@RequestMapping(value = "promote.do" , method = RequestMethod.GET)
-	public String promotePage() {
-		return "promote/promote";
+	//////////////////////////////////////////
+	
+	//////////////////////////////////////////
+	//홍보센터 드롭다운
+	
+	@RequestMapping(value = "cipage.do" , method = RequestMethod.GET)
+	public String ciPage() {
+		return "promote/cipage";
 	}
+	
+	
+	@RequestMapping(value = "brochure.do" , method = RequestMethod.GET)
+	public String brochurePage() {
+		return "promote/brochure";
+	}
+	
 		
 }

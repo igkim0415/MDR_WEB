@@ -1,287 +1,201 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
+ <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="EUC-KR">
-<title>Company - MDR Co.,  Ltd</title>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Builderz - Construction Company Website Template</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Construction Company Website Template" name="keywords">
+        <meta content="Construction Company Website Template" name="description">
 
-  <!-- Favicons -->
-  <link href="resources/img/favicon.png" rel="icon">
-  <link href="resources/img/apple-touch-icon.png" rel="apple-touch-icon">
+        <!-- Favicon -->
+        <link href="resources/img/favicon.ico" rel="icon">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900" rel="stylesheet">
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-  <!-- Bootstrap CSS File -->
-  <link href="resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="resources/flaticon/font/flaticon.css" rel="stylesheet"> 
+        <link href="resources/lib/animate/animate.min.css" rel="stylesheet">
+        <link href="resources/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="resources/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="resources/lib/slick/slick.css" rel="stylesheet">
+        <link href="resources/lib/slick/slick-theme.css" rel="stylesheet">
 
-  <!-- Libraries CSS Files -->
-  <link href="resources/nivo-slider/css/nivo-slider.css" rel="stylesheet">
-  <link href="resources/owlcarousel/owl.carousel.css" rel="stylesheet">
-  <link href="resources/owlcarousel/owl.transitions.css" rel="stylesheet">
-  <link href="resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="resources/animate/animate.min.css" rel="stylesheet">
-  <link href="resources/venobox/venobox.css" rel="stylesheet">
-
-  <!-- Nivo Slider Theme -->
-  <link href="resources/css/nivo-slider-theme.css" rel="stylesheet">
-
-  <!-- Main Stylesheet File -->
-  <link href="resources/css/style.css" rel="stylesheet">
-
-  <!-- Responsive Stylesheet File -->
-  <link href="resources/css/responsive.css" rel="stylesheet">
-
-  <!-- =======================================================
-    Theme Name: eBusiness
-    Theme URL: https://bootstrapmade.com/ebusiness-bootstrap-corporate-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
-<style type="text/css">
-#hfont {
-	color: #fff;
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 60px;
-    }
-    
-#hfont2 {
-	color: #fff;
-    font-weight: 700;
-    }  
-
-#smallimg {
-	width: 375px;
-	height: 290px;
-}
-
-.maillogo {
-  position:relative;
-}
-
-.maillogo .mail-text {
-  position:absolute;
-  top:190px;
-  left:800px;
-  text-align: center;
- 
-}
-
-.patent {
-	margin-top: 5%;
+        <!-- Template Stylesheet -->
+        <link href="resources/css/style.css" rel="stylesheet">
+    	<style type="text/css">
+    		.line {
+    			margin-top: 2%;
+    		}
+    	</style>
+    </head>
 	
-}
-
-.patentimg {
-	border-width : 2px; 
-	border-style : solid; 
-	border-color : #000; 
-
-
-}
-
-}  
-</style>
-</head>
-
-<body>
-<jsp:include page="/WEB-INF/views/commons/headerAndLeft.jsp"></jsp:include>	
-
-       
-     <div class = "maillogo">
-       <img src="resources/img/mail/maillogo.jpg" alt="" title="#slider-direction-1" style="margin-top: 70px;" />
-      
-                   <div class="mail-text">
-                <!-- layer 1 -->
+    <body>
+        <div class="wrapper">
+          
+            <jsp:include page="/WEB-INF/views/commons/headerAndLeft.jsp"></jsp:include>
             
-                   <h1 id=hfont> 인증 및 특허 </h1>
-            
-                <!-- layer 2 -->
-                
-                  <h6 id=hfont2>MDR 항상 글로벌 선두 기업이 되겠습니다.</h6>
-               
-                <!-- layer 3 -->
-              </div>
-     </div>
-    
-
-      <!-- direction 1 -->
-    
-    
-  
-        
-
-     
-     
-  <!-- Start contact Area -->
-  <div id="contact" class="contact-area">
-    <div class="contact-inner area-padding">
-      <div class="contact-overly"></div>
-      <div class="container ">
-        <div class="row">
-          <div class="col-md-12 col-sm-12 col-xs-12">
-            <div class="section-headline text-center">
-              <h2>인증 및 특허</h2>
+            <!-- Page Header Start -->
+            <div class="page-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2>인증 및 특허</h2>
+                        </div>
+                        <div class="col-12">
+                            <a href="">메인</a>
+                            <a href="">인증 및 특허</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+            <!-- Page Header End -->
+
+
+            <!-- Portfolio Start -->
+            <div class="portfolio">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <ul id="portfolio-flters">
+                                <li data-filter="*" class="filter-active">전체</li>
+                                <li data-filter=".first">확인서</li>
+                                <li data-filter=".second">저작권</li>
+                                <li data-filter=".third">특허</li>
+                            </ul>
+                        </div>
+                    </div>
+                 <div class="row portfolio-container">
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item first wow  line" data-wow-delay="0.1s">
+                            
+                                <div class="team-img">
+                                <a href="resources/pdf/벤처기업.pdf" target="_blank">
+                                    <img src="resources/img/patent/벤처기업.jpg" alt="Image">
+                                </a>
+                                </div>
+
+                    </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item second wow fadeInUp line" data-wow-delay="0.2s">
+                            <div class="team-item">
+                                <div class="team-img">
+                                <a href="resources/pdf/저작권1.pdf" target="_blank">
+                                    <img src="resources/img/patent/저작권1.jpg" alt="Team Image" >
+                                    </a>
+                    			 </div> 
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item second wow fadeInUp line" data-wow-delay="0.3s">
+                            <div class="team-item">
+                                <div class="team-img">
+                                <a href="resources/pdf/저작권2.pdf" target="_blank">
+                                    <img src="resources/img/patent/저작권2.jpg" alt="Team Image">
+                                    </a>
+                     			</div> 
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item second wow fadeInUp line" data-wow-delay="0.4s">
+                            <div class="team-item">
+                                <div class="team-img">
+                                <a href="resources/pdf/저작권3.pdf" target="_blank">
+                                    <img src="resources/img/patent/저작권3.jpg" alt="Team Image">
+                                    </a>
+                     			</div> 
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item second wow fadeInUp line" data-wow-delay="0.5s">
+                            <div class="team-item">
+                                <div class="team-img">
+                                <a href="resources/pdf/저작권4.pdf" target="_blank">
+                                    <img src="resources/img/patent/저작권4.jpg" alt="Team Image">
+                                    </a>
+                     			</div> 
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item third wow fadeInUp line" data-wow-delay="0.6s">
+                            <div class="team-item">
+                                <div class="team-img">
+                                <a href="resources/pdf/특허1.pdf" target="_blank">
+                                    <img src="resources/img/patent/특허1.jpg" alt="Team Image">
+                                    </a>
+                     			</div> 
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item third wow fadeInUp line" data-wow-delay="0.7s">
+                            <div class="team-item">
+                                <div class="team-img">
+                                <a href="resources/pdf/특허2.pdf" target="_blank">
+                                    <img src="resources/img/patent/특허2.jpg" alt="Team Image">
+                                    </a>
+                     			</div> 
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item third wow fadeInUp line" data-wow-delay="0.8s">
+                            <div class="team-item">
+                                <div class="team-img">
+                                <a href="resources/pdf/특허3.pdf" target="_blank">
+                                    <img src="resources/img/patent/특허3.jpg" alt="Team Image">
+                                    </a>
+                     			</div> 
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item third wow fadeInUp line" data-wow-delay="0.9s">
+                            <div class="team-item">
+                                <div class="team-img">
+                                <a href="resources/pdf/특허4.pdf" target="_blank">
+                                    <img src="resources/img/patent/특허4.jpg" alt="Team Image">
+                                    </a>
+                     			</div> 
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item third wow fadeInUp line" data-wow-delay="1.0s">
+                            <div class="team-item">
+                                <div class="team-img">
+                                <a href="resources/pdf/특허5.pdf" target="_blank">
+                                    <img src="resources/img/patent/특허5.jpg" alt="Team Image">
+                                    </a>
+                     			</div> 
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item third wow fadeInUp line" data-wow-delay="1.1s">
+                            <div class="team-item">
+                                <div class="team-img">
+                                <a href="resources/pdf/특허6.pdf" target="_blank">
+                                    <img src="resources/img/patent/특허6.jpg" alt="Team Image">
+                                    </a>
+                     			</div> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- Portfolio End -->
+
+
+
+            <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
         </div>
-        
-        <div class="row" style="margin-left: 2%;">
-			<ul class="nav nav-pills">
-			    <li class="nav-item">
-			      <a class="nav-link">인증</a>
-			    </li>		
-			    <li class="nav-item">
-			      <a class="nav-link" href="patent.do">특허</a>
-			    </li>		
-		    </ul>
-		</div>
-		
-<div id="team" class="our-team-area area-padding">
-    <div class="container">
-      <div class="row">
-        <div class="team-top">
-          <div class="col-md-6 col-sm-6 col-xs-12">
-            
-              <div class="team-img">
-                <a href="resources/pdf/벤처기업.pdf" target="_blank">
-										<img src="resources/img/upload/벤처기업.jpg" alt="" class="patentimg center-block">
-									</a>
-                <div class="team-social-icon text-center">
-              <ul>
-            
-                    <li>
-                      <a href="#">
-													<i class="fa fa-search-plus"></i>
-					</a>
-                    </li>
-           
-                  </ul>
-                </div>
-              </div>
-           
-          </div>
-    
-           <div class="col-md-6 col-sm-6 col-xs-12">
-            
-              <div class="team-img">
-                <a href="resources/pdf/저작권1.pdf" target="_blank">
-										<img src="resources/img/upload/저작권1.jpg" alt="" class="patentimg center-block">
-									</a>
-                <div class="team-social-icon text-center">
-              <ul>
-            
-                    <li>
-                      <a href="#">
-													<i class="fa fa-search-plus"></i>
-					</a>
-                    </li>
-           
-                  </ul>
-                </div>
-              </div>
-           
-          </div>
-          
-          <div class="col-md-6 col-sm-6 col-xs-12" style="margin-top: 5%;">
-            
-              <div class="team-img">
-                <a href="resources/pdf/저작권2.pdf" target="_blank">
-										<img src="resources/img/upload/저작권2.jpg" alt="" class="patentimg center-block">
-									</a>
-                <div class="team-social-icon text-center">
-              <ul>
-            
-                    <li>
-                      <a href="#">
-													<i class="fa fa-search-plus"></i>
-					</a>
-                    </li>
-           
-                  </ul>
-                </div>
-              </div>
-           
-          </div>
-          
-            <div class="col-md-6 col-sm-6 col-xs-12" style="margin-top: 5%;">
-            
-              <div class="team-img">
-                <a href="resources/pdf/저작권3.pdf" target="_blank">
-										<img src="resources/img/upload/저작권3.jpg" alt="" class="patentimg center-block">
-									</a>
-                <div class="team-social-icon text-center">
-              <ul>
-            
-                    <li>
-                      <a href="#">
-													<i class="fa fa-search-plus"></i>
-					</a>
-                    </li>
-           
-                  </ul>
-                </div>
-              </div>
-           
-          </div>
-          
-          <div class="col-md-6 col-sm-6 col-xs-12" style="margin-top: 5%;">
-            
-              <div class="team-img">
-                <a href="resources/pdf/저작권4.pdf" target="_blank">
-										<img src="resources/img/upload/저작권4.jpg" alt="" class="patentimg center-block">
-									</a>
-                <div class="team-social-icon text-center">
-              <ul>
-            
-                    <li>
-                      <a href="#">
-													<i class="fa fa-search-plus"></i>
-					</a>
-                    </li>
-           
-                  </ul>
-                </div>
-              </div>
-           
- 
-          
-     </div>
-        </div>
-      </div>		
-      
-      						
-    </div>
-    
-    
-  </div>
-      </div>
-    </div>
-  </div>
-  
-<jsp:include page="/WEB-INF/views/commons/footer.jsp"></jsp:include>	
-	
-  <!-- JavaScript Libraries -->
-  <script src="resources/jquery/jquery.min.js"></script>
-  <script src="resources/bootstrap/js/bootstrap.min.js"></script>
-  <script src="resources/owlcarousel/owl.carousel.min.js"></script>
-  <script src="resources/venobox/venobox.min.js"></script>
-  <script src="resources/knob/jquery.knob.js"></script>
-  <script src="resources/wow/wow.min.js"></script>
-  <script src="resources/parallax/parallax.js"></script>
-  <script src="resources/easing/easing.min.js"></script>
-  <script src="resources/nivo-slider/js/jquery.nivo.slider.js" type="text/javascript"></script>
-  <script src="resources/appear/jquery.appear.js"></script>
-  <script src="resources/isotope/isotope.pkgd.min.js"></script>
+    <jsp:include page="/WEB-INF/views/commons/footer.jsp"></jsp:include>
 
-  <!-- Contact Form JavaScript File -->
-  <script src="resources/contactform/contactform.js"></script>
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="resources/easing/easing.min.js"></script>
+        <script src="resources/wow/wow.min.js"></script>
+        <script src="resources/owlcarousel/owl.carousel.min.js"></script>
+        <script src="resources/isotope/isotope.pkgd.min.js"></script>
+        <script src="resources/lightbox/js/lightbox.min.js"></script>
+        <script src="resources/waypoints/waypoints.min.js"></script>
+        <script src="resources/counterup/counterup.min.js"></script>
+        <script src="resources/slick/slick.min.js"></script>
 
-  <script src="resources/js/main.js"></script>
-</body>
-
+        <!-- Template Javascript -->
+        <script src="resources/js/main.js"></script>
+    </body>
 </html>

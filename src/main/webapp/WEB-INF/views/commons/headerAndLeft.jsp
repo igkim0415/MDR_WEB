@@ -10,73 +10,99 @@
 </head>
 <body>
 <header>
-    <!-- header-area start -->
-    <div id="sticker" class="header-area">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 col-sm-12">
+         <!-- Top Bar Start -->
+            <div class="top-bar">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-lg-4 col-md-12">
+                            <div class="logo">
+                                <a href="index.do">
+                                    <h1>MDR</h1>
+                                    <!-- <img src="img/logo.jpg" alt="Logo"> -->
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-7 d-none d-lg-block">
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="top-bar-item">
+                                        <div class="top-bar-icon">
+                                            <i class="flaticon-calendar"></i>
+                                        </div>
+                                        <div class="top-bar-text">
+                                            <h3>운영시간</h3>
+                                            <p>월 - 금, 9:00 - 18:00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="top-bar-item">
+                                        <div class="top-bar-icon">
+                                            <i class="flaticon-call"></i>
+                                        </div>
+                                        <div class="top-bar-text">
+                                            <h3>전화번호</h3>
+                                            <p>041-588-0903</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="top-bar-item">
+                                        <div class="top-bar-icon">
+                                            <i class="flaticon-send-mail"></i>
+                                        </div>
+                                        <div class="top-bar-text">
+                                            <h3>이메일</h3>
+                                            <p>mdrinfo@mdrco.co.kr</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Top Bar End -->
 
-            <!-- Navigation -->
-            <nav class="navbar navbar-default">
-              <!-- Brand and toggle get grouped for better mobile display -->
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".bs-example-navbar-collapse-1" aria-expanded="false">
-										<span class="sr-only">Toggle navigation</span>
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-									</button>
-                <!-- Brand -->
-                <a class="navbar-brand page-scroll sticky-logo" href="index.do">
-                  <img src="resources/img/Ci2.png" alt=""/>
-                  <!-- Uncomment below if you prefer to use an image logo -->
-                  <!-- <img src="img/logo.png" alt="" title=""> -->
-								</a>
-              </div>
-              <!-- Collect the nav links, forms, and other content for toggling -->
-              <div class="collapse navbar-collapse main-menu bs-example-navbar-collapse-1" id="navbar-example">
-                <ul class="nav navbar-nav navbar-right">
-                     <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">회사소개<span class="caret"></span></a>
-                    <ul class="dropdown-menu" role="menu">
-                      <li><a href="company.do" >회사소개</a></li>
-                      <li><a href="vision.do" >비전</a></li>
-                      <li><a href="history.do" >연혁</a></li>
-                      <li><a href="certify.do" >인증 및 특허</a></li>
-                      <li><a href="location.do" >위치</a></li>
-                    </ul> 
-                  <li>
-                    <a href="">사업분야</a>
-                  </li>
-                  <li>
-                    <a  href="product.do">제품소개</a>
-                  </li>
-                  <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">홍보센터<span class="caret"></span></a>
-                    <ul class="dropdown-menu" role="menu">
-                      <li><a href=# >CI소개</a></li>
-                      <li><a href="promote.do" >기업브로슈어</a></li>
-                      <li><a href=# >최신뉴스</a></li>
-                    </ul> 
-                  </li>
-                  <li>
-                    <a href="mailPage.do">문의하기</a>
-                  </li>
-                   <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Korean<span class="caret"></span></a>
-                    <ul class="dropdown-menu" role="menu">
-                      <li><a href=# >Korean</a></li>
-                      <li><a href=# >English</a></li>
-                    </ul> 
-                  </li>
-                </ul>
-              </div>
-              <!-- navbar-collapse -->
-            </nav>
-            <!-- END: Navigation -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- header-area end -->
-  </header>
-  <!-- header end -->
+            <!-- Nav Bar Start -->
+            <div class="nav-bar">
+                <div class="container-fluid">
+                    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                        <a href="#" class="navbar-brand">MENU</a>
+                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                            <div class="navbar-nav mr-auto">
+                                <a href="index.do" class="nav-item nav-link active">메인</a>
+                               <div class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">회사소개</a>
+                                    <div class="dropdown-menu">
+                                        <a href="company.do" class="dropdown-item">회사소개</a>
+                                        <a href="vision.do" class="dropdown-item">비전</a>
+                                        <a href="history.do" class="dropdown-item">연혁</a>
+                                       <a href="certify.do" class="dropdown-item">인증 및 특허</a>
+                                        <a href="location.do" class="dropdown-item">위치</a>
+                                    </div>
+                                </div>
+                                <a href="product.do" class="nav-item nav-link">제품소개</a>
+                                <a href="team.html" class="nav-item nav-link">Team</a>
+                                <div class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">홍보센터</a>
+                                    <div class="dropdown-menu">
+                                        <a href="cipage.do" class="dropdown-item">CI소개</a>
+                                        <a href="brochure.do" class="dropdown-item">기업 브로슈어</a>
+                                        <a href="news.do" class="dropdown-item">최신뉴스</a>
+                                    </div>
+                                </div>
+                                <a href="mailPage.do" class="nav-item nav-link">문의하기</a>
+                            </div>
+                          
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <!-- Nav Bar End -->
 </body>
 </html>

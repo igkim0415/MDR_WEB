@@ -1,365 +1,204 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="EUC-KR">
-<title>MDR Co.,  Ltd</title>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Builderz - Construction Company Website Template</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Construction Company Website Template" name="keywords">
+        <meta content="Construction Company Website Template" name="description">
 
-  <!-- Favicons -->
-  <link href="resources/img/favicon.png" rel="icon">
-  <link href="resources/img/apple-touch-icon.png" rel="apple-touch-icon">
+        <!-- Favicon -->
+        <link href="resources/img/favicon.ico" rel="icon">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900" rel="stylesheet">
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-  <!-- Bootstrap CSS File -->
-  <link href="resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="resources/flaticon/font/flaticon.css" rel="stylesheet"> 
+        <link href="resources/animate/animate.min.css" rel="stylesheet">
+        <link href="resources/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="resources/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="resources/slick/slick.css" rel="stylesheet">
+        <link href="resources/slick/slick-theme.css" rel="stylesheet">
 
-  <!-- Libraries CSS Files -->
-  <link href="resources/nivo-slider/css/nivo-slider.css" rel="stylesheet">
-  <link href="resources/owlcarousel/owl.carousel.css" rel="stylesheet">
-  <link href="resources/owlcarousel/owl.transitions.css" rel="stylesheet">
-  <link href="resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="resources/animate/animate.min.css" rel="stylesheet">
-  <link href="resources/venobox/venobox.css" rel="stylesheet">
+        <!-- Template Stylesheet -->
+        <link href="resources/css/style.css" rel="stylesheet">
+    </head>
 
-  <!-- Nivo Slider Theme -->
-  <link href="resources/css/nivo-slider-theme.css" rel="stylesheet">
+    <body>
+        <div class="wrapper">
+      
+		<jsp:include page="/WEB-INF/views/commons/headerAndLeft.jsp"></jsp:include>
 
-  <!-- Main Stylesheet File -->
-  <link href="resources/css/style.css" rel="stylesheet">
+            <!-- Carousel Start -->
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel" data-slide-to="1"></li>
+                    <li data-target="#carousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="resources/img/carousel-1.jpg" alt="Carousel Image">
+                        <div class="carousel-caption">
+                            <h1 class="animated fadeInLeft">MDR 회사소개</h1>
+                            <a class="btn animated fadeInUp" href="company.do">더보기</a>
+                        </div>
+                    </div>
 
-  <!-- Responsive Stylesheet File -->
-  <link href="resources/css/responsive.css" rel="stylesheet">
+                    <div class="carousel-item">
+                        <img src="resources/img/carousel-2.jpg" alt="Carousel Image">
+                        <div class="carousel-caption">
+                            <h1 class="animated fadeInLeft">MDR 제품</h1>
+                            <a class="btn animated fadeInUp" href="product.do">더보기</a>
+                        </div>
+                    </div>
 
-  <!-- =======================================================
-    Theme Name: eBusiness
-    Theme URL: https://bootstrapmade.com/ebusiness-bootstrap-corporate-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
-<style type="text/css">
-#hfont {
-	color: #fff;
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 60px;
-    }
-    
-#hfont2 {
-	color: #fff;
-    font-weight: 700;
-    }  
-
-#smallimg {
-	width: 375px;
-	height: 290px;
-}  
-
-body {
-	font-family: Consolas, monospace;
-}
-</style>
-</head>
-
-<body data-spy="scroll" data-target="#navbar-example">
-<jsp:include page="/WEB-INF/views/commons/headerAndLeft.jsp"></jsp:include>
-  <div id=""></div>
-
-  
-
-  <!-- Start Slider Area -->
-  <div id="home" class="slider-area">
-    <div class="bend niceties preview-2">
-      <div id="ensign-nivoslider" class="slides">
-        <img src="resources/img/slider/slider1.jpg" alt="" title="#slider-direction-1" />
-        <img src="resources/img/slider/slider2.jpg" alt="" title="#slider-direction-2" />
-        <img src="resources/img/slider/slider3.jpg" alt="" title="#slider-direction-3" />
-      </div>
-
-      <!-- direction 1 -->
-      <div id="slider-direction-1" class="slider-direction slider-one">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-              <div class="slider-content">
-                <!-- layer 1 -->
-                <div class="layer-1-1 hidden-xs wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
-                   <h1 id=hfont> 세계로 향하는 기업 </h1>
+                    <div class="carousel-item">
+                        <img src="resources/img/carousel-3.jpg" alt="Carousel Image">
+                        <div class="carousel-caption">
+                            <h1 class="animated fadeInLeft">기업 브로슈어</h1>
+                            <a class="btn animated fadeInUp" href="brochure.do">더보기</a>
+                        </div>
+                    </div>
                 </div>
-                <!-- layer 2 -->
-                <div class="layer-1-2 wow slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
-                  <h6 id=hfont2>주식 회사 MDR은 국내 최초로 자체 부품 장비 개발 및 제조에서부터 PC환경상에 맞는 시스템 소프트웨어 연구 개발,</h6>
-                  <h6 id=hfont2>그리고 더 나아가 의학•약학•공업 등 자체 연구 개발하는 글로벌 사업망이 갖춰진 선도적인 기업입니다.</h6>
-                </div>
-                <!-- layer 3 -->
-                <div class="layer-1-3 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
-                  <a class="ready-btn right-btn page-scroll" href="company.do">더 보기</a>
-                  <a class="ready-btn page-scroll" href="#about">제품 보기</a>
-                </div>
-              </div>
+
+                <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
-          </div>
+            <!-- Carousel End -->
+
+
+
+            <!-- About Start -->
+            <div class="about wow fadeInUp" data-wow-delay="0.1s">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="about-img">
+                                <img src="resources/img/ctp.jpg" alt="Image">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="section-header text-left">
+                                <p>MDR에 오신걸 환영합니다</p>
+                                <h2>MDR 회사 소개</h2>
+                            </div>
+                            <div class="about-text">
+                                <p>
+                                  주식회사 MDR은 국내 최초로 자체 부품 장비 개발 및 제조에서부터 PC환경상에 맞는 시스템 소프트웨어 연구 개발, 
+          						 의학•약학•공업 자체 연구 개발, 그리고 더 나아가 외국의 정유 관련 사업 경험 등 글로벌 사업망이 갖춰진 선도적인 기업이며, 
+          						 항상 새로운 혁신 그리고 글로벌 적인 기업을 목표로 삼아 지향하여, 비즈니스 환경과 Lifestyle에 있어 새로운 패러다임을 제시하기 위해 
+          						 창의적인 사고와 접근방법을 통해 지금까지 경험하지 못한 혁신적인 솔루션을 자체 개발/공급, 그리고 경영 철칙 등을 지켜감으로써 
+          						 국내 고객은 물론 외국 고객들의 니즈등을 이해 할수 있는 역량을 가지고, 매해 새로운 성장을 이루어 거듭해 나가는 기업입니다.
+                                </p>
+                                <a class="btn" href="company.do">더보기</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About End -->
+
+           <!-- Testimonial Start -->
+            <div class="testimonial wow fadeIn" data-wow-delay="0.1s">
+                <div class="container">
+                <div class="section-header text-center ">
+                        <p>MDR 제품</p>
+                        <h2 style="color: #fff;">제품소개</h2>
+                    </div>	
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="testimonial-slider-nav">
+                                <div class="slider-nav"><img src="resources/img/iot.jpg" alt="Testimonial"></div>
+                                <div class="slider-nav"><img src="resources/img/cable.jpg" alt="Testimonial"></div>
+                                <div class="slider-nav"><img src="resources/img/iot.jpg" alt="Testimonial"></div>
+                                <div class="slider-nav"><img src="resources/img/cable.jpg" alt="Testimonial"></div>
+                             	<div class="slider-nav"><img src="resources/img/iot.jpg" alt="Testimonial"></div>
+                                <div class="slider-nav"><img src="resources/img/cable.jpg" alt="Testimonial"></div>
+                                <div class="slider-nav"><img src="resources/img/iot.jpg" alt="Testimonial"></div>
+                                <div class="slider-nav"><img src="resources/img/cable.jpg" alt="Testimonial"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="testimonial-slider">
+                                <div class="slider-item">
+                                    <h3>제품이름</h3>
+                                    <h4>모델명</h4>
+                                    <p>제품설명</p>
+                                </div>
+                                <div class="slider-item">
+                               		 <h3>제품이름</h3>
+                                    <h4>모델명</h4>
+                                    <p>제품설명</p>
+                                </div>
+                                <div class="slider-item">
+									<h3>제품이름</h3>
+                                    <h4>모델명</h4>
+                                    <p>제품설명</p>
+                                </div>
+                                <div class="slider-item">
+									<h3>제품이름</h3>
+                                    <h4>모델명</h4>
+                                    <p>제품설명</p>
+                                </div>
+                                <div class="slider-item">
+                               		 <h3>제품이름</h3>
+                                    <h4>모델명</h4>
+                                    <p>제품설명</p>
+                                </div>
+                                <div class="slider-item">
+                                <h3>제품이름</h3>
+                                    <h4>모델명</h4>
+                                    <p>제품설명</p>
+                                </div>
+                                <div class="slider-item">
+                                <h3>제품이름</h3>
+                                    <h4>모델명</h4>
+                                    <p>제품설명</p>
+                                </div>
+                                <div class="slider-item">
+                                	<h3>제품이름</h3>
+                                    <h4>모델명</h4>
+                                    <p>제품설명</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonial End -->
+
+           
+
+            <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
         </div>
-      </div>
+		<jsp:include page="/WEB-INF/views/commons/footer.jsp"></jsp:include>
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="resources/easing/easing.min.js"></script>
+        <script src="resources/wow/wow.min.js"></script>
+        <script src="resources/owlcarousel/owl.carousel.min.js"></script>
+        <script src="resources/isotope/isotope.pkgd.min.js"></script>
+        <script src="resources/lightbox/js/lightbox.min.js"></script>
+        <script src="resources/waypoints/waypoints.min.js"></script>
+        <script src="resources/counterup/counterup.min.js"></script>
+        <script src="resources/slick/slick.min.js"></script>
 
-      <!-- direction 2 -->
-      <div id="slider-direction-2" class="slider-direction slider-two">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-              <div class="slider-content text-center">
-                <!-- layer 1 -->
-                <div class="layer-1-1 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
-                   <h1 id=hfont> 세계로 향하는 기업 </h1>
-                </div>
-                <!-- layer 2 -->
-                <div class="layer-1-2 wow slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
-                  <h6 id=hfont2>주식 회사 MDR은 국내 최초로 자체 부품 장비 개발 및 제조에서부터 PC환경상에 맞는 시스템 소프트웨어 연구 개발,</h6>
-                  <h6 id=hfont2>그리고 더 나아가 의학•약학•공업 등 자체 연구 개발하는 글로벌 사업망이 갖춰진 선도적인 기업입니다.</h6>
-                </div>
-                <!-- layer 3 -->
-                <div class="layer-1-3 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
-                  <a class="ready-btn right-btn page-scroll" href="company.do">더 보기</a>
-                  <a class="ready-btn page-scroll" href="#about">제품 보기</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- direction 3 -->
-      <div id="slider-direction-3" class="slider-direction slider-two">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-              <div class="slider-content">
-                <!-- layer 1 -->
-                <div class="layer-1-1 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
-                  <h1 id=hfont> 세계로 향하는 기업 </h1>
-                </div>
-                <!-- layer 2 -->
-                <div class="layer-1-2 wow slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
-                  <h6 id=hfont2>주식 회사 MDR은 국내 최초로 자체 부품 장비 개발 및 제조에서부터 PC환경상에 맞는 시스템 소프트웨어 연구 개발,</h6>
-                  <h6 id=hfont2>그리고 더 나아가 의학•약학•공업 등 자체 연구 개발하는 글로벌 사업망이 갖춰진 선도적인 기업입니다.</h6>
-                </div>
-                <!-- layer 3 -->
-                <div class="layer-1-3 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
-                  <a class="ready-btn right-btn page-scroll" href="company.do">더 보기</a>
-                  <a class="ready-btn page-scroll" href="#about">제품 보기</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- End Slider Area -->
-  <!-- Start reviews Area -->
- 
-  <!-- End reviews Area -->
-  <!-- Start About area -->
-  <div id="about" class="about-area area-padding">
-    <div class="container">
-      <div class="row">
-        <!-- single-well start-->
-        <div class="col-md-6 col-sm-6 col-xs-12">
-          <div class="well-left">
-            <div class="single-well">
-              <a href="#">
-								  <img src="resources/img/ctp.jpg" alt="">
-								</a>
-            </div>
-          </div>
-        </div>
-        <!-- single-well end-->
-        <div class="col-md-6 col-sm-6 col-xs-12">
-          <div class="well-middle">
-            <div class="single-well">         
-                <h1 style="color: #09112c;">회사소개</h1>
-                         
-              <p style="font-size: 20px; letter-spacing: 2px;">
-               주식회사 MDR은 국내 최초로 자체 부품 장비 개발 및 제조에서부터 PC환경상에 맞는              
-               시스템 소프트웨어 연구 개발, 그리고 더 나아가 의학·약학·공업 등
-               자체 연구 개발하는 글로벌 사업망이 갖춰진 선도적인 기업입니다
-              </p>
-            </div>
-             <a href="company.do" class="ready-btn" style="color: #444;border: 1px solid #444;">더 읽어보기</a>
-          </div>
-        </div>
-        <!-- End col-->
-      </div>
-    </div>
-  </div>
-  <!-- End About area -->
-
-  <!-- Start team Area -->
-  <div id="team" class="our-team-area area-padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 col-sm-12 col-xs-12">
-          <div class="section-headline text-center">
-            <h2>제품 소개</h2>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="team-top">
-          <div class="col-md-3 col-sm-3 col-xs-12">
-            <div class="single-team-member">
-              <div class="team-img">
-                <a href="#">
-										<img src="resources/img/team/1.jpg" alt="">
-									</a>
-                <div class="team-social-icon text-center">
-              <ul>
-            
-                    <li>
-                      <a href="#">
-													<i class="fa fa-search-plus"></i>
-					</a>
-                    </li>
-           
-           
-                  </ul>
-                </div>
-              </div>
-              <div class="team-content text-center">
-                <h4>제품명</h4>
-                <p>제품 설명</p>
-              </div>
-            </div>
-          </div>
-          <!-- End column -->
-          <div class="col-md-3 col-sm-3 col-xs-12">
-            <div class="single-team-member">
-              <div class="team-img">
-                <a href="#">
-										<img src="resources/img/team/2.jpg" alt="">
-									</a>
-                <div class="team-social-icon text-center">
-                  <ul>
-            
-                    <li>
-                      <a href="#">
-													<i class="fa fa-search-plus"></i>
-					</a>
-                    </li>
-           
-           
-                  </ul>
-                </div>
-              </div>
-              <div class="team-content text-center">
-                <h4>제품명</h4>
-                <p>제품 설명</p>
-              </div>
-            </div>
-          </div>
-          <!-- End column -->
-          <div class="col-md-3 col-sm-3 col-xs-12">
-            <div class="single-team-member">
-              <div class="team-img">
-                <a href="#">
-										<img src="resources/img/team/3.jpg" alt="">
-									</a>
-                <div class="team-social-icon text-center">
-             <ul>
-            
-                    <li>
-                      <a href="#">
-													<i class="fa fa-search-plus"></i>
-					</a>
-                    </li>
-           
-           
-                  </ul>
-                </div>
-              </div>
-              <div class="team-content text-center">
-                <h4>제품명</h4>
-                <p>제품 설명</p>
-              </div>
-            </div>
-          </div>
-          <!-- End column -->
-          <div class="col-md-3 col-sm-3 col-xs-12">
-            <div class="single-team-member">
-              <div class="team-img">
-                <a href="#">
-										<img src="resources/img/team/4.jpg" alt="">
-									</a>
-                <div class="team-social-icon text-center">
-               <ul>
-            
-                    <li>
-                      <a href="#">
-													<i class="fa fa-search-plus"></i>
-					</a>
-                    </li>
-           
-           
-                  </ul>
-                </div>
-              </div>
-              <div class="team-content text-center">
-                <h4>제품명</h4>
-                <p>제품 설명</p>
-              </div>
-            </div>
-          </div>
-          <!-- End column -->
-        </div>
-      </div>
-    
-	<a href="blog.html" class="ready-btn" style="margin-left: 480px;color: #444;border: 1px solid #444;">제품 더보기</a>
-
-								
-    </div>
-  </div>
-  <!-- End Team Area -->
-
-  <!-- End Suscrive Area -->
-  <!-- Start contact Area -->
-  
- <div class="reviews-area hidden-xs">
-    <div class="work-us">
-      <div class="work-left-text">
-        <a href="#">
-						<img src="resources/img/about/2.jpg" alt="">
-					</a>
-      </div>
-      <div class="work-right-text text-center">
-        <h2>사업 분야</h2>
-        <h5>MDR 기업만의 강점</h5>
-        <a href="#contact" class="ready-btn">상세보기</a>
-      </div>
-    </div>
-  </div>
-<jsp:include page="/WEB-INF/views/commons/footer.jsp"></jsp:include>	
-	
-  <!-- JavaScript Libraries -->
-  <script src="resources/jquery/jquery.min.js"></script>
-  <script src="resources/bootstrap/js/bootstrap.min.js"></script>
-  <script src="resources/owlcarousel/owl.carousel.min.js"></script>
-  <script src="resources/venobox/venobox.min.js"></script>
-  <script src="resources/knob/jquery.knob.js"></script>
-  <script src="resources/wow/wow.min.js"></script>
-  <script src="resources/parallax/parallax.js"></script>
-  <script src="resources/easing/easing.min.js"></script>
-  <script src="resources/nivo-slider/js/jquery.nivo.slider.js" type="text/javascript"></script>
-  <script src="resources/appear/jquery.appear.js"></script>
-  <script src="resources/isotope/isotope.pkgd.min.js"></script>
-
-  <!-- Contact Form JavaScript File -->
-  <script src="resources/contactform/contactform.js"></script>
-
-  <script src="resources/js/main.js"></script>
-</body>
-
+        <!-- Template Javascript -->
+        <script src="resources/js/main.js"></script>
+    </body>
 </html>
