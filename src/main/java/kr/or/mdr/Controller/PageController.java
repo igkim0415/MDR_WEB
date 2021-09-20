@@ -65,10 +65,16 @@ public class PageController {
 		return "promote/brochure";
 	}
 	
-	//기업 브로슈어 페이지
+	//뉴스페이지 페이지
 	@RequestMapping(value = "news.do" , method = RequestMethod.GET)
 	public String newsPage() {
 		return "promote/news";
+	}
+	
+	//뉴스페이지 페이지
+	@RequestMapping(value = "newsDeatil.do" , method = RequestMethod.GET)
+	public String newsDetailPage() {
+		return "promote/newsDetail";
 	}
 	
 		
