@@ -56,7 +56,7 @@ public class PageController {
 	//CI페이지
 	@RequestMapping(value = "cipage.do" , method = RequestMethod.GET)
 	public String ciPage() {
-		return "promote/cipage";
+		return "promote/ciPage";
 	}
 	
 	//기업 브로슈어 페이지

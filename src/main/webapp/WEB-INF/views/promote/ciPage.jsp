@@ -4,7 +4,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Brochure - MDR Co., Ltd.</title>
+        <title>Corporate Identity - MDR Co., Ltd.</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Construction Company Website Template" name="keywords">
         <meta content="Construction Company Website Template" name="description">
@@ -18,7 +18,7 @@
         <!-- CSS Libraries -->
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    	 <link href="resources/flaticon/font/flaticon.css" rel="stylesheet"> 
+	 <link href="resources/flaticon/font/flaticon.css" rel="stylesheet"> 
         <link href="resources/animate/animate.min.css" rel="stylesheet">
         <link href="resources/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
         <link href="resources/lightbox/css/lightbox.min.css" rel="stylesheet">
@@ -31,11 +31,10 @@
 
     <body>
         <div class="wrapper">
-            <jsp:include page="/WEB-INF/views/commons/headerAndLeft.jsp"></jsp:include>
-            
-            
-            <!-- Page Header Start -->
-            <div class="page-header">
+               <jsp:include page="/WEB-INF/views/commons/headerAndLeft.jsp"></jsp:include>
+			
+			
+			<div class="page-header">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
@@ -43,60 +42,51 @@
                         </div>
                         <div class="col-12">
                             <a href="index.do">메인</a>
-                            <a href="brochure.do">기업 브로슈어</a>
+                            <a href="brochure.do">CI소개</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Page Header End -->
 
+            
 
-            <!-- Service Start -->
-            <div class="service">
+            <!-- Single Post Start-->
+            <div class="single" style="text-align: center;">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="service-item">
-                                <div class="service-img">
-                                    <img src="resources/img/service-1.jpg" alt="Image">
-                                   
-                                </div>
-                                <div class="service-text">
-                                    <h3>기업 브로슈어 (한글)</h3>
-                                    <a class="btn" href="resources/img/service-1.jpg" data-lightbox="service">+</a>
-                                </div>
+                        <div class="col-lg-12">
+                            <div class="single-content wow fadeInUp">
+                                <img src="resources/img/ci.png" />
+                                <h2>디자인 의도</h2>
+                                <br>
+                                <p>
+                                	내용
+                                </p>
+                                <hr>
+                                <img src="resources/img/ci.png" />
                             </div>
+                            
+                            
+                            
+                            
+                            
                         </div>
-                        <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                            <div class="service-item">
-                                <div class="service-img">
-                                    <img src="resources/img/service-2.jpg" alt="Image">
-                                    
-                                </div>
-                                <div class="service-text">
-                                    <h3>기업 브로슈어 (영어)</h3>
-                                    <a class="btn" href="resources/img/service-2.jpg" data-lightbox="service">+</a>
-                                </div>
-                            </div>
-                        </div>
+
                         
                     </div>
                 </div>
             </div>
-            <!-- Service End -->
-            
-            
-           
+            <!-- Single Post End-->   
 
-     <jsp:include page="/WEB-INF/views/commons/footer.jsp"></jsp:include>
-
+       <jsp:include page="/WEB-INF/views/commons/footer.jsp"></jsp:include>
+       
             <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
         </div>
 
         <!-- JavaScript Libraries -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-       <script src="resources/wow/wow.min.js"></script>
+    	<script src="resources/wow/wow.min.js"></script>
         <script src="resources/owlcarousel/owl.carousel.min.js"></script>
         <script src="resources/isotope/isotope.pkgd.min.js"></script>
         <script src="resources/lightbox/js/lightbox.min.js"></script>

@@ -39,7 +39,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <h2>최신뉴스</h2>
+                            <h2>홍보센터</h2>
                         </div>
                         <div class="col-12">
                             <a href="index.do">메인</a>

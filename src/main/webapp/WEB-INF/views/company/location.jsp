@@ -39,11 +39,11 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <h2>문의하기</h2>
+                            <h2>회사소개</h2>
                         </div>
                         <div class="col-12">
                             <a href="index.do">메인</a>
-                            <a href="mailPage.do">문의하기</a>
+                            <a href="mailPage.do">위치</a>
                         </div>
                     </div>
                 </div>
@@ -56,7 +56,7 @@
                 <div class="container">
                     <div class="section-header text-center">
                         <p>MDR</p>
-                        <h2>문의하기</h2>
+                        <h2>위치</h2>
                     </div>
                     <div class="row">
                         <div class="col-md-6">
