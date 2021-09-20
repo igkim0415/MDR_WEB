@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>Company - MDR Co.,  Ltd</title>
+<title>Vision - MDR Co., Ltd.</title>
 
   <!-- Favicons -->
   <link href="resources/img/favicon.png" rel="icon">

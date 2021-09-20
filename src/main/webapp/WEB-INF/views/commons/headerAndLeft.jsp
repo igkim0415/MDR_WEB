@@ -86,8 +86,8 @@
                                         <a href="location.do" class="dropdown-item">위치</a>
                                     </div>
                                 </div>
+                                <a href="business.do" class="nav-item nav-link">사업분야</a>
                                 <a href="product.do" class="nav-item nav-link">제품소개</a>
-                                <a href="team.html" class="nav-item nav-link">Team</a>
                                 <div class="nav-item dropdown">
                                     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">홍보센터</a>
                                     <div class="dropdown-menu">

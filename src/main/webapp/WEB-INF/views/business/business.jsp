@@ -4,7 +4,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Certify - MDR Co., Ltd.</title>
+        <title>Business - MDR Co., Ltd.</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Construction Company Website Template" name="keywords">
         <meta content="Construction Company Website Template" name="description">
@@ -44,11 +44,11 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <h2>인증 및 특허</h2>
+                            <h2>사업분야</h2>
                         </div>
                         <div class="col-12">
                             <a href="index.do">메인</a>
-                            <a href="certify.do">인증 및 특허</a>
+                            <a href="business.do">사업분야</a>
                         </div>
                     </div>
                 </div>
@@ -63,9 +63,9 @@
                         <div class="col-12">
                             <ul id="portfolio-flters">
                                 <li data-filter="*" class="filter-active">전체</li>
-                                <li data-filter=".first">확인서</li>
-                                <li data-filter=".second">저작권</li>
-                                <li data-filter=".third">특허</li>
+                                <li data-filter=".first">IOT</li>
+                                <li data-filter=".second">반도체</li>
+                                <li data-filter=".third">의료</li>
                             </ul>
                         </div>
                     </div>

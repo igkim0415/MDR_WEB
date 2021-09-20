@@ -4,7 +4,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Builderz - Construction Company Website Template</title>
+        <title>Contact - MDR Co., Ltd.</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Construction Company Website Template" name="keywords">
         <meta content="Construction Company Website Template" name="description">
@@ -88,7 +88,9 @@
                         <div class="col-md-6">
                             <div class="contact-form">
                                 <div id="success"></div>
-                                <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                                <form action="mailsend.do" id="contactForm" novalidate="novalidate">
+                                <input type="hidden" class="form-control" name="mtitle" value="MDR 문의" />
+                                <input type="hidden" class="form-control" name="toemail"  value="chdl1229@gmail.com" />
                                     <div class="control-group">
                                         <input type="text" class="form-control" name="name" id="name" placeholder="이름" required="required" data-validation-required-message="Please enter your name" />
                                         <p class="help-block text-danger"></p>
@@ -139,8 +141,8 @@
         <script src="resource/slick/slick.min.js"></script>
         
         <!-- Contact Javascript File -->
-        <script src="resource/mail/jqBootstrapValidation.min.js"></script>
-        <script src="resource/mail/contact.js"></script>
+        
+       
 
         <!-- Template Javascript -->
         <script src="resource/js/main.js"></script>

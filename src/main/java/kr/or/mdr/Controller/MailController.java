@@ -26,18 +26,19 @@ public class MailController {
 		return "mail/mail";
 	}
 	
-	@RequestMapping(value = "mailsend.do")
+	@RequestMapping(value = "mailsend.do" , method = RequestMethod.GET)
 	public String mailSending(HttpServletRequest request,HttpSession session,String email) {
 		
+		System.out.println("여기타니?");
 		String setfrom = request.getParameter("email");	
-		String title = request.getParameter("mtitle"); // ����
-		String content = request.getParameter("message"); // ����
-		String name = request.getParameter("name"); //�̸�
-		String company = request.getParameter("company");
-		String phone = request.getParameter("phone");
-		String frommail = request.getParameter("email"); // ���� �̸���
-		String tosend = request.getParameter("tosend"); //�޴»��
-		String tomail = "chdl1229@naver.com"; 
+		String title = request.getParameter("mtitle"); // 제목
+		String content = request.getParameter("message"); // 내용
+		String name = request.getParameter("name"); // 이름
+		String company = request.getParameter("cname"); //회사명
+		String phone = request.getParameter("phone"); // 연락처
+		String frommail = request.getParameter("email"); // 이메일
+		String tosend = request.getParameter("tosend"); // 보내는이
+		String tomail = "chdl1229@gmail.com"; //받는이
 		
 		
 		
@@ -46,10 +47,10 @@ public class MailController {
 			MimeMessageHelper messageHelper = new MimeMessageHelper(message,
 					true, "UTF-8");
 			
-			messageHelper.setFrom(setfrom); // �����»�� �����ϸ� �����۵��� ����
-			messageHelper.setTo(tomail); // �޴»�� �̸���
-			messageHelper.setSubject(title); // ���������� ������ �����ϴ�
-			 messageHelper.setText("�̸� : " + name + "\n" + "�޴��� ��ȣ : " + phone + "\n" + "ȸ��� : " + company + "\n" + "�̸��� : " + frommail + "\n\n" + "���� : " + content); 
+			messageHelper.setFrom(setfrom); //
+			messageHelper.setTo(tomail); // 
+			messageHelper.setSubject(title); // 
+			 messageHelper.setText("이름 : " + name + "\n" + "연락처 : " + phone + "\n" + "회사명 : " + company + "\n" + "이메일 :  " + frommail + "\n\n" + "내용 : " + content); 
 		
 			
 			
@@ -59,6 +60,6 @@ public class MailController {
 			System.out.println(e);
 		}
 
-		return "index.do";
+		return "index";
 	}
 }
