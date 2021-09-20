@@ -52,7 +52,9 @@
                             </div>
                             
                             
-                            
+                         <button type="button" class="success" onclick="location.href='news.do' ">목록</button>
+
+
                             
                             
                         </div>

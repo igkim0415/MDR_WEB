@@ -51,7 +51,6 @@ public class PageController {
 		return "product/product";
 	}
 	
-	
 
 	//CI페이지
 	@RequestMapping(value = "cipage.do" , method = RequestMethod.GET)
