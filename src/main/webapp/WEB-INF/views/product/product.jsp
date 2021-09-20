@@ -59,6 +59,7 @@
                     </div>
                     <div class="row">
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <a href="#product1" data-toggle="modal">
                             <div class="team-item">
                                 <div class="team-img">
                                     <img src="resources/img/제품.jpg" alt="Team Image">
@@ -67,10 +68,12 @@
                                     <h2>모델명</h2>
                                     <p>제품명</p>
                                 </div>
-                            
+                                
                             </div>
+                            </a>
                         </div>
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                            <a href="#product2" data-toggle="modal">
                             <div class="team-item">
                                 <div class="team-img">
                                     <img src="resources/img/제품.jpg" alt="Team Image">
@@ -79,10 +82,12 @@
                                     <h2>모델명</h2>
                                     <p>제품명</p>
                                 </div>
-                             
+                                
                             </div>
+                            </a>
                         </div>
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <a href="#product3" data-toggle="modal">
                             <div class="team-item">
                                 <div class="team-img">
                                     <img src="resources/img/제품.jpg" alt="Team Image">
@@ -91,10 +96,12 @@
                                     <h2>모델명</h2>
                                     <p>제품명</p>
                                 </div>
-                             
+                                
                             </div>
+                            </a>
                         </div>
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                            <a href="#product4" data-toggle="modal">
                             <div class="team-item">
                                 <div class="team-img">
                                     <img src="resources/img/제품.jpg" alt="Team Image">
@@ -105,20 +112,10 @@
                                 </div>
                                 
                             </div>
+                            </a>
                         </div>
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="team-item">
-                                <div class="team-img">
-                                    <img src="resources/img/제품.jpg" alt="Team Image">
-                                </div>
-                                <div class="team-text">
-                                   <h2>모델명</h2>
-                                    <p>제품명</p>
-                                </div>
-                                
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                            <a href="#product5" data-toggle="modal">
                             <div class="team-item">
                                 <div class="team-img">
                                     <img src="resources/img/제품.jpg" alt="Team Image">
@@ -129,6 +126,21 @@
                                 </div>
                                 
                             </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                            <a href="#product6" data-toggle="modal">
+                            <div class="team-item">
+                                <div class="team-img">
+                                    <img src="resources/img/제품.jpg" alt="Team Image">
+                                </div>
+                                <div class="team-text">
+                                    <h2>모델명</h2>
+                                    <p>제품명</p>
+                                </div>
+                                
+                            </div>
+                            </a>
                         </div>
                      </div>
                 </div>
@@ -140,7 +152,204 @@
 
             <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
         </div>
+<div class="modal fade" id="product1">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header" align="center">
+          <h4><label for="validationTextarea">제품1</label></h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+                    		
+                            
+  <hr class="my-4">
+     <div style="text-align: center;">
+    
+    
+    <img src="resources/img/제품.jpg" alt="Team Image">
 
+    
+    </div>
+
+   
+
+
+        </div>
+        
+      </div>
+    </div>
+    
+    
+  </div>
+<div class="modal fade" id="product2">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header" align="center">
+          <h4><label for="validationTextarea">제품2</label></h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+                    		
+                            
+  <hr class="my-4">
+     <div style="text-align: center;">
+    
+    
+    <img src="resources/img/제품.jpg" alt="Team Image">
+
+    
+    </div>
+
+   
+
+
+        </div>
+        
+      </div>
+    </div>
+    
+    
+  </div>
+<div class="modal fade" id="product3">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header" align="center">
+          <h4><label for="validationTextarea">제품3</label></h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+                    		
+                            
+  <hr class="my-4">
+     <div style="text-align: center;">
+    
+    
+    <img src="resources/img/제품.jpg" alt="Team Image">
+
+    
+    </div>
+
+   
+
+
+        </div>
+        
+      </div>
+    </div>
+    
+    
+  </div>
+<div class="modal fade" id="product4">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header" align="center">
+          <h4><label for="validationTextarea">제품4</label></h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+                    		
+                            
+  <hr class="my-4">
+     <div style="text-align: center;">
+    
+    
+    <img src="resources/img/제품.jpg" alt="Team Image">
+
+    
+    </div>
+
+   
+
+
+        </div>
+        
+      </div>
+    </div>
+    
+    
+  </div>
+<div class="modal fade" id="product5">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header" align="center">
+          <h4><label for="validationTextarea">제품5</label></h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+                    		
+                            
+  <hr class="my-4">
+     <div style="text-align: center;">
+    
+    
+    <img src="resources/img/제품.jpg" alt="Team Image">
+
+    
+    </div>
+
+   
+
+
+        </div>
+        
+      </div>
+    </div>
+    
+    
+  </div>
+<div class="modal fade" id="product6">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header" align="center">
+          <h4><label for="validationTextarea">제품6</label></h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+                    		
+                            
+  <hr class="my-4">
+     <div style="text-align: center;">
+    
+    
+    <img src="resources/img/제품.jpg" alt="Team Image">
+
+    
+    </div>
+
+   
+
+
+        </div>
+        
+      </div>
+    </div>
+    
+    
+  </div>
         <!-- JavaScript Libraries -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
