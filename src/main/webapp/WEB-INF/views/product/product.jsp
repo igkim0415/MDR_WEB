@@ -27,6 +27,13 @@
 
         <!-- Template Stylesheet -->
         <link href="resources/css/style.css" rel="stylesheet">
+    <style type="text/css">
+    
+    		.in {
+    		 display: inline-block;
+    		}	
+    </style>
+    	
     </head>
 
     <body>
@@ -34,16 +41,17 @@
            <jsp:include page="/WEB-INF/views/commons/headerAndLeft.jsp"></jsp:include>
             
             <!-- Page Header Start -->
-            <div class="page-header">
+            <div class="page-header" >
+               <img src="resources/img/pro.jpg" alt="Carousel Image">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12">
-                            <h2>제품소개</h2>
+                        <div class="carousel-item active" >
+                        <div class="carousel-caption" >
+                        
+                            <h1 class="animated fadeInLeft" style="margin-bottom: 250px; color: #fff;">제품 정보</h1>
+                   
                         </div>
-                        <div class="col-12">
-                            <a href="index.do">메인</a>
-                            <a href="product.do">제품소개</a>
-                        </div>
+                    </div>
                     </div>
                 </div>
             </div>

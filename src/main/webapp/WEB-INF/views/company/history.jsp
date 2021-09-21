@@ -314,18 +314,20 @@ p:last-child{
 
 
 		<!-- Page Header Start -->
-		<div class="page-header">
-			<div class="container">
-				<div class="row">
-					<div class="col-12">
-						<h2>회사소개</h2>
-					</div>
-					<div class="col-12">
-						<a href="index.do">메인</a> <a href="history.do">연혁</a>
-					</div>
-				</div>
-			</div>
-		</div>
+		<div class="page-header" >
+               <img src="resources/img/com.jpg" alt="Carousel Image">
+                <div class="container">
+                    <div class="row">
+                        <div class="carousel-item active" >
+                        <div class="carousel-caption" >
+                        
+                            <h1 class="animated fadeInLeft" style="margin-bottom: 250px; color: #FFF; font-size: 48px;">회사소개</h1>
+                   
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
 		<!-- Page Header End -->
 
 

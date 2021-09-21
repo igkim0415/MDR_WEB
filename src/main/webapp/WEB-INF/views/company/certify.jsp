@@ -40,16 +40,17 @@
             <jsp:include page="/WEB-INF/views/commons/headerAndLeft.jsp"></jsp:include>
             
             <!-- Page Header Start -->
-            <div class="page-header">
+            <div class="page-header" >
+               <img src="resources/img/com.jpg" alt="Carousel Image">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12">
-                            <h2>인증 및 특허</h2>
+                        <div class="carousel-item active" >
+                        <div class="carousel-caption" >
+                        
+                            <h1 class="animated fadeInLeft" style="margin-bottom: 250px; color: #FFF; font-size: 48px;">회사소개</h1>
+                   
                         </div>
-                        <div class="col-12">
-                            <a href="index.do">메인</a>
-                            <a href="certify.do">인증 및 특허</a>
-                        </div>
+                    </div>
                     </div>
                 </div>
             </div>

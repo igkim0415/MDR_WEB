@@ -35,16 +35,16 @@
             
             
             <!-- Page Header Start -->
-            <div class="page-header">
+            <div class="page-header" >
+               <img src="resources/img/cont.jpg" alt="Carousel Image">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12">
-                            <h2>문의하기</h2>
+                        <div class="carousel-item active" >
+                        <div class="carousel-caption" >
+                            <h1 class="animated fadeInLeft" style="margin-bottom: 250px; color: #FFF; font-size: 48px;">문의 하기</h1>
+                   
                         </div>
-                        <div class="col-12">
-                            <a href="index.do">메인</a>
-                            <a href="mailPage.do">문의하기</a>
-                        </div>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -54,10 +54,6 @@
             <!-- Contact Start -->
             <div class="contact wow fadeInUp">
                 <div class="container">
-                    <div class="section-header text-center">
-                        <p>MDR</p>
-                        <h2>문의하기</h2>
-                    </div>
                     <div class="row">
                         <div class="col-md-6">
                             <div class="contact-info">
@@ -131,21 +127,22 @@
         <!-- JavaScript Libraries -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-        <script src="resource/easing/easing.min.js"></script>
-        <script src="resource/wow/wow.min.js"></script>
-        <script src="resource/owlcarousel/owl.carousel.min.js"></script>
-        <script src="resource/isotope/isotope.pkgd.min.js"></script>
-        <script src="resource/lightbox/js/lightbox.min.js"></script>
-        <script src="resource/waypoints/waypoints.min.js"></script>
-        <script src="resource/counterup/counterup.min.js"></script>
-        <script src="resource/slick/slick.min.js"></script>
-        
+        script src="resources/easing/easing.min.js"></script>
+        <script src="resources/wow/wow.min.js"></script>
+        <script src="resources/owlcarousel/owl.carousel.min.js"></script>
+        <script src="resources/isotope/isotope.pkgd.min.js"></script>
+        <script src="resources/lightbox/js/lightbox.min.js"></script>
+        <script src="resources/waypoints/waypoints.min.js"></script>
+        <script src="resources/counterup/counterup.min.js"></script>
+        <script src="resources/slick/slick.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="resources/js/main.js"></script>
         <!-- Contact Javascript File -->
         
        
 
-        <!-- Template Javascript -->
-        <script src="resource/js/main.js"></script>
+    
         <script type="text/javascript">
 	function autoHypenPhone(str){
         str = str.replace(/[^0-9]/g, '');

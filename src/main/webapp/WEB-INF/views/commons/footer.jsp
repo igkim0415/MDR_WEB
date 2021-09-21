@@ -43,4 +43,14 @@
                     </div>
                 </div>
             </div>
+            
+              <link href="resources/flaticon/font/flaticon.css" rel="stylesheet"> 
+        <link href="resources/animate/animate.min.css" rel="stylesheet">
+        <link href="resources/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="resources/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="resources/slick/slick.css" rel="stylesheet">
+        <link href="resources/slick/slick-theme.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="resources/css/style.css" rel="stylesheet">
             <!-- Footer End -->

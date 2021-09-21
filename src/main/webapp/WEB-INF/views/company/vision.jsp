@@ -1,182 +1,80 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="EUC-KR">
-<title>Vision - MDR Co., Ltd.</title>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Location - MDR Co., Ltd.</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Construction Company Website Template" name="keywords">
+        <meta content="Construction Company Website Template" name="description">
 
-  <!-- Favicons -->
-  <link href="resources/img/favicon.png" rel="icon">
-  <link href="resources/img/apple-touch-icon.png" rel="apple-touch-icon">
+        <!-- Favicon -->
+        <link href="resource/img/favicon.ico" rel="icon">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900" rel="stylesheet">
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-  <!-- Bootstrap CSS File -->
-  <link href="resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="resource/flaticon/font/flaticon.css" rel="stylesheet"> 
+        <link href="resource/animate/animate.min.css" rel="stylesheet">
+        <link href="resource/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="resource/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="resource/slick/slick.css" rel="stylesheet">
+        <link href="resource/slick/slick-theme.css" rel="stylesheet">
 
-  <!-- Libraries CSS Files -->
-  <link href="resources/nivo-slider/css/nivo-slider.css" rel="stylesheet">
-  <link href="resources/owlcarousel/owl.carousel.css" rel="stylesheet">
-  <link href="resources/owlcarousel/owl.transitions.css" rel="stylesheet">
-  <link href="resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="resources/animate/animate.min.css" rel="stylesheet">
-  <link href="resources/venobox/venobox.css" rel="stylesheet">
+        <!-- Template Stylesheet -->
+        <link href="resources/css/style.css" rel="stylesheet">
+    </head>
 
-  <!-- Nivo Slider Theme -->
-  <link href="resources/css/nivo-slider-theme.css" rel="stylesheet">
-
-  <!-- Main Stylesheet File -->
-  <link href="resources/css/style.css" rel="stylesheet">
-
-  <!-- Responsive Stylesheet File -->
-  <link href="resources/css/responsive.css" rel="stylesheet">
-
-  <!-- =======================================================
-    Theme Name: eBusiness
-    Theme URL: https://bootstrapmade.com/ebusiness-bootstrap-corporate-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
-<style type="text/css">
-#hfont {
-	color: #fff;
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 60px;
-    }
-    
-#hfont2 {
-	color: #fff;
-    font-weight: 700;
-    }  
-
-#smallimg {
-	width: 375px;
-	height: 290px;
-}
-
-.maillogo {
-  position:relative;
-}
-
-.maillogo .mail-text {
-  position:absolute;
-  top:190px;
-  left:800px;
-  text-align: center;
- 
-}
-
-}  
-</style>
-</head>
-
-<body>
-<jsp:include page="/WEB-INF/views/commons/headerAndLeft.jsp"></jsp:include>	
-
-       
-     <div class = "maillogo">
-       <img src="resources/img/mail/maillogo.jpg" alt="" title="#slider-direction-1" style="margin-top: 70px;" />
-      
-                   <div class="mail-text">
-                <!-- layer 1 -->
+    <body>
+        <div class="wrapper">
+            <jsp:include page="/WEB-INF/views/commons/headerAndLeft.jsp"></jsp:include>
             
-                   <h1 id=hfont> 비전 </h1>
             
-                <!-- layer 2 -->
-                
-                  <h6 id=hfont2>MDR 항상 글로벌 선두 기업이 되겠습니다.</h6>
-               
-                <!-- layer 3 -->
-              </div>
-     </div>
-    
-
-      <!-- direction 1 -->
-    
-    
-  
-        
-
-     
-     
-  <!-- Start contact Area -->
-  <div id="contact" class="contact-area">
-    <div class="contact-inner area-padding">
-      <div class="contact-overly"></div>
-      <div class="container ">
-        <div class="row">
-          <div class="col-md-12 col-sm-12 col-xs-12">
-            <div class="section-headline text-center">
-              <h2>문의 하기</h2>
+            <!-- Page Header Start -->
+            <div class="page-header" >
+               <img src="resources/img/com.jpg" alt="Carousel Image">
+                <div class="container">
+                    <div class="row">
+                        <div class="carousel-item active" >
+                        <div class="carousel-caption" >
+                        
+                            <h1 class="animated fadeInLeft" style="margin-bottom: 250px; color: #FFF; font-size: 48px;">회사소개</h1>
+                   
+                        </div>
+                    </div>
+                    </div>
+                </div>
             </div>
-          </div>
+            <!-- Page Header End -->
+
+
+            
+
+
+      <jsp:include page="/WEB-INF/views/commons/footer.jsp"></jsp:include>
+
+            <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
         </div>
-        
-        <div class="row">
-          <!-- Start  contact -->
-          <div class="col-md-12 col-sm-12 col-xs-12">
-            <div class="form contact-form">
-              <div id="sendmessage">Your message has been sent. Thank you!</div>
-              <div id="errormessage"></div>
-              <form action="" method="post" role="form" class="contactForm">
-                <div class="col-md-6">
-                  이름
-                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validation"></div>
-                </div>
-                <div class="col-md-6">
-                  회사명
-                  <input type="email" class="form-control" name="company" id="email"  data-rule="email" data-msg="Please enter a valid email" />
-                  <div class="validation"></div>
-                </div>
-                <div class="col-md-6">
-                연락처
-                  <input type="text" class="form-control" name="phone" id="subject"  data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                  <div class="validation"></div>
-                </div>
-                <div class="col-md-6">
-                이메일
-                  <input type="text" class="form-control" name="email" id="subject"  data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                  <div class="validation"></div>
-                </div>
-                <div class="col-md-12">
-                내용
-                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us"></textarea>
-                  <div class="validation"></div>
-                </div>
-                <div class="text-center"><button type="submit">메일 발송</button></div>
-              </form>
-            </div>
-          </div>
-          <!-- End Left contact -->
-        </div>
-      </div>
-    </div>
-  </div>
-<jsp:include page="/WEB-INF/views/commons/footer.jsp"></jsp:include>	
-	
-  <!-- JavaScript Libraries -->
-  <script src="resources/jquery/jquery.min.js"></script>
-  <script src="resources/bootstrap/js/bootstrap.min.js"></script>
-  <script src="resources/owlcarousel/owl.carousel.min.js"></script>
-  <script src="resources/venobox/venobox.min.js"></script>
-  <script src="resources/knob/jquery.knob.js"></script>
-  <script src="resources/wow/wow.min.js"></script>
-  <script src="resources/parallax/parallax.js"></script>
-  <script src="resources/easing/easing.min.js"></script>
-  <script src="resources/nivo-slider/js/jquery.nivo.slider.js" type="text/javascript"></script>
-  <script src="resources/appear/jquery.appear.js"></script>
-  <script src="resources/isotope/isotope.pkgd.min.js"></script>
 
-  <!-- Contact Form JavaScript File -->
-  <script src="resources/contactform/contactform.js"></script>
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="resource/easing/easing.min.js"></script>
+        <script src="resource/wow/wow.min.js"></script>
+        <script src="resource/owlcarousel/owl.carousel.min.js"></script>
+        <script src="resource/isotope/isotope.pkgd.min.js"></script>
+        <script src="resource/lightbox/js/lightbox.min.js"></script>
+        <script src="resource/waypoints/waypoints.min.js"></script>
+        <script src="resource/counterup/counterup.min.js"></script>
+        <script src="resource/slick/slick.min.js"></script>
+   
+        <!-- Template Javascript -->
+        <script src="resource/js/main.js"></script>
+        <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=981aa31d5f0215d1020b91731495714d"></script>
 
-  <script src="resources/js/main.js"></script>
-</body>
-
+    </body>
 </html>

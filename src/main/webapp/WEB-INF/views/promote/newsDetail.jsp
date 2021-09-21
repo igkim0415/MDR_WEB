@@ -39,6 +39,7 @@
             <!-- Single Post Start-->
             <div class="single" style="text-align: center;">
             	 <h2>제목</h2>
+            	 <br>
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">

@@ -35,16 +35,17 @@
             
             
             <!-- Page Header Start -->
-            <div class="page-header">
+            <div class="page-header" >
+               <img src="resources/img/promo.jpg" alt="Carousel Image">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12">
-                            <h2>홍보센터</h2>
+                        <div class="carousel-item active" >
+                        <div class="carousel-caption" >
+                        
+                            <h1 class="animated fadeInLeft" style="margin-bottom: 250px; color: #FFF;font-size: 48px;">홍보센터</h1>
+                   
                         </div>
-                        <div class="col-12">
-                            <a href="index.do">메인</a>
-                            <a href="brochure.do">기업 브로슈어</a>
-                        </div>
+                    </div>
                     </div>
                 </div>
             </div>

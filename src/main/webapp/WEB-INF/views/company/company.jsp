@@ -36,16 +36,17 @@
             
             
             <!-- Page Header Start -->
-            <div class="page-header">
+            <div class="page-header" >
+               <img src="resources/img/com.jpg" alt="Carousel Image">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12">
-                            <h2>회사소개</h2>
+                        <div class="carousel-item active" >
+                        <div class="carousel-caption" >
+                        
+                            <h1 class="animated fadeInLeft" style="margin-bottom: 250px; color: #FFF; font-size: 48px;">회사소개</h1>
+                   
                         </div>
-                        <div class="col-12">
-                            <a href="index.do">메인</a>
-                            <a href="company.do">회사소개</a>
-                        </div>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -88,7 +89,7 @@
                 <div class="container">
                     <div class="section-header text-center">
                         <p>회사정보</p>
-                        <h2>You May Ask</h2>
+                        <h2>MDR 정보</h2>
                     </div>
                     <div class="row">
                         <div class="col-md-6">
@@ -96,60 +97,24 @@
                                 <div class="card wow fadeInLeft" data-wow-delay="0.1s">
                                     <div class="card-header">
                                         <a class="card-link collapsed" data-toggle="collapse" href="#collapseOne">
-                                            회사설립 연도
+                                           회사명
                                         </a>
                                     </div>
                                     <div id="collapseOne" class="collapse" data-parent="#accordion-1">
                                         <div class="card-body">
-                                           2018년
+                                           주식회사 엠디알
                                         </div>
                                     </div>
                                 </div>
                                 <div class="card wow fadeInLeft" data-wow-delay="0.2s">
                                     <div class="card-header">
                                         <a class="card-link collapsed" data-toggle="collapse" href="#collapseTwo">
-                                            회사위치
+                                            설립일
                                         </a>
                                     </div>
                                     <div id="collapseTwo" class="collapse" data-parent="#accordion-1">
                                         <div class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card wow fadeInLeft" data-wow-delay="0.3s">
-                                    <div class="card-header">
-                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseThree">
-                                            Lorem ipsum dolor sit amet?
-                                        </a>
-                                    </div>
-                                    <div id="collapseThree" class="collapse" data-parent="#accordion-1">
-                                        <div class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card wow fadeInLeft" data-wow-delay="0.4s">
-                                    <div class="card-header">
-                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseFour">
-                                            Lorem ipsum dolor sit amet?
-                                        </a>
-                                    </div>
-                                    <div id="collapseFour" class="collapse" data-parent="#accordion-1">
-                                        <div class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card wow fadeInLeft" data-wow-delay="0.5s">
-                                    <div class="card-header">
-                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseFive">
-                                            Lorem ipsum dolor sit amet?
-                                        </a>
-                                    </div>
-                                    <div id="collapseFive" class="collapse" data-parent="#accordion-1">
-                                        <div class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
+                                            2018년
                                         </div>
                                     </div>
                                 </div>
@@ -160,60 +125,24 @@
                                 <div class="card wow fadeInRight" data-wow-delay="0.1s">
                                     <div class="card-header">
                                         <a class="card-link collapsed" data-toggle="collapse" href="#collapseSix">
-                                            Lorem ipsum dolor sit amet?
+                                           위치
                                         </a>
                                     </div>
                                     <div id="collapseSix" class="collapse" data-parent="#accordion-2">
                                         <div class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
+                                         충남 천안시 서북구 직산읍 직산로 136, 번영관 2106호 (삼은리, 충남테크노파크천안밸리)
                                         </div>
                                     </div>
                                 </div>
                                 <div class="card wow fadeInRight" data-wow-delay="0.2s">
                                     <div class="card-header">
                                         <a class="card-link collapsed" data-toggle="collapse" href="#collapseSeven">
-                                            Lorem ipsum dolor sit amet?
+                                           사업분야
                                         </a>
                                     </div>
                                     <div id="collapseSeven" class="collapse" data-parent="#accordion-2">
                                         <div class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card wow fadeInRight" data-wow-delay="0.3s">
-                                    <div class="card-header">
-                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseEight">
-                                            Lorem ipsum dolor sit amet?
-                                        </a>
-                                    </div>
-                                    <div id="collapseEight" class="collapse" data-parent="#accordion-2">
-                                        <div class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card wow fadeInRight" data-wow-delay="0.4s">
-                                    <div class="card-header">
-                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseNine">
-                                            Lorem ipsum dolor sit amet?
-                                        </a>
-                                    </div>
-                                    <div id="collapseNine" class="collapse" data-parent="#accordion-2">
-                                        <div class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card wow fadeInRight" data-wow-delay="0.5s">
-                                    <div class="card-header">
-                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseTen">
-                                            Lorem ipsum dolor sit amet?
-                                        </a>
-                                    </div>
-                                    <div id="collapseTen" class="collapse" data-parent="#accordion-2">
-                                        <div class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
+                                           유무선 통신장비 개발, 반도체 제조설비, IoT, ICT 및 컴퓨터 시스템 응용 소프트웨어 개발, 의학 및 약학, 공학, 자연과학 융합 연구개발
                                         </div>
                                     </div>
                                 </div>

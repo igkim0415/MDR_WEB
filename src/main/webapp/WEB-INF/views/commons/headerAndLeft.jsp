@@ -7,6 +7,23 @@
 <html>
 <head>
 <meta charset="EUC-KR">
+<style type="text/css">
+
+.dropdown-menu a:after {/*after 가상요소*/
+   display:block;/*a요소를 블록 요소라고 선언*/
+   width:70px;/*카테고리 메뉴 밑줄의 크기를 동일하게 주기 위해 width 설정*/
+/*혹시 동일하지 않길 바란다면 width 삭제*/
+   content: '';
+   border-bottom: solid 2px #fff;
+   transform: scaleX(0);/*크기를 0으로 줌으로써 평상시엔 밑줄 없음*/
+   transition: transform 250ms ease-in-out; /*변형 방식*/
+}
+
+.dropdown-menu a:hover:after {
+   transform: scaleX(1);/*a 속성에 hover시 기존 크기로*/
+}
+	
+</style>
 </head>
 <body>
 <header>
@@ -97,12 +114,23 @@
                                     </div>
                                 </div>
                                 <a href="mailPage.do" class="nav-item nav-link">문의하기</a>
+                                <div class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Korean</a>
+                                    <div class="dropdown-menu">
+                                        <a href="#" class="dropdown-item">Korean</a>
+                                        <a href="#" class="dropdown-item">English</a>
+                                    </div>
+                                </div>
                             </div>
                           
                         </div>
                     </nav>
                 </div>
             </div>
+            </header>
             <!-- Nav Bar End -->
 </body>
+
+  
+        
 </html>
