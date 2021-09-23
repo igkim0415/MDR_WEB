@@ -42,7 +42,7 @@
             
             <!-- Page Header Start -->
             <div class="page-header" >
-               <img src="resources/img/pro.jpg" alt="Carousel Image">
+               <img src="resources/img/pro2.jpg" alt="Carousel Image">
                 <div class="container">
                     <div class="row">
                         <div class="carousel-item active" >
@@ -174,7 +174,6 @@
         <div class="modal-body">
                     		
                             
-  <hr class="my-4">
      <div style="text-align: center;">
     
     
@@ -207,7 +206,6 @@
         <div class="modal-body">
                     		
                             
-  <hr class="my-4">
      <div style="text-align: center;">
     
     
@@ -240,7 +238,6 @@
         <div class="modal-body">
                     		
                             
-  <hr class="my-4">
      <div style="text-align: center;">
     
     
@@ -273,7 +270,6 @@
         <div class="modal-body">
                     		
                             
-  <hr class="my-4">
      <div style="text-align: center;">
     
     
@@ -306,7 +302,6 @@
         <div class="modal-body">
                     		
                             
-  <hr class="my-4">
      <div style="text-align: center;">
     
     

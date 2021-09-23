@@ -8,6 +8,7 @@ body {
     font-weight: 400;
 }
 
+
 h1,
 h2, 
 h3, 
@@ -20,12 +21,13 @@ h6 {
 a {
     color: #666666;
     transition: .3s;
+    
 }
 
 a:hover,
 a:active,
 a:focus {
-    color: #fdbe33;
+    color: #94bdf5;
     outline: none;
     text-decoration: none;
 }
@@ -155,7 +157,7 @@ a:focus {
 /**********************************/
 .nav-bar {
     position: relative;
-    background: #030f27;
+    background: #94bdf5	;
     transition: .3s;
 }
 
@@ -187,7 +189,7 @@ a:focus {
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-    color: #000000;
+    color: #ffffff;
     transition: none;
 }
 
@@ -622,14 +624,14 @@ a:focus {
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 1px;
-    color: #030f27;
+    color: #ffffff;
     border-radius: 0;
     background: #94bdf5;
     transition: .3s;
 }
 
 .about .about-text a.btn:hover {
-    color: #fdbe33;
+    color: #94bdf5;
     background: #030f27;
 }
 

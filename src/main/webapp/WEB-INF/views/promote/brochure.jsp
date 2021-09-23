@@ -59,20 +59,19 @@
                         <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="service-item">
                                 <div class="service-img">
-                                    <img src="resources/img/service-1.jpg" alt="Image">
+                                   <img src="resources/img/bros.jpg" alt="Image">
                                    
                                 </div>
                                 <div class="service-text">
                                     <h3>기업 브로슈어 (한글)</h3>
-                                    <a class="btn" href="resources/img/service-1.jpg" data-lightbox="service">+</a>
+                                    <a class="btn" href="resources/img/bros.jpg" data-lightbox="service">+</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
                             <div class="service-item">
                                 <div class="service-img">
-                                    <img src="resources/img/service-2.jpg" alt="Image">
-                                    
+                                    <img src="resources/img/bros.jpg" alt="Image">
                                 </div>
                                 <div class="service-text">
                                     <h3>기업 브로슈어 (영어)</h3>

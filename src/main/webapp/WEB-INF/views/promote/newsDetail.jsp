@@ -44,7 +44,7 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="single-content wow fadeInUp">
-                                <img src="resources/img/single.jpg" />
+                                <img src="resources/img/임시.jpg" />
                                
                                 <p>
                                 	내용

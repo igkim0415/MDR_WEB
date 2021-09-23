@@ -32,12 +32,10 @@
                 <div class="container-fluid">
                     <div class="row align-items-center">
                         <div class="col-lg-4 col-md-12">
-                            <div class="logo">
                                 <a href="index.do">
-                                    <h1>MDR</h1>
+                                    <img src="resources/img/ci2.png" style="width: 100%; height: 100%;">
                                     <!-- <img src="img/logo.jpg" alt="Logo"> -->
                                 </a>
-                            </div>
                         </div>
                         <div class="col-lg-8 col-md-7 d-none d-lg-block">
                             <div class="row">
@@ -91,7 +89,7 @@
                         </button>
 
                         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                            <div class="navbar-nav mr-auto">
+                            <div class="navbar-nav mr-auto" >
                                 <a href="index.do" class="nav-item nav-link active">메인</a>
                                <div class="nav-item dropdown">
                                     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">회사소개</a>

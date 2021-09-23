@@ -38,7 +38,7 @@ public class MailController {
 		String phone = request.getParameter("phone"); // 연락처
 		String frommail = request.getParameter("email"); // 이메일
 		String tosend = request.getParameter("tosend"); // 보내는이
-		String tomail = "chdl1229@gmail.com"; //받는이
+		String tomail = "mdrinfo@mdrco.co.kr"; //받는이
 		
 		
 		

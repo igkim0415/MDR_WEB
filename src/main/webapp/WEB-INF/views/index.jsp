@@ -13,7 +13,7 @@
         <link href="resources/img/favicon.ico" rel="icon">
 
         <!-- Google Font -->
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
         <!-- CSS Libraries -->
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
@@ -27,6 +27,7 @@
 
         <!-- Template Stylesheet -->
         <link href="resources/css/style.css" rel="stylesheet">
+        
     </head>
 
     <body>
@@ -43,26 +44,44 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="resources/img/carousel-1.jpg" alt="Carousel Image">
+                        <img src="resources/img/main.jpg" alt="Carousel Image">
                         <div class="carousel-caption">
-                            <h1 class="animated fadeInLeft">MDR 회사소개</h1>
+                            <h1 class="animated fadeInLeft">세계로 향하는 기업</h1>
+                            <span>주식회사 MDR은 세계 최초로 자체 부품 장비 개발 및 제조에서부터 PC환경상에 맞는 시스템 소프트웨어 연구 개발,</span>
+                            <span>그리고 더 다 나아가 의학•약학•공업등 자체 연구 개발하는 글로벌 사업망이 갖춰진 선도적인 기업입니다.</span>
+                            <br>
+                                <span>
                             <a class="btn animated fadeInUp" href="company.do">더보기</a>
+                            <a class="btn animated fadeInUp" href="product.do">제품 보기</a>
+                            </span>
                         </div>
                     </div>
 
                     <div class="carousel-item">
-                        <img src="resources/img/carousel-2.jpg" alt="Carousel Image">
+                        <img src="resources/img/main2.jpg" alt="Carousel Image">
                         <div class="carousel-caption">
-                            <h1 class="animated fadeInLeft">MDR 제품</h1>
-                            <a class="btn animated fadeInUp" href="product.do">더보기</a>
+                            <h1 class="animated fadeInLeft">세계로 향하는 기업</h1>
+                            <span>주식회사 MDR은 세계 최초로 자체 부품 장비 개발 및 제조에서부터 PC환경상에 맞는 시스템 소프트웨어 연구 개발,</span>
+                            <span>그리고 더 다 나아가 의학•약학•공업등 자체 연구 개발하는 글로벌 사업망이 갖춰진 선도적인 기업입니다.</span>
+                            <br>
+                                <span>
+                            <a class="btn animated fadeInUp" href="company.do">더보기</a>
+                            <a class="btn animated fadeInUp" href="product.do">제품 보기</a>
+                            </span>
                         </div>
                     </div>
 
                     <div class="carousel-item">
-                        <img src="resources/img/carousel-3.jpg" alt="Carousel Image">
+                        <img src="resources/img/main3.jpg" alt="Carousel Image">
                         <div class="carousel-caption">
-                            <h1 class="animated fadeInLeft">기업 브로슈어</h1>
-                            <a class="btn animated fadeInUp" href="brochure.do">더보기</a>
+                        <h1 class="animated fadeInLeft">세계로 향하는 기업</h1>
+                            <span>주식회사 MDR은 세계 최초로 자체 부품 장비 개발 및 제조에서부터 PC환경상에 맞는 시스템 소프트웨어 연구 개발,</span>
+                            <span>그리고 더 다 나아가 의학•약학•공업등 자체 연구 개발하는 글로벌 사업망이 갖춰진 선도적인 기업입니다.</span>
+                            <br>
+                            <span>
+                            <a class="btn animated fadeInUp" href="company.do">더보기</a>
+                            <a class="btn animated fadeInUp" href="product.do">제품 보기</a>
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -96,11 +115,8 @@
                             </div>
                             <div class="about-text">
                                 <p>
-                                  주식회사 MDR은 국내 최초로 자체 부품 장비 개발 및 제조에서부터 PC환경상에 맞는 시스템 소프트웨어 연구 개발, 
-          						 의학•약학•공업 자체 연구 개발, 그리고 더 나아가 외국의 정유 관련 사업 경험 등 글로벌 사업망이 갖춰진 선도적인 기업이며, 
-          						 항상 새로운 혁신 그리고 글로벌 적인 기업을 목표로 삼아 지향하여, 비즈니스 환경과 Lifestyle에 있어 새로운 패러다임을 제시하기 위해 
-          						 창의적인 사고와 접근방법을 통해 지금까지 경험하지 못한 혁신적인 솔루션을 자체 개발/공급, 그리고 경영 철칙 등을 지켜감으로써 
-          						 국내 고객은 물론 외국 고객들의 니즈등을 이해 할수 있는 역량을 가지고, 매해 새로운 성장을 이루어 거듭해 나가는 기업입니다.
+                                주식회사 MDR은 국내 최초로 자체 부품 장비 개발 및 제조에서부터 PC환경상에 맞는 시스템 소프트웨어 연구 개발, 
+                                그리고 더 나아가 의학·약학·공업 등 자체 연구 개발하는 글로벌 사업망이 갖춰진 선도적인 기업입니다.
                                 </p>
                                 <a class="btn" href="company.do">더보기</a>
                             </div>
@@ -135,43 +151,35 @@
                         <div class="col-12">
                             <div class="testimonial-slider">
                                 <div class="slider-item">
-                                    <h3>제품이름</h3>
-                                    <h4>모델명</h4>
+                                    <h3>모델명</h3>
                                     <p>제품설명</p>
                                 </div>
                                 <div class="slider-item">
-                               		 <h3>제품이름</h3>
-                                    <h4>모델명</h4>
+                               		 <h3>모델명</h3>
                                     <p>제품설명</p>
                                 </div>
                                 <div class="slider-item">
-									<h3>제품이름</h3>
-                                    <h4>모델명</h4>
+									<h3>모델명</h3>
                                     <p>제품설명</p>
                                 </div>
                                 <div class="slider-item">
-									<h3>제품이름</h3>
-                                    <h4>모델명</h4>
+									<h3>모델명</h3>
                                     <p>제품설명</p>
                                 </div>
                                 <div class="slider-item">
-                               		 <h3>제품이름</h3>
-                                    <h4>모델명</h4>
+                               		 <h3>모델명</h3>
                                     <p>제품설명</p>
                                 </div>
                                 <div class="slider-item">
-                                <h3>제품이름</h3>
-                                    <h4>모델명</h4>
+                                <h3>모델명</h3>
                                     <p>제품설명</p>
                                 </div>
                                 <div class="slider-item">
-                                <h3>제품이름</h3>
-                                    <h4>모델명</h4>
+                                <h3>모델명</h3>
                                     <p>제품설명</p>
                                 </div>
                                 <div class="slider-item">
-                                	<h3>제품이름</h3>
-                                    <h4>모델명</h4>
+                                	<h3>모델명</h3>
                                     <p>제품설명</p>
                                 </div>
                             </div>

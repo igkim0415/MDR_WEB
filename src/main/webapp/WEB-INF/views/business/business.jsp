@@ -5,7 +5,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>History - MDR Co., Ltd.</title>
+<title>Bisuness - MDR Co., Ltd.</title>
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 <meta content="Construction Company Website Template" name="keywords">
 <meta content="Construction Company Website Template" name="description">
@@ -43,9 +43,9 @@
 			font-family: 'Roboto', sans-serif;
 		}
 		
-		body {
-        font-family: 'Crimson Pro', serif;
-      }
+		.hrd {
+			border: solid 1px #94bdf5;
+		}
 	
 	</style>
 </head>
@@ -89,7 +89,7 @@
                     <div class="section_title">
                         <h4>Real-time Total</h4>
                         <h4>Management System</h4>
-                        <hr>
+                        <hr class="hrd">
                         <ul>
                         	<li class="con"> 유•무선 IoT Sensing Data 수집 및 통계 분석을 통한 통합 생산관리 모니터링 시스템 </li>
                            	<li class="con">생산설비의 예방 정비, 유지보수 일정 및 이력관리</li>
@@ -105,7 +105,7 @@
                 <div class="col-xl-6 col-md-6">
                     <div class="section_title">
                        <h4>IoT 부품 장비 개발</h4>
-                       <hr>
+                       <hr class="hrd">
                        <ul>
                         	<li class="con">반도체 공정용 스마트 센서, 스마트 팩토리 관렴 부품, 장비, 플랫폼 전문 개발</li>
                            	<li class="con">유•무선 미세입자 흐름 모니터링 시스템</li>
@@ -130,7 +130,7 @@
                 <div class="col-xl-5 offset-xl-1 col-md-6">
                     <div class="section_title">
                         <h4>천연물 바이오 소재 개발</h4>
-                        <hr>
+                        <hr class="hrd">
                         <ul>
                         	<li class="con">실크단백질을 이용한 미세먼지 차단 기능성 화장품 및 천연 단백질을 추가한 건강기능식품 개발</li>
                            	<li class="con">도라지, 실크단백질 등의 천연소재를 활용한 피부장벽강화 제품 연구 개발 </li>
