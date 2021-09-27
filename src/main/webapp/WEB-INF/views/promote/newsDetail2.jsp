@@ -1,11 +1,17 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
+    <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>제목 - MDR Co., Ltd.</title>
+         <c:if test="${language == 'ko'}">
+        <title>6월 - ㈜MDR 본사 이전 - MDR Co., Ltd.</title>
+        </c:if>
+         <c:if test="${language == 'en'}">
+        <title>Jun - MDR's Office Relocaion - MDR Co., Ltd.</title>
+        </c:if>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Construction Company Website Template" name="keywords">
         <meta content="Construction Company Website Template" name="description">
@@ -39,22 +45,23 @@
 
             <!-- Single Post Start-->
             <div class="single" style="text-align: center;">
-            	 <h2>㈜MDR 본사 이전</h2>
+            	 <h2><spring:message code="news1" /></h2>
             	 <br>
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="single-content wow fadeInUp">
+                            
                                 <img src="resources/img/news2.jpg" />
                                
                                 <p>
-                                	충청남도 천안시 서북구 직산읍 직산로 136 충남테크노파크 번영관 2106호로 이전 하였습니다.
+                                	<spring:message code="news1m" />
                                 </p>
                                 
                             </div>
                             
                             
-                        <a class="btns" href="news.do">목록</a>
+                        <a class="btns" href="news.do"><spring:message code="list" /></a>
 
 
                             

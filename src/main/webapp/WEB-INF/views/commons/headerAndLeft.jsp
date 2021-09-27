@@ -3,6 +3,7 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib uri = "http://java.sun.com/jsp/jstl/functions" prefix = "fn" %>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -83,11 +84,18 @@
                                 </div>
                                 <a href="mailPage.do" class="nav-item nav-link"><spring:message code="contact" /></a>
                                 <div class="nav-item dropdown">
+                                <c:if test="${language == 'ko'}">
                                     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><spring:message code="kor" /></a>
                                     <div class="dropdown-menu">
-                                        <a href="index.do?lang=ko" class="dropdown-item"><spring:message code="kor" /></a>
                                         <a href="index.do?lang=en" class="dropdown-item"><spring:message code="eng" /></a>
                                     </div>
+                                    </c:if>
+                                <c:if test="${language == 'en'}">
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><spring:message code="eng" /></a>
+                                    <div class="dropdown-menu">
+                                        <a href="index.do?lang=ko" class="dropdown-item"><spring:message code="kor" /></a>
+                                    </div>
+                                    </c:if>
                                 </div>
                             </div>
                           

@@ -1,11 +1,17 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
+     <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>제목 - MDR Co., Ltd.</title>
+          <c:if test="${language == 'ko'}">
+        <title>10월 - ㈜MDR 홈페이지 정식 개설</title>
+        </c:if>
+         <c:if test="${language == 'en'}">
+        <title>Oct - MDR Co. Ltd., Website has Officially Launched. - MDR Co., Ltd.</title>
+        </c:if>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Construction Company Website Template" name="keywords">
         <meta content="Construction Company Website Template" name="description">
@@ -39,22 +45,27 @@
 
             <!-- Single Post Start-->
             <div class="single" style="text-align: center;">
-            	 <h2>제목</h2>
+            	 <h2><spring:message code="news2" /></h2>
             	 <br>
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="single-content wow fadeInUp">
-                                <img src="resources/img/임시.jpg" />
+                            <c:if test="${language == 'ko'}">
+                                <img src="resources/img/news1.png" />
+                                </c:if>
+                                <c:if test="${language == 'en'}">
+                                <img src="resources/img/news1_e.png" />
+                                </c:if>
                                
                                 <p>
-                                	내용
+                                	<spring:message code="news2m" />
                                 </p>
                                 
                             </div>
                             
                             
-                         <button type="button" class="success" onclick="location.href='news.do' ">목록</button>
+                         <button type="button" class="success" onclick="location.href='news.do' "><spring:message code="list" /></button>
 
 
                             

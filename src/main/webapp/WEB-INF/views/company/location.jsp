@@ -43,7 +43,7 @@
                         <div class="carousel-item active" >
                         <div class="carousel-caption" >
                         
-                            <h1 class="animated fadeInLeft" style="margin-bottom: 250px; color: #FFF; font-size: 48px;">회사소개</h1>
+                            <h1 class="animated fadeInLeft" style="margin-bottom: 250px; color: #FFF; font-size: 48px;"><spring:message code="company" /></h1>
                    
                         </div>
                     </div>
@@ -58,7 +58,7 @@
                 <div class="container">
                     <div class="section-header text-center">
                         <p>MDR</p>
-                        <h2>위치</h2>
+                        <h2><spring:message code="location" /></h2>
                     </div>
                     <div class="row">
                         <div class="col-md-6">
@@ -66,22 +66,22 @@
                                 <div class="contact-item">
                                     <i class="flaticon-address"></i>
                                     <div class="contact-text">
-                                        <h2>주소</h2>
-                                        <p>충남 천안시 서북구 직산읍 직산로 136, 번영관 2106호</p>
-                                        <p>(삼은리, 충남테크노파크천안밸리)</p>
+                                        <h2><spring:message code="address" /></h2>
+                                        <p><spring:message code="address1" /></p>
+                                        <p><spring:message code="address2" /></p>
                                     </div>
                                 </div>
                                 <div class="contact-item">
                                     <i class="flaticon-call"></i>
                                     <div class="contact-text">
-                                        <h2>전화번호</h2>
+                                        <h2><spring:message code="tel" /></h2>
                                         <p>041-588-0903</p>
                                     </div>
                                 </div>
                                 <div class="contact-item">
                                     <i class="flaticon-send-mail"></i>
                                     <div class="contact-text">
-                                        <h2>이메일</h2>
+                                        <h2><spring:message code="email" /></h2>
                                         <p>mdrinfo@mdrco.co.kr</p>
                                     </div>
                                 </div>

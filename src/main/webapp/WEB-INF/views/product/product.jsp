@@ -60,7 +60,7 @@
                         <div class="carousel-item active" >
                         <div class="carousel-caption" >
                         
-                            <h1 class="animated fadeInLeft" style="margin-bottom: 250px; color: #fff;">제품 정보</h1>
+                            <h1 class="animated fadeInLeft" style="margin-bottom: 250px; color: #fff;"><spring:message code="product" /></h1>
                    
                         </div>
                     </div>
@@ -75,7 +75,7 @@
                 <div class="container">
                     <div class="section-header text-center">
                         <p>MDR</p>
-                        <h2>MDR 제품</h2>
+                        <h2><spring:message code="mproduct" /></h2>
                     </div>
                     <div class="row">
                         <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.1s">
@@ -86,7 +86,7 @@
                                 </div>
                                 <div class="team-text">
                                       <h2>ITB-RTMS20</h2>
-                                    <p>실시간통합관리시스템</p>
+                                    <p><spring:message code="pname1" /></p>
                                 </div>
                                 
                             </div>
@@ -100,7 +100,7 @@
                                 </div>
                                 <div class="team-text">
                                     <h2>ITB-IONDT20</h2>
-                                    <p>포터블전위감쇄시간 측정기</p>
+                                    <p><spring:message code="pname2" /></p>
                                 </div>
                                 
                             </div>
@@ -114,7 +114,7 @@
                                 </div>
                                 <div class="team-text">
                                  <h2>ITB-VPSYS20</h2>
-                                    <p>비전 이미지 딥러닝을 이용한 AI 주차 시스템</p>
+                                    <p><spring:message code="pname3" /></p>
                                 </div>
                                 
                             </div>
@@ -128,7 +128,7 @@
                                 </div>
                                 <div class="team-text">
                                  	 <h2>ITB-H RSYS20</h2>
-                                    <p>수소개질장치</p>
+                                    <p><spring:message code="pname4" /></p>
                                 </div>
                                 
                             </div>

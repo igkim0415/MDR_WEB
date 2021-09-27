@@ -102,13 +102,13 @@ public class PageController {
 	}
 	
 	//뉴스페이지 페이지
-	@RequestMapping(value = "newsDeatil.do" , method = RequestMethod.GET)
+	@RequestMapping(value = "newsDetail.do" , method = RequestMethod.GET)
 	public String newsDetailPage() {
 		return "promote/newsDetail";
 	}
 	
 	//뉴스페이지 페이지
-	@RequestMapping(value = "newsDeatil2.do" , method = RequestMethod.GET)
+	@RequestMapping(value = "newsDetail2.do" , method = RequestMethod.GET)
 	public String newsDetail2Page() {
 		return "promote/newsDetail2";
 	}

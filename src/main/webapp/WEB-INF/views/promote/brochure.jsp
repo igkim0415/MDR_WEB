@@ -43,7 +43,7 @@
                         <div class="carousel-item active" >
                         <div class="carousel-caption" >
                         
-                            <h1 class="animated fadeInLeft" style="margin-bottom: 250px; color: #FFF;font-size: 48px;">홍보센터</h1>
+                            <h1 class="animated fadeInLeft" style="margin-bottom: 250px; color: #FFF;font-size: 48px;"><spring:message code="promote" /></h1>
                    
                         </div>
                     </div>
@@ -64,7 +64,7 @@
                                    
                                 </div>
                                 <div class="service-text">
-                                    <h3>기업 브로슈어 (한글)</h3>
+                                    <h3><spring:message code="brochurek" /></h3>
                                     <a class="btn" href="resources/pdf/Korean.pdf" target="_blank">+</a>
                                 </div>
                             </div>
@@ -75,7 +75,7 @@
                                     <img src="resources/img/bros.jpg" alt="Image">
                                 </div>
                                 <div class="service-text">
-                                    <h3>기업 브로슈어 (영어)</h3>
+                                    <h3><spring:message code="brochuree" /></h3>
                                     <a class="btn" href="resources/pdf/English.pdf" target="_blank">+</a>
                                 </div>
                             </div>

@@ -1,6 +1,7 @@
 
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+	<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -64,7 +65,7 @@
                     <div class="row">
                         <div class="carousel-item active" >
                         <div class="carousel-caption" >
-                            <h1 class="animated fadeInLeft" style="margin-bottom: 250px; color: #FFF; font-size: 48px;">사업 분야</h1>
+                            <h1 class="animated fadeInLeft" style="margin-bottom: 250px; color: #FFF; font-size: 48px;"><spring:message code="business" /></h1>
                    
                         </div>
                     </div>
@@ -91,11 +92,11 @@
                         <h4>Management System</h4>
                         <hr class="hrd">
                         <ul>
-                        	<li class="con"> 유•무선 IoT Sensing Data 수집 및 통계 분석을 통한 통합 생산관리 모니터링 시스템 </li>
-                           	<li class="con">생산설비의 예방 정비, 유지보수 일정 및 이력관리</li>
-                            <li class="con">유•무선 통신 네트우크 구축</li>
-                            <li class="con">생산 공정별 맞춤형관리지운 → 빅데이터 분석을 통한 부품 고장/불량 예측 알림 서비스 지원 </li>
-                           	<li class="con">수집된 데이터의 분석, 통계 자료확인 UI 제공</li>
+                        	<li class="con"> <spring:message code="business1" /></li>
+                           	<li class="con"><spring:message code="business2" /></li>
+                            <li class="con"><spring:message code="business3" /></li>
+                            <li class="con"><spring:message code="business4" /> </li>
+                           	<li class="con"><spring:message code="business5" /></li>
                         </ul>
                     </div>
                 </div>
@@ -104,13 +105,13 @@
             <div class="row align-items-center mb-80">
                 <div class="col-xl-6 col-md-6">
                     <div class="section_title">
-                       <h4>IoT 부품 장비 개발</h4>
+                       <h4><spring:message code="business6" /></h4>
                        <hr class="hrd">
                        <ul>
-                        	<li class="con">반도체 공정용 스마트 센서, 스마트 팩토리 관렴 부품, 장비, 플랫폼 전문 개발</li>
-                           	<li class="con">유•무선 미세입자 흐름 모니터링 시스템</li>
-                            <li class="con">초음파, 광전자 동시 검출이 가능한 일체형 스파크 감지 복합 진단 시스템</li>
-                            <li class="con">신재생 에너지(태양광•수소 등), 에너지 저장(ESS) 기기 및 플랫폼 </li>
+                        	<li class="con"><spring:message code="business7" /></li>
+                           	<li class="con"><spring:message code="business8" /></li>
+                            <li class="con"><spring:message code="business9" /></li>
+                            <li class="con"><spring:message code="business10" /> </li>
                         </ul>
                 </div>
                 </div>
@@ -129,11 +130,11 @@
                 </div>
                 <div class="col-xl-5 offset-xl-1 col-md-6">
                     <div class="section_title">
-                        <h4>천연물 바이오 소재 개발</h4>
+                        <h4><spring:message code="business11" /></h4>
                         <hr class="hrd">
                         <ul>
-                        	<li class="con">실크단백질을 이용한 미세먼지 차단 기능성 화장품 및 천연 단백질을 추가한 건강기능식품 개발</li>
-                           	<li class="con">도라지, 실크단백질 등의 천연소재를 활용한 피부장벽강화 제품 연구 개발 </li>
+                        	<li class="con"><spring:message code="business12" /></li>
+                           	<li class="con"><spring:message code="business13" /> </li>
                         </ul>
                     </div>
                 </div>

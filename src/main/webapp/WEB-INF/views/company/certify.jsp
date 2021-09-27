@@ -1,5 +1,6 @@
  <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -63,10 +64,10 @@
                     <div class="row">
                         <div class="col-12">
                             <ul id="portfolio-flters">
-                                <li data-filter="*" class="filter-active">전체</li>
-                                <li data-filter=".first">확인서</li>
-                                <li data-filter=".second">저작권</li>
-                                <li data-filter=".third">특허</li>
+                                <li data-filter="*" class="filter-active"><spring:message code="all" /></li>
+                                <li data-filter=".first"><spring:message code="cert" /></li>
+                                <li data-filter=".second"><spring:message code="copy" /></li>
+                                <li data-filter=".third"><spring:message code="patent" /></li>
                             </ul>
                         </div>
                     </div>

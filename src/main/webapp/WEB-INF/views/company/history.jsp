@@ -1,6 +1,7 @@
 
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+	<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -321,7 +322,7 @@ p:last-child{
                         <div class="carousel-item active" >
                         <div class="carousel-caption" >
                         
-                            <h1 class="animated fadeInLeft" style="margin-bottom: 250px; color: #FFF; font-size: 48px;">회사소개</h1>
+                            <h1 class="animated fadeInLeft" style="margin-bottom: 250px; color: #FFF; font-size: 48px;"><spring:message code="company" /></h1>
                    
                         </div>
                     </div>
@@ -343,21 +344,21 @@ p:last-child{
         <div class="timeline__card card">
           <header class="card__header">
             <time class="time" datetime="2020-05-05">
-              <span class="time__month">05월</span>
+              <span class="time__month"><spring:message code="05" /></span>
             </time>
           </header>
           <div class="card__content">
-            <p>소프트웨어 사업자 신고</p>
+            <p><spring:message code="05m" /></p>
           </div>
         </div>
         <div class="timeline__card card">
           <header class="card__header">
             <time class="time" datetime="2020-03-01">
-              <span class="time__month">03월</span>
+              <span class="time__month"><spring:message code="03" /></span>
             </time>
           </header>
           <div class="card__content">
-            <p>말레이시아 플랜트 사업 인력 파견</p>
+            <p><spring:message code="03m" /></p>
           </div>
         </div>
       </div>
@@ -370,61 +371,51 @@ p:last-child{
         <div class="timeline__card card">
           <header class="card__header">
             <time class="time" datetime="2019-10-14">
-              <span class="time__month">10월</span>
+              <span class="time__month"><spring:message code="10" /></span>
             </time>
           </header>
           <div class="card__content">
-            <p>벤처기업 인증</p>
+            <p><spring:message code="10m" /></p>
           </div>
         </div>
         <div class="timeline__card card">
           <header class="card__header">
             <time class="time" datetime="2019-09-14">
-              <span class="time__month">09월</span>
+              <span class="time__month"><spring:message code="09" /></span>
             </time>          
           </header>
           <div class="card__content">
-            <p>3차원 발목 관절 운동 치료기 외 3건 특허 등록</p>
+            <p><spring:message code="09m" /></p>
           </div>
         </div>
         <div class="timeline__card card">
           <header class="card__header">
             <time class="time" datetime="2019-09-01">
-              <span class="time__month">09월</span>
+              <span class="time__month"><spring:message code="09" /></span>
             </time>          
           </header>
           <div class="card__content">
-            <p>2019년 충남 SW융합 클러스터 2.0 SW융합 제품/서비스 상용화 지운사업 선정</p>
-          </div>
-        </div>
-        <div class="timeline__card card">
-          <header class="card__header">
-            <time class="time" datetime="2019-09-01">
-              <span class="time__month">09월</span>
-            </time>          
-          </header>
-          <div class="card__content">
-            <p>2019년 충남 SW융합 클러스터 2.0 SW융합 제품/서비스 상용화 지운사업 선정</p>
+            <p><spring:message code="09m2" /></p>
           </div>
         </div>
         <div class="timeline__card card">
           <header class="card__header">
             <time class="time" datetime="2019-04-01">
-              <span class="time__month">04월</span>
+              <span class="time__month"><spring:message code="04" /></span>
             </time>          
           </header>
           <div class="card__content">
-            <p>여성기업 인증</p>
+            <p><spring:message code="04m" /></p>
           </div>
         </div>
         <div class="timeline__card card">
           <header class="card__header">
             <time class="time" datetime="2019-09-01">
-              <span class="time__month">01월</span>
+              <span class="time__month"><spring:message code="01" /></span>
             </time>          
           </header>
           <div class="card__content">
-            <p>주식회사 엠디알 기업부설연구소 설립</p>
+            <p><spring:message code="01m" /></p>
           </div>
         </div>
       </div>
@@ -437,31 +428,31 @@ p:last-child{
         <div class="timeline__card card">
           <header class="card__header">
             <time class="time" datetime="2018-12-01">
-              <span class="time__month">12월</span>
+              <span class="time__month"><spring:message code="12" /></span>
             </time>          
           </header>
           <div class="card__content">
-            <p>차세대 디스플레이산업 기업의 지식자산 확대를 위한 특허지원사업 선정</p>
+            <p><spring:message code="12m" /></p>
           </div>
         </div>
         <div class="timeline__card card">
           <header class="card__header">
             <time class="time" datetime="2018-10-01">
-              <span class="time__month">10월</span>
+              <span class="time__month"><spring:message code="10" /></span>
             </time>          
           </header>
           <div class="card__content">
-            <p>2018 기술혁신형 창업기업 지원사업 선정</p>
+            <p><spring:message code="10m1" /></p>
           </div>
         </div>
         <div class="timeline__card card">
           <header class="card__header">
             <time class="time" datetime="2018-09-01">
-              <span class="time__month">09월</span>
+              <span class="time__month"><spring:message code="09" /></span>
             </time>          
           </header>
           <div class="card__content">
-            <p>주식회사 엠디알 설립</p>
+            <p><spring:message code="09m3" /></p>
           </div>
         </div>
       </div>

@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
+    <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -43,7 +44,7 @@
                         <div class="carousel-item active" >
                         <div class="carousel-caption" >
                         
-                            <h1 class="animated fadeInLeft" style="margin-bottom: 250px; color: #FFF;font-size: 48px;">홍보센터</h1>
+                            <h1 class="animated fadeInLeft" style="margin-bottom: 250px; color: #FFF;font-size: 48px;"><spring:message code="promote" /></h1>
                    
                         </div>
                     </div>
@@ -60,19 +61,22 @@
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
                             <div class="blog-item">
                                 <div class="blog-img">
-                                    <img src="resources/img/news1.png" alt="Image">
+                                     <c:if test="${language == 'ko'}">
+                                <img src="resources/img/news1.png" />
+                                </c:if>
+                                <c:if test="${language == 'en'}">
+                                <img src="resources/img/news1_e.png" />
+                                </c:if>
                                 </div>
-                                <div class="blog-title">
-                                    <h3>㈜MDR 홈페이지 개설</h3>
-                                    <a class="btn" href="newsDeatil.do">+</a>
-                                </div>
+                                
                                 <div class="blog-meta">
-                                   날짜
+                                   <h5><spring:message code="news2" /></h5>
                                 </div>
                                 <div class="blog-text">
                                     <p>
-                                     ㈜MDR 홈페이지 정식 개설
+                                     <spring:message code="news2m" />
                                     </p>
+                                    <a href="" style="font-size: 8px; color: " ><spring:message code="read" /></a>
                                 </div>
                             </div>
                         </div>
@@ -81,17 +85,18 @@
                                 <div class="blog-img">
                                     <img src="resources/img/news2.jpg" alt="Image">
                                 </div>
-                                <div class="blog-title">
-                                    <h3>㈜MDR 본사 이전</h3>
-                                    <a class="btn" href="newsDeatil2.do">+</a>
-                                </div>
                                 <div class="blog-meta">
-                                    <p>날짜</p>
+                                    <h5><spring:message code="news1" /></h5>
                                 </div>
                                 <div class="blog-text">
+                                <spring:message code="news1m" />
+                                    <br>
+                                 <c:if test="${language == 'en'}">
                                     <p>
-                                    	충청남도 천안시 서북구 직산읍 직산로 136 충남테크노파크 번영관 2106호로 이전
+										<spring:message code="news1s" />
                                     </p>
+                                    </c:if>
+                                    <a href="newsDetail2.do" style="font-size: 10px; color: " ><spring:message code="read" /></a>
                                 </div>
                             </div>
                         </div>

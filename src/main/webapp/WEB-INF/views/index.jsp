@@ -175,7 +175,7 @@
                                 </div>
                                 
                                 <div class="blog-meta">
-                                    <p></p>
+                                    <p>ITB-VPSYS20</p>
                                 </div>
                                 <div class="blog-text">
                                     <p>
