@@ -18,6 +18,19 @@ h6 {
     color: #030f27;
 }
 
+.btns{
+    			position: relative;
+    margin-top: 15px;
+    padding: 15px 35px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #ffffff;
+    border-radius: 0;
+    background: #94bdf5;
+    transition: .3s;
+   }
+
 a {
     color: #666666;
     transition: .3s;
@@ -61,7 +74,7 @@ a:focus {
 }
 
 .back-to-top:hover {
-    color: #fdbe33;
+    color: #94bdf5;
     background: #121518;
 }
 
@@ -157,7 +170,7 @@ a:focus {
 /**********************************/
 .nav-bar {
     position: relative;
-    background: #94bdf5	;
+    background: #ffffff	;
     transition: .3s;
 }
 
@@ -176,7 +189,7 @@ a:focus {
 
 .nav-bar .navbar {
     height: 100%;
-    background: #94bdf5 !important;
+    background: #ffffff !important;
 }
 
 .navbar-dark .navbar-nav .nav-link,
@@ -184,12 +197,12 @@ a:focus {
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
     padding: 10px 10px 8px 10px;
-    color: #ffffff;
+    color: #000000;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-    color: #ffffff;
+    color: #000000;
     transition: none;
 }
 
@@ -306,7 +319,7 @@ a:focus {
 
 .carousel .carousel-caption p {
     color: #ffffff;
-    font-size: 30px;
+    font-size: 17.5px;
     margin-bottom: 15px;
     letter-spacing: 1px;
 }
@@ -385,7 +398,6 @@ a:focus {
 .page-header {
     position: relative;
     margin-bottom: 45px;
-    padding: 90px 0;
     text-align: center;
     background: #030f27;
 }
@@ -1310,7 +1322,7 @@ a:focus {
     display: inline-block;
     margin: 0;
     padding: 0 3px;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 300;
     font-style: italic;
     color: #666666;

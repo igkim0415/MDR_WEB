@@ -24,99 +24,69 @@
 }
 	
 </style>
+     <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+       	<link href="resources/flaticon/font/flaticon.css" rel="stylesheet"> 
+        <link href="resources/lib/animate/animate.min.css" rel="stylesheet">
+        <link href="resources/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="resources/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="resources/lib/slick/slick.css" rel="stylesheet">
+        <link href="resources/lib/slick/slick-theme.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="resources/css/style.css" rel="stylesheet">
 </head>
 <body>
 <header>
          <!-- Top Bar Start -->
-            <div class="top-bar">
+           
                 <div class="container-fluid">
                     <div class="row align-items-center">
                         <div class="col-lg-4 col-md-12">
                                 <a href="index.do">
-                                    <img src="resources/img/ci2.png" style="width: 100%; height: 100%;">
+                                    <img src="resources/img/ci2.png" style="max-width: 100%; height: auto !important;" >
                                     <!-- <img src="img/logo.jpg" alt="Logo"> -->
                                 </a>
                         </div>
-                        <div class="col-lg-8 col-md-7 d-none d-lg-block">
-                            <div class="row">
-                                <div class="col-4">
-                                    <div class="top-bar-item">
-                                        <div class="top-bar-icon">
-                                            <i class="flaticon-calendar"></i>
-                                        </div>
-                                        <div class="top-bar-text">
-                                            <h3>운영시간</h3>
-                                            <p>월 - 금, 9:00 - 18:00</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <div class="top-bar-item">
-                                        <div class="top-bar-icon">
-                                            <i class="flaticon-call"></i>
-                                        </div>
-                                        <div class="top-bar-text">
-                                            <h3>전화번호</h3>
-                                            <p>041-588-0903</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <div class="top-bar-item">
-                                        <div class="top-bar-icon">
-                                            <i class="flaticon-send-mail"></i>
-                                        </div>
-                                        <div class="top-bar-text">
-                                            <h3>이메일</h3>
-                                            <p>mdrinfo@mdrco.co.kr</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Top Bar End -->
-
-            <!-- Nav Bar Start -->
+                        
+                            
             <div class="nav-bar">
                 <div class="container-fluid">
-                    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-                        <a href="#" class="navbar-brand">MENU</a>
-                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <nav class="navbar navbar-expand-lg bg-light navbar-light">
+	                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                             <span class="navbar-toggler-icon"></span>
                         </button>
 
                         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                             <div class="navbar-nav mr-auto" >
-                                <a href="index.do" class="nav-item nav-link active">메인</a>
+                                <a href="index.do" class="nav-item nav-link active"><spring:message code="main" /></a>
                                <div class="nav-item dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">회사소개</a>
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><spring:message code="company" /></a>
                                     <div class="dropdown-menu">
-                                        <a href="company.do" class="dropdown-item">회사소개</a>
-                                        <a href="vision.do" class="dropdown-item">비전</a>
-                                        <a href="history.do" class="dropdown-item">연혁</a>
-                                       <a href="certify.do" class="dropdown-item">인증 및 특허</a>
-                                        <a href="location.do" class="dropdown-item">위치</a>
+                                        <a href="company.do" class="dropdown-item"><spring:message code="company" /></a>
+                                        <a href="vision.do" class="dropdown-item"><spring:message code="vision" /></a>
+                                        <a href="history.do" class="dropdown-item"><spring:message code="history" /></a>
+                                       <a href="certify.do" class="dropdown-item"><spring:message code="certify" /></a>
+                                        <a href="location.do" class="dropdown-item"><spring:message code="location" /></a>
                                     </div>
                                 </div>
-                                <a href="business.do" class="nav-item nav-link">사업분야</a>
-                                <a href="product.do" class="nav-item nav-link">제품소개</a>
+                                <a href="business.do" class="nav-item nav-link"><spring:message code="business" /></a>
+                                <a href="product.do" class="nav-item nav-link"><spring:message code="product" /></a>
                                 <div class="nav-item dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">홍보센터</a>
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><spring:message code="promote" /></a>
                                     <div class="dropdown-menu">
-                                        <a href="cipage.do" class="dropdown-item">CI소개</a>
-                                        <a href="brochure.do" class="dropdown-item">기업 브로슈어</a>
-                                        <a href="news.do" class="dropdown-item">최신뉴스</a>
+                                        <a href="cipage.do" class="dropdown-item"><spring:message code="ci" /></a>
+                                        <a href="brochure.do" class="dropdown-item"><spring:message code="brochure" /></a>
+                                        <a href="news.do" class="dropdown-item"><spring:message code="notice" /></a>
                                     </div>
                                 </div>
-                                <a href="mailPage.do" class="nav-item nav-link">문의하기</a>
+                                <a href="mailPage.do" class="nav-item nav-link"><spring:message code="contact" /></a>
                                 <div class="nav-item dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Korean</a>
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><spring:message code="kor" /></a>
                                     <div class="dropdown-menu">
-                                        <a href="#" class="dropdown-item">Korean</a>
-                                        <a href="#" class="dropdown-item">English</a>
+                                        <a href="index.do?lang=ko" class="dropdown-item"><spring:message code="kor" /></a>
+                                        <a href="index.do?lang=en" class="dropdown-item"><spring:message code="eng" /></a>
                                     </div>
                                 </div>
                             </div>
@@ -125,10 +95,27 @@
                     </nav>
                 </div>
             </div>
-            </header>
-            <!-- Nav Bar End -->
-</body>
+                            </div>
+                        </div>
+              	
+        
+            <!-- Top Bar End -->
 
+            <!-- Nav Bar Start -->
+            
+            </header>
+</body>
+<script src="resources/easing/easing.min.js"></script>
+        <script src="resources/wow/wow.min.js"></script>
+        <script src="resources/owlcarousel/owl.carousel.min.js"></script>
+        <script src="resources/isotope/isotope.pkgd.min.js"></script>
+        <script src="resources/lightbox/js/lightbox.min.js"></script>
+        <script src="resources/waypoints/waypoints.min.js"></script>
+        <script src="resources/counterup/counterup.min.js"></script>
+        <script src="resources/slick/slick.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="resources/js/main.js"></script>
   
         
 </html>

@@ -44,6 +44,7 @@ public class PageController {
 		return "business/business";
 	}
 	
+	//////////////////////////////////////////////////////////////////
 	
 	//제품소개 
 	@RequestMapping(value = "product.do" , method = RequestMethod.GET)
@@ -51,7 +52,37 @@ public class PageController {
 		return "product/product";
 	}
 	
-
+	//제품1 
+	@RequestMapping(value = "product1.do" , method = RequestMethod.GET)
+	public String productPage1() {
+		return "product/ITB-RTMS20";
+	}
+	
+	//제품2 
+	@RequestMapping(value = "product2.do" , method = RequestMethod.GET)
+	public String productPage2() {
+		return "product/ITB-IONDT20";
+	}
+	
+	//제품3 
+	@RequestMapping(value = "product3.do" , method = RequestMethod.GET)
+	public String productPage3() {
+		return "product/ITB-VPSYS20";
+	}
+	
+	//제품4 
+	@RequestMapping(value = "product4.do" , method = RequestMethod.GET)
+	public String productPage4() {
+		return "product/ITB-H RSYS20";
+	}
+	
+	
+	
+	
+	
+	
+	//////////////////////////////////////////////////////////////////
+	
 	//CI페이지
 	@RequestMapping(value = "cipage.do" , method = RequestMethod.GET)
 	public String ciPage() {
@@ -74,6 +105,12 @@ public class PageController {
 	@RequestMapping(value = "newsDeatil.do" , method = RequestMethod.GET)
 	public String newsDetailPage() {
 		return "promote/newsDetail";
+	}
+	
+	//뉴스페이지 페이지
+	@RequestMapping(value = "newsDeatil2.do" , method = RequestMethod.GET)
+	public String newsDetail2Page() {
+		return "promote/newsDetail2";
 	}
 	
 		

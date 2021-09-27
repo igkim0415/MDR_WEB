@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+ <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -46,13 +47,12 @@
                     <div class="carousel-item active">
                         <img src="resources/img/main.jpg" alt="Carousel Image">
                         <div class="carousel-caption">
-                            <h1 class="animated fadeInLeft">세계로 향하는 기업</h1>
-                            <span>주식회사 MDR은 세계 최초로 자체 부품 장비 개발 및 제조에서부터 PC환경상에 맞는 시스템 소프트웨어 연구 개발,</span>
-                            <span>그리고 더 다 나아가 의학•약학•공업등 자체 연구 개발하는 글로벌 사업망이 갖춰진 선도적인 기업입니다.</span>
+                            <h1 class="animated fadeInLeft"><spring:message code="index1" /></h1>
+                            <p><spring:message code="index2" /></p>
                             <br>
                                 <span>
-                            <a class="btn animated fadeInUp" href="company.do">더보기</a>
-                            <a class="btn animated fadeInUp" href="product.do">제품 보기</a>
+                            <a class="btn animated fadeInUp" href="company.do"><spring:message code="more" /></a>
+                            <a class="btn animated fadeInUp" href="product.do"><spring:message code="product3" /></a>
                             </span>
                         </div>
                     </div>
@@ -60,13 +60,12 @@
                     <div class="carousel-item">
                         <img src="resources/img/main2.jpg" alt="Carousel Image">
                         <div class="carousel-caption">
-                            <h1 class="animated fadeInLeft">세계로 향하는 기업</h1>
-                            <span>주식회사 MDR은 세계 최초로 자체 부품 장비 개발 및 제조에서부터 PC환경상에 맞는 시스템 소프트웨어 연구 개발,</span>
-                            <span>그리고 더 다 나아가 의학•약학•공업등 자체 연구 개발하는 글로벌 사업망이 갖춰진 선도적인 기업입니다.</span>
+                           <h1 class="animated fadeInLeft"><spring:message code="index1" /></h1>
+                            <p><spring:message code="index2" /></p>
                             <br>
                                 <span>
-                            <a class="btn animated fadeInUp" href="company.do">더보기</a>
-                            <a class="btn animated fadeInUp" href="product.do">제품 보기</a>
+                                       <a class="btn animated fadeInUp" href="company.do"><spring:message code="more" /></a>
+                            <a class="btn animated fadeInUp" href="product.do"><spring:message code="product3" /></a>
                             </span>
                         </div>
                     </div>
@@ -74,13 +73,12 @@
                     <div class="carousel-item">
                         <img src="resources/img/main3.jpg" alt="Carousel Image">
                         <div class="carousel-caption">
-                        <h1 class="animated fadeInLeft">세계로 향하는 기업</h1>
-                            <span>주식회사 MDR은 세계 최초로 자체 부품 장비 개발 및 제조에서부터 PC환경상에 맞는 시스템 소프트웨어 연구 개발,</span>
-                            <span>그리고 더 다 나아가 의학•약학•공업등 자체 연구 개발하는 글로벌 사업망이 갖춰진 선도적인 기업입니다.</span>
+                        <h1 class="animated fadeInLeft"><spring:message code="index1" /></h1>
+                            <p><spring:message code="index2" /></p>
                             <br>
                             <span>
-                            <a class="btn animated fadeInUp" href="company.do">더보기</a>
-                            <a class="btn animated fadeInUp" href="product.do">제품 보기</a>
+                              <a class="btn animated fadeInUp" href="company.do"><spring:message code="more" /></a>
+                            <a class="btn animated fadeInUp" href="product.do"><spring:message code="product3" /></a>
                             </span>
                         </div>
                     </div>
@@ -110,15 +108,14 @@
                         </div>
                         <div class="col-lg-6 col-md-6">
                             <div class="section-header text-left">
-                                <p>MDR에 오신걸 환영합니다</p>
-                                <h2>MDR 회사 소개</h2>
+                                <p><spring:message code="main1" /></p>
+                                <h2><spring:message code="main2" /></h2>
                             </div>
                             <div class="about-text">
                                 <p>
-                                주식회사 MDR은 국내 최초로 자체 부품 장비 개발 및 제조에서부터 PC환경상에 맞는 시스템 소프트웨어 연구 개발, 
-                                그리고 더 나아가 의학·약학·공업 등 자체 연구 개발하는 글로벌 사업망이 갖춰진 선도적인 기업입니다.
+                               <spring:message code="index2" />
                                 </p>
-                                <a class="btn" href="company.do">더보기</a>
+                                <a class="btn" href="company.do"><spring:message code="more" /></a>
                             </div>
                         </div>
                     </div>
@@ -126,68 +123,92 @@
             </div>
             <!-- About End -->
 
-           <!-- Testimonial Start -->
-            <div class="testimonial wow fadeIn" data-wow-delay="0.1s">
+           <!-- Blog Start -->
+            <div class="blog">
                 <div class="container">
-                <div class="section-header text-center ">
-                        <p>MDR 제품</p>
-                        <h2 style="color: #fff;">제품소개</h2>
-                    </div>	
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="testimonial-slider-nav">
-                                <div class="slider-nav"><img src="resources/img/iot.jpg" alt="Testimonial"></div>
-                                <div class="slider-nav"><img src="resources/img/cable.jpg" alt="Testimonial"></div>
-                                <div class="slider-nav"><img src="resources/img/iot.jpg" alt="Testimonial"></div>
-                                <div class="slider-nav"><img src="resources/img/cable.jpg" alt="Testimonial"></div>
-                             	<div class="slider-nav"><img src="resources/img/iot.jpg" alt="Testimonial"></div>
-                                <div class="slider-nav"><img src="resources/img/cable.jpg" alt="Testimonial"></div>
-                                <div class="slider-nav"><img src="resources/img/iot.jpg" alt="Testimonial"></div>
-                                <div class="slider-nav"><img src="resources/img/cable.jpg" alt="Testimonial"></div>
-                            </div>
-                        </div>
+                    <div class="section-header text-center">
+                        <p>MDR</p>
+                        <h2><spring:message code="product" /></h2>
                     </div>
                     <div class="row">
-                        <div class="col-12">
-                            <div class="testimonial-slider">
-                                <div class="slider-item">
-                                    <h3>모델명</h3>
-                                    <p>제품설명</p>
+                        <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                            <a href="product1.do"> 
+                            <div class="blog-item">
+                                <div class="blog-img">
+                                    <img src="resources/img/제품1.png" alt="Image">
                                 </div>
-                                <div class="slider-item">
-                               		 <h3>모델명</h3>
-                                    <p>제품설명</p>
+                                
+                                <div class="blog-meta">
+                                    <p><a href="">ITB-RTMS20</a></p>
                                 </div>
-                                <div class="slider-item">
-									<h3>모델명</h3>
-                                    <p>제품설명</p>
-                                </div>
-                                <div class="slider-item">
-									<h3>모델명</h3>
-                                    <p>제품설명</p>
-                                </div>
-                                <div class="slider-item">
-                               		 <h3>모델명</h3>
-                                    <p>제품설명</p>
-                                </div>
-                                <div class="slider-item">
-                                <h3>모델명</h3>
-                                    <p>제품설명</p>
-                                </div>
-                                <div class="slider-item">
-                                <h3>모델명</h3>
-                                    <p>제품설명</p>
-                                </div>
-                                <div class="slider-item">
-                                	<h3>모델명</h3>
-                                    <p>제품설명</p>
+                                <div class="blog-text">
+                                    <p>
+                                     <spring:message code="pname1" />
+                                    </p>
                                 </div>
                             </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 wow fadeInUp">
+                           <a href="product2.do">  
+                            <div class="blog-item">
+                                <div class="blog-img">
+                                    <img src="resources/img/제품2.png" alt="Image">
+                                </div>
+                                
+                                <div class="blog-meta">
+                                    <p><a href="">ITB-IONDT20</a></p>
+                                </div>
+                                <div class="blog-text">
+                                    <p>
+                                    	<spring:message code="pname2" />
+                                    </p>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                            <a href="product3.do"> 
+                            <div class="blog-item">
+                                <div class="blog-img">
+                                    <img src="resources/img/제품3.png" alt="Image">
+                                </div>
+                                
+                                <div class="blog-meta">
+                                    <p></p>
+                                </div>
+                                <div class="blog-text">
+                                    <p>
+                                    <spring:message code="pname3" />
+                                    </p>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                          <a href="product4.do">  
+                            <div class="blog-item">
+                                <div class="blog-img">
+                                   <img src="resources/img/제품4.png" alt="Image">
+                                </div>
+                                
+                                <div class="blog-meta">
+                                    <p>ITB-H RSYS20</p>
+                                 
+                                </div>
+                                <div class="blog-text">
+                                    <p>
+                                    	<spring:message code="pname4" />
+                                    </p>
+                                </div>
+                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Testimonial End -->
+            <!-- Blog End -->
+
 
            
 
@@ -208,5 +229,14 @@
 
         <!-- Template Javascript -->
         <script src="resources/js/main.js"></script>
+        
+       <script type="text/javascript">
+       $(".regular").slick({
+           dots: true,
+           infinite: true,
+           slidesToShow: 3,
+           slidesToScroll: 3
+         });
+       </script>
     </body>
 </html>

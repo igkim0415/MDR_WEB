@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -64,7 +65,7 @@
                                 </div>
                                 <div class="service-text">
                                     <h3>기업 브로슈어 (한글)</h3>
-                                    <a class="btn" href="resources/img/bros.jpg" data-lightbox="service">+</a>
+                                    <a class="btn" href="resources/pdf/Korean.pdf" target="_blank">+</a>
                                 </div>
                             </div>
                         </div>
@@ -75,7 +76,7 @@
                                 </div>
                                 <div class="service-text">
                                     <h3>기업 브로슈어 (영어)</h3>
-                                    <a class="btn" href="resources/img/service-2.jpg" data-lightbox="service">+</a>
+                                    <a class="btn" href="resources/pdf/English.pdf" target="_blank">+</a>
                                 </div>
                             </div>
                         </div>

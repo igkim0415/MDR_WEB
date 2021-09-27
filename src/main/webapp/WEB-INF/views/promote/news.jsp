@@ -1,10 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Builderz - Construction Company Website Template</title>
+        <title>최신뉴스 - MDR Co., Ltd.</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Construction Company Website Template" name="keywords">
         <meta content="Construction Company Website Template" name="description">
@@ -59,18 +60,18 @@
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
                             <div class="blog-item">
                                 <div class="blog-img">
-                                    <img src="resources/img/blog-1.jpg" alt="Image">
+                                    <img src="resources/img/news1.png" alt="Image">
                                 </div>
                                 <div class="blog-title">
-                                    <h3>제목</h3>
+                                    <h3>㈜MDR 홈페이지 개설</h3>
                                     <a class="btn" href="newsDeatil.do">+</a>
                                 </div>
                                 <div class="blog-meta">
-                                   2021-09-24
+                                   날짜
                                 </div>
                                 <div class="blog-text">
                                     <p>
-                                     내용
+                                     ㈜MDR 홈페이지 정식 개설
                                     </p>
                                 </div>
                             </div>
@@ -78,98 +79,26 @@
                         <div class="col-lg-4 col-md-6 wow fadeInUp">
                             <div class="blog-item">
                                 <div class="blog-img">
-                                    <img src="resources/img/blog-2.jpg" alt="Image">
+                                    <img src="resources/img/news2.jpg" alt="Image">
                                 </div>
                                 <div class="blog-title">
-                                    <h3>제목</h3>
-                                    <a class="btn" href="newsDeatil.do">+</a>
+                                    <h3>㈜MDR 본사 이전</h3>
+                                    <a class="btn" href="newsDeatil2.do">+</a>
                                 </div>
                                 <div class="blog-meta">
-                                    <p>2021-09-24</p>
+                                    <p>날짜</p>
                                 </div>
                                 <div class="blog-text">
                                     <p>
-                                    	내용
+                                    	충청남도 천안시 서북구 직산읍 직산로 136 충남테크노파크 번영관 2106호로 이전
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                            <div class="blog-item">
-                                <div class="blog-img">
-                                    <img src="resources/img/blog-3.jpg" alt="Image">
-                                </div>
-                                <div class="blog-title">
-                                    <h3>제목</h3>
-                                    <a class="btn" href="newsDeatil.do">+</a>
-                                </div>
-                                <div class="blog-meta">
-              							  2021-09-24
-                                </div>
-                                <div class="blog-text">
-                                    <p>
-                                      내용
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                            <div class="blog-item">
-                                <div class="blog-img">
-                                    <img src="resources/img/blog-1.jpg" alt="Image">
-                                </div>
-                                <div class="blog-title">
-                                    <h3>제목</h3>
-                                    <a class="btn" href="newsDeatil.do">+</a>
-                                </div>
-                                <div class="blog-meta">
-                                    2021-09-24
-                                </div>
-                                <div class="blog-text">
-                                    <p>
-                                    	내용
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp">
-                            <div class="blog-item">
-                                <div class="blog-img">
-                                    <img src="resources/img/blog-2.jpg" alt="Image">
-                                </div>
-                                <div class="blog-title">
-                                    <h3>제목</h3>
-                                    <a class="btn" href="newsDeatil.do">+</a>
-                                </div>
-                                <div class="blog-meta">
-                             			2021-09-24
-                                </div>
-                                <div class="blog-text">
-                                    <p>
-                                        내용
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                            <div class="blog-item">
-                                <div class="blog-img">
-                                    <img src="resources/img/blog-3.jpg" alt="Image">
-                                </div>
-                                <div class="blog-title">
-                                    <h3>제목</h3>
-                                    <a class="btn" href="newsDeatil.do">+</a>
-                                </div>
-                                <div class="blog-meta">
-                                  2021-09-24
-                                </div>
-                                <div class="blog-text">
-                                    <p>
-                                        내용
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+                        
+                        
+                        
+                        
                     </div>
                 </div>
             </div>

@@ -1,10 +1,11 @@
  <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Product - Co., Ltd.</title>
+        <title>Product - MDR Co., Ltd.</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Construction Company Website Template" name="keywords">
         <meta content="Construction Company Website Template" name="description">
@@ -28,9 +29,20 @@
         <!-- Template Stylesheet -->
         <link href="resources/css/style.css" rel="stylesheet">
     <style type="text/css">
-    
+ 
+    		
     		.in {
     		 display: inline-block;
+    		}
+    		
+    		.big img{
+    		transform:scale(1.0);        
+ 			 transition: transform .5s; 
+    		}
+    		
+    		.big:hover img {
+    			transform: scale(1.1);
+    			transition: transform .5s; 
     		}	
     </style>
     	
@@ -66,90 +78,64 @@
                         <h2>MDR 제품</h2>
                     </div>
                     <div class="row">
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <a href="#product1" data-toggle="modal">
+                        <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                            <a href="product1.do">
                             <div class="team-item">
-                                <div class="team-img">
-                                    <img src="resources/img/제품.jpg" alt="Team Image">
+                                <div class="team-img big">
+                                    <img src="resources/img/제품1.png" alt="Team Image">
                                 </div>
                                 <div class="team-text">
-                                    <h2>모델명</h2>
-                                    <p>제품명</p>
+                                      <h2>ITB-RTMS20</h2>
+                                    <p>실시간통합관리시스템</p>
                                 </div>
                                 
                             </div>
                             </a>
                         </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                            <a href="#product2" data-toggle="modal">
+                        <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+                            <a href="product2.do">
                             <div class="team-item">
-                                <div class="team-img">
-                                    <img src="resources/img/제품.jpg" alt="Team Image">
+                                <div class="team-img big">
+                                    <img src="resources/img/제품2.png" alt="Team Image">
                                 </div>
                                 <div class="team-text">
-                                    <h2>모델명</h2>
-                                    <p>제품명</p>
+                                    <h2>ITB-IONDT20</h2>
+                                    <p>포터블전위감쇄시간 측정기</p>
                                 </div>
                                 
                             </div>
                             </a>
                         </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                            <a href="#product3" data-toggle="modal">
+                        <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.3s">
+                            <a href="product3.do">
                             <div class="team-item">
-                                <div class="team-img">
-                                    <img src="resources/img/제품.jpg" alt="Team Image">
+                                <div class="team-img big">
+                                    <img src="resources/img/제품3.png" alt="Team Image">
                                 </div>
                                 <div class="team-text">
-                                    <h2>모델명</h2>
-                                    <p>제품명</p>
+                                 <h2>ITB-VPSYS20</h2>
+                                    <p>비전 이미지 딥러닝을 이용한 AI 주차 시스템</p>
                                 </div>
                                 
                             </div>
                             </a>
                         </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="#product4" data-toggle="modal">
-                            <div class="team-item">
-                                <div class="team-img">
-                                    <img src="resources/img/제품.jpg" alt="Team Image">
+                        <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.4s">
+                            <a href="product4.do" >
+                            <div class="team-item ">
+                                <div class="team-img big">
+                                    <img src="resources/img/제품4.png" alt="Team Image">
                                 </div>
                                 <div class="team-text">
-                                    <h2>모델명</h2>
-                                    <p>제품명</p>
+                                 	 <h2>ITB-H RSYS20</h2>
+                                    <p>수소개질장치</p>
                                 </div>
                                 
                             </div>
                             </a>
                         </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <a href="#product5" data-toggle="modal">
-                            <div class="team-item">
-                                <div class="team-img">
-                                    <img src="resources/img/제품.jpg" alt="Team Image">
-                                </div>
-                                <div class="team-text">
-                                    <h2>모델명</h2>
-                                    <p>제품명</p>
-                                </div>
-                                
-                            </div>
-                            </a>
-                        </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                            <a href="#product6" data-toggle="modal">
-                            <div class="team-item">
-                                <div class="team-img">
-                                    <img src="resources/img/제품.jpg" alt="Team Image">
-                                </div>
-                                <div class="team-text">
-                                    <h2>모델명</h2>
-                                    <p>제품명</p>
-                                </div>
-                                
-                            </div>
-                            </a>
-                        </div>
+                        
+                        
                      </div>
                 </div>
             </div>
@@ -160,203 +146,10 @@
 
             <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
         </div>
-<div class="modal fade" id="product1">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-      
-        <!-- Modal Header -->
-        <div class="modal-header" align="center">
-          <h4><label for="validationTextarea">제품1</label></h4>
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-        </div>
-        
-        <!-- Modal body -->
-        <div class="modal-body">
-                    		
-                            
-     <div style="text-align: center;">
-    
-    
-    <img src="resources/img/제품.jpg" alt="Team Image">
 
-    
-    </div>
-
-   
-
-
-        </div>
-        
-      </div>
-    </div>
-    
-    
-  </div>
-<div class="modal fade" id="product2">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-      
-        <!-- Modal Header -->
-        <div class="modal-header" align="center">
-          <h4><label for="validationTextarea">제품2</label></h4>
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-        </div>
-        
-        <!-- Modal body -->
-        <div class="modal-body">
-                    		
-                            
-     <div style="text-align: center;">
-    
-    
-    <img src="resources/img/제품.jpg" alt="Team Image">
-
-    
-    </div>
-
-   
-
-
-        </div>
-        
-      </div>
-    </div>
-    
-    
-  </div>
-<div class="modal fade" id="product3">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-      
-        <!-- Modal Header -->
-        <div class="modal-header" align="center">
-          <h4><label for="validationTextarea">제품3</label></h4>
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-        </div>
-        
-        <!-- Modal body -->
-        <div class="modal-body">
-                    		
-                            
-     <div style="text-align: center;">
-    
-    
-    <img src="resources/img/제품.jpg" alt="Team Image">
-
-    
-    </div>
-
-   
-
-
-        </div>
-        
-      </div>
-    </div>
-    
-    
-  </div>
-<div class="modal fade" id="product4">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-      
-        <!-- Modal Header -->
-        <div class="modal-header" align="center">
-          <h4><label for="validationTextarea">제품4</label></h4>
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-        </div>
-        
-        <!-- Modal body -->
-        <div class="modal-body">
-                    		
-                            
-     <div style="text-align: center;">
-    
-    
-    <img src="resources/img/제품.jpg" alt="Team Image">
-
-    
-    </div>
-
-   
-
-
-        </div>
-        
-      </div>
-    </div>
-    
-    
-  </div>
-<div class="modal fade" id="product5">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-      
-        <!-- Modal Header -->
-        <div class="modal-header" align="center">
-          <h4><label for="validationTextarea">제품5</label></h4>
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-        </div>
-        
-        <!-- Modal body -->
-        <div class="modal-body">
-                    		
-                            
-     <div style="text-align: center;">
-    
-    
-    <img src="resources/img/제품.jpg" alt="Team Image">
-
-    
-    </div>
-
-   
-
-
-        </div>
-        
-      </div>
-    </div>
-    
-    
-  </div>
-<div class="modal fade" id="product6">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-      
-        <!-- Modal Header -->
-        <div class="modal-header" align="center">
-          <h4><label for="validationTextarea">제품6</label></h4>
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-        </div>
-        
-        <!-- Modal body -->
-        <div class="modal-body">
-                    		
-                            
-  <hr class="my-4">
-     <div style="text-align: center;">
-    
-    
-    <img src="resources/img/제품.jpg" alt="Team Image">
-
-    
-    </div>
-
-   
-
-
-        </div>
-        
-      </div>
-    </div>
-    
-    
-  </div>
-        <!-- JavaScript Libraries -->
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+ 		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-       <script src="resources/easing/easing.min.js"></script>
+        <script src="resources/easing/easing.min.js"></script>
         <script src="resources/wow/wow.min.js"></script>
         <script src="resources/owlcarousel/owl.carousel.min.js"></script>
         <script src="resources/isotope/isotope.pkgd.min.js"></script>
@@ -364,8 +157,11 @@
         <script src="resources/waypoints/waypoints.min.js"></script>
         <script src="resources/counterup/counterup.min.js"></script>
         <script src="resources/slick/slick.min.js"></script>
+ 		
 
-        <!-- Template Javascript -->
-        <script src="resources/js/main.js"></script>
+
+
+        <!-- JavaScript Libraries -->
+      <!-- Template Javascript -->
     </body>
 </html>

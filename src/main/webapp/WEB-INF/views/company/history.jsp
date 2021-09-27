@@ -451,7 +451,7 @@ p:last-child{
             </time>          
           </header>
           <div class="card__content">
-            <p>2018 기술혁신형 창업기업 지운사업 선정</p>
+            <p>2018 기술혁신형 창업기업 지원사업 선정</p>
           </div>
         </div>
         <div class="timeline__card card">

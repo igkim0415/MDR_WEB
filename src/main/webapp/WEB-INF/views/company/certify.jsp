@@ -47,7 +47,7 @@
                         <div class="carousel-item active" >
                         <div class="carousel-caption" >
                         
-                            <h1 class="animated fadeInLeft" style="margin-bottom: 250px; color: #FFF; font-size: 48px;">회사소개</h1>
+                            <h1 class="animated fadeInLeft" style="margin-bottom: 250px; color: #FFF; font-size: 48px;"><spring:message code="company" /></h1>
                    
                         </div>
                     </div>
@@ -197,6 +197,18 @@
         <script src="resources/slick/slick.min.js"></script>
 
         <!-- Template Javascript -->
-        <script src="resources/js/main.js"></script>
+        <script type="text/javascript">
+        var portfolioIsotope = $('.portfolio-container').isotope({
+            itemSelector: '.portfolio-item',
+            layoutMode: 'fitRows'
+        });
+
+        $('#portfolio-flters li').on('click', function () {
+            $("#portfolio-flters li").removeClass('filter-active');
+            $(this).addClass('filter-active');
+
+            portfolioIsotope.isotope({filter: $(this).data('filter')});
+        });
+        </script>
     </body>
 </html>

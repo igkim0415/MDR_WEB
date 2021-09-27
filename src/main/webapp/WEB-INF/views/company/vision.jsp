@@ -1,10 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Location - MDR Co., Ltd.</title>
+        <title>Vision - MDR Co., Ltd.</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Construction Company Website Template" name="keywords">
         <meta content="Construction Company Website Template" name="description">
@@ -50,6 +51,27 @@
                 </div>
             </div>
             <!-- Page Header End -->
+            
+            <div class="single" style="text-align: center;">
+            	 <br>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="single-content wow fadeInUp">
+                                <img src="resources/img/vision.jpg" />
+                          
+                                
+                            </div>
+                            
+                        
+                            
+                            
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
 
 
             
