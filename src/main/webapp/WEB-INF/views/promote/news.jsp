@@ -29,6 +29,12 @@
 
         <!-- Template Stylesheet -->
         <link href="resources/css/style.css" rel="stylesheet">
+        <style type="text/css">
+        	.newsc {
+        		color:#ffffff;
+        	}
+        
+        </style>
     </head>
 
     <body>
@@ -65,18 +71,18 @@
                                 <img src="resources/img/news1.png" />
                                 </c:if>
                                 <c:if test="${language == 'en'}">
-                                <img src="resources/img/news1_e.png" />
+                                <img src="resources/img/news1e.png" />
                                 </c:if>
                                 </div>
                                 
                                 <div class="blog-meta">
-                                   <h5><spring:message code="news2" /></h5>
+                                   <h5 style="color: #00b050;"><spring:message code="news2" /></h5>
                                 </div>
-                                <div class="blog-text">
+                                <div class="blog-text newsc">
                                     <p>
                                      <spring:message code="news2m" />
                                     </p>
-                                    <a href="" style="font-size: 8px; color: " ><spring:message code="read" /></a>
+                                    <a href="newsDetail.do" style="font-size: 8px; color: " ><spring:message code="read" /></a>
                                 </div>
                             </div>
                         </div>
@@ -86,11 +92,13 @@
                                     <img src="resources/img/news2.jpg" alt="Image">
                                 </div>
                                 <div class="blog-meta">
-                                    <h5><spring:message code="news1" /></h5>
+                                    <h5 style="color: #00b050;"><spring:message code="news1" /></h5>
                                 </div>
-                                <div class="blog-text">
+                                <div class="blog-text newsc">
+                                <c:if test="${language == 'ko'}">
                                 <spring:message code="news1m" />
                                     <br>
+                                    </c:if>
                                  <c:if test="${language == 'en'}">
                                     <p>
 										<spring:message code="news1s" />

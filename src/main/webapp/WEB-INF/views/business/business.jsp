@@ -45,7 +45,7 @@
 		}
 		
 		.hrd {
-			border: solid 1px #94bdf5;
+			border: solid 1px #00703d;
 		}
 	
 	</style>

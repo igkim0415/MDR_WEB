@@ -46,7 +46,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-4 col-md-12">
                                 <a href="index.do">
-                                    <img src="resources/img/ci2.png" style="max-width: 100%; height: auto !important;" >
+                                    <img src="resources/img/ci1.jpg" style="max-width: 100%; height: auto !important;" >
                                     <!-- <img src="img/logo.jpg" alt="Logo"> -->
                                 </a>
                         </div>

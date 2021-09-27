@@ -43,7 +43,9 @@
     		.big:hover img {
     			transform: scale(1.1);
     			transition: transform .5s; 
-    		}	
+    		}
+    		
+    	
     </style>
     	
     </head>
@@ -74,11 +76,11 @@
             <div class="team">
                 <div class="container">
                     <div class="section-header text-center">
-                        <p>MDR</p>
+                        <p style="color: #000000;">MDR</p>
                         <h2><spring:message code="mproduct" /></h2>
                     </div>
                     <div class="row">
-                        <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="col-lg-4 col-md-4 wow fadeInUp line" data-wow-delay="0.1s">
                             <a href="product1.do">
                             <div class="team-item">
                                 <div class="team-img big">
@@ -92,7 +94,7 @@
                             </div>
                             </a>
                         </div>
-                        <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="col-lg-4 col-md-4 wow fadeInUp line" data-wow-delay="0.2s">
                             <a href="product2.do">
                             <div class="team-item">
                                 <div class="team-img big">
@@ -106,7 +108,7 @@
                             </div>
                             </a>
                         </div>
-                        <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="col-lg-4 col-md-4 wow fadeInUp line" data-wow-delay="0.3s">
                             <a href="product3.do">
                             <div class="team-item">
                                 <div class="team-img big">
@@ -120,7 +122,7 @@
                             </div>
                             </a>
                         </div>
-                        <div class="col-lg-4 col-md-4 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="col-lg-4 col-md-4 wow fadeInUp line" data-wow-delay="0.4s">
                             <a href="product4.do" >
                             <div class="team-item ">
                                 <div class="team-img big">

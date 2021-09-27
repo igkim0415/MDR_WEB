@@ -139,7 +139,7 @@
                                 </div>
                                 
                                 <div class="blog-meta">
-                                    <p><a href="">ITB-RTMS20</a></p>
+                                    <p>ITB-RTMS20</p>
                                 </div>
                                 <div class="blog-text">
                                     <p>
@@ -157,7 +157,7 @@
                                 </div>
                                 
                                 <div class="blog-meta">
-                                    <p><a href="">ITB-IONDT20</a></p>
+                                    <p>ITB-IONDT20</p>
                                 </div>
                                 <div class="blog-text">
                                     <p>
@@ -175,7 +175,7 @@
                                 </div>
                                 
                                 <div class="blog-meta">
-                                    <p>ITB-VPSYS20</p>
+                             <p>ITB-VPSYS20</p>
                                 </div>
                                 <div class="blog-text">
                                     <p>
@@ -193,7 +193,9 @@
                                 </div>
                                 
                                 <div class="blog-meta">
+                               
                                     <p>ITB-H RSYS20</p>
+                            
                                  
                                 </div>
                                 <div class="blog-text">

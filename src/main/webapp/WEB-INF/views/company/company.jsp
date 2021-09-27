@@ -28,6 +28,9 @@
 
         <!-- Template Stylesheet -->
         <link href="resources/css/style.css" rel="stylesheet">
+        <style type="text/css">
+
+        </style>
     </head>
 
     <body>
@@ -79,67 +82,10 @@
             <!-- FAQs Start -->
             <div class="faqs">
                 <div class="container">
-                    <div class="section-header text-center">
-                        <p>회사정보</p>
-                        <h2>MDR 정보</h2>
-                    </div>
+                    
                     <div class="row">
-                        <div class="col-md-6">
-                            <div id="accordion-1">
-                                <div class="card wow fadeInLeft" data-wow-delay="0.1s">
-                                    <div class="card-header">
-                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseOne">
-                                           회사명
-                                        </a>
-                                    </div>
-                                    <div id="collapseOne" class="collapse" data-parent="#accordion-1">
-                                        <div class="card-body">
-                                           주식회사 엠디알
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card wow fadeInLeft" data-wow-delay="0.2s">
-                                    <div class="card-header">
-                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseTwo">
-                                            설립일
-                                        </a>
-                                    </div>
-                                    <div id="collapseTwo" class="collapse" data-parent="#accordion-1">
-                                        <div class="card-body">
-                                            2018년
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div id="accordion-2">
-                                <div class="card wow fadeInRight" data-wow-delay="0.1s">
-                                    <div class="card-header">
-                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseSix">
-                                           위치
-                                        </a>
-                                    </div>
-                                    <div id="collapseSix" class="collapse" data-parent="#accordion-2">
-                                        <div class="card-body">
-                                         충남 천안시 서북구 직산읍 직산로 136, 번영관 2106호 (삼은리, 충남테크노파크천안밸리)
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card wow fadeInRight" data-wow-delay="0.2s">
-                                    <div class="card-header">
-                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseSeven">
-                                           사업분야
-                                        </a>
-                                    </div>
-                                    <div id="collapseSeven" class="collapse" data-parent="#accordion-2">
-                                        <div class="card-body">
-                                           유무선 통신장비 개발, 반도체 제조설비, IoT, ICT 및 컴퓨터 시스템 응용 소프트웨어 개발, 의학 및 약학, 공학, 자연과학 융합 연구개발
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+ 
+                        
                     </div>
                 </div>
             </div>

@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
+     <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -61,22 +62,22 @@
                                 <div class="contact-item">
                                     <i class="flaticon-address"></i>
                                     <div class="contact-text">
-                                        <h2>주소</h2>
-                                        <p>충남 천안시 서북구 직산읍 직산로 136, 번영관 2106호</p>
-                                        <p>(삼은리, 충남테크노파크천안밸리)</p>
+                                        <h2><spring:message code="address" /></h2>
+                                        <p><spring:message code="address1" /></p>
+                                        <p><spring:message code="address2" /></p>
                                     </div>
                                 </div>
                                 <div class="contact-item">
                                     <i class="flaticon-call"></i>
                                     <div class="contact-text">
-                                        <h2>전화번호</h2>
+                                        <h2><spring:message code="tel" /></h2>
                                         <p>041-588-0903</p>
                                     </div>
                                 </div>
                                 <div class="contact-item">
                                     <i class="flaticon-send-mail"></i>
                                     <div class="contact-text">
-                                        <h2>이메일</h2>
+                                        <h2><spring:message code="email" /></h2>
                                         <p>mdrinfo@mdrco.co.kr</p>
                                     </div>
                                 </div>
@@ -88,6 +89,7 @@
                                 <form action="mailsend.do" id="contactForm" novalidate="novalidate">
                                 <input type="hidden" class="form-control" name="mtitle" value="MDR 문의" />
                                 <input type="hidden" class="form-control" name="toemail"  value="chdl1229@gmail.com" />
+                                <c:if test="${language == 'ko'}">
                                     <div class="control-group">
                                         <input type="text" class="form-control" name="name" id="name" placeholder="이름" required="required" data-validation-required-message="Please enter your name" />
                                         <p class="help-block text-danger"></p>
@@ -108,8 +110,31 @@
                                         <textarea class="form-control" name="message" id="message" placeholder="문의내용" required="required" data-validation-required-message="Please enter your message"></textarea>
                                         <p class="help-block text-danger"></p>
                                     </div>
+                                    </c:if>
+                                <c:if test="${language == 'en'}">
+                                    <div class="control-group">
+                                        <input type="text" class="form-control" name="name" id="name" placeholder="Name" required="required" data-validation-required-message="Please enter your name" />
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <input type="text" class="form-control" name="cname" id="cname" placeholder="Corporate Name" required="required" data-validation-required-message="Please enter your company" />
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone Number" required="required" data-validation-required-message="Please enter a phone" maxlength="13"/>
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="control-group">
+                                        <textarea class="form-control" name="message" id="message" placeholder="Messages" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    </c:if>
                                     <div>
-                                        <button class="btn" type="submit" id="sendMessageButton">메일 발송</button>
+                                        <button class="btn" type="submit" id="sendMessageButton"><spring:message code="send" /></button>
                                     </div>
                                 </form>
                             </div>

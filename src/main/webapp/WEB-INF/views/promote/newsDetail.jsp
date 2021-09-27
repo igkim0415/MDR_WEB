@@ -55,7 +55,7 @@
                                 <img src="resources/img/news1.png" />
                                 </c:if>
                                 <c:if test="${language == 'en'}">
-                                <img src="resources/img/news1_e.png" />
+                                <img src="resources/img/news1e.png" />
                                 </c:if>
                                
                                 <p>
@@ -65,7 +65,7 @@
                             </div>
                             
                             
-                         <button type="button" class="success" onclick="location.href='news.do' "><spring:message code="list" /></button>
+                             <a class="btns" href="news.do"><spring:message code="list" /></a>
 
 
                             

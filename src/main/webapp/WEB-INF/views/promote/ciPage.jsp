@@ -58,14 +58,14 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="single-content wow fadeInUp">
-                                <img src="resources/img/ci.png" />
+                                <img src="resources/img/ci.jpg" />
                                 <h2>디자인 의도</h2>
                                 <br>
                                 <p>
                                 	내용
                                 </p>
                                 <hr>
-                                <img src="resources/img/ci.png" />
+                                <img src="resources/img/ci.jpg" />
                             </div>
                             
                             

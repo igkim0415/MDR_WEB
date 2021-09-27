@@ -53,15 +53,24 @@
                             <div class="single-content wow fadeInUp">
                             
                                 <img src="resources/img/news2.jpg" />
-                               
-                                <p>
+                               	<h4><spring:message code="news1" /></h4>
+                               	
+                               	<div class="col-md-12">
+                                <p style="text-align: center;">
+                                <c:if test="${language == 'ko'}">
                                 	<spring:message code="news1m" />
+                                	</c:if>
+                                	<c:if test="${language == 'en'}">
+                                	<spring:message code="news1d" />
+                                	</c:if>
                                 </p>
+                               	</div>
+                               	</div>
                                 
+                        <a class="btns" href="news.do"><spring:message code="list" /></a>
                             </div>
                             
                             
-                        <a class="btns" href="news.do"><spring:message code="list" /></a>
 
 
                             

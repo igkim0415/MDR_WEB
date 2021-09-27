@@ -1,10 +1,16 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+        <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>ITB-H RSYS20수소개질장치 - MDR Co., Ltd.</title>
+        <c:if test="${language == 'ko'}">
+        <title>ITB-H RSYS20 수소개질장치 - MDR Co., Ltd.</title>
+        </c:if>
+        <c:if test="${language == 'en'}">
+        <title>ITB-H RSYS20 Hydrogen Reformer - MDR Co., Ltd.</title>
+        </c:if>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Construction Company Website Template" name="keywords">
         <meta content="Construction Company Website Template" name="description">
@@ -27,9 +33,13 @@
 
         <!-- Template Stylesheet -->
         <link href="resources/css/style.css" rel="stylesheet">
-    	<style type="text/css">
-
-    	</style>
+    	  <style type="text/css">
+          	.btns:hover {
+        		    color: #000000;
+    outline: none;
+    text-decoration: none;
+        	}
+        </style>
     </head>
 		
     <body>
@@ -46,7 +56,14 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="single-content wow fadeInUp">
-                                <img src="resources/img/제품4-1.jpg" />
+                                    <c:if test="${language == 'ko'}">
+                             <img src="resources/img/제품4-1.jpg" />
+                             </c:if>
+                             <c:if test="${language == 'ko'}">
+                             
+                             <img src="resources/img/제품e4.jpg" />
+                             </c:if>
+                                
                        
                             </div>
                             
