@@ -135,6 +135,63 @@
                             </div>
                             </a>
                         </div>
+                        <div class="col-lg-4 col-md-4 wow fadeInUp line" data-wow-delay="0.4s">
+                            <a href="#" >
+                            <div class="team-item ">
+                                <div class="team-img big">
+                                    <img src="resources/img/mess.PNG" alt="Team Image">
+                                </div>
+                                <div class="team-text">
+                                 	 <p><spring:message code="pname5" /></p>
+                                    <p><spring:message code="pname5" /></p>
+                                </div>
+                                
+                            </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 wow fadeInUp line" data-wow-delay="0.4s">
+                            <a href="#" >
+                            <div class="team-item ">
+                                <div class="team-img big">
+                                 <img src="resources/img/scaner.PNG" alt="Team Image">
+                                   
+                                </div>
+                                <div class="team-text">
+                                 	  <p><spring:message code="pname6" /></p>
+                                    <p><spring:message code="pname6" /></p>
+                                </div>
+                                
+                            </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 wow fadeInUp line" data-wow-delay="0.4s">
+                            <a href="#" >
+                            <div class="team-item ">
+                                <div class="team-img big">
+                                    <img src="resources/img/3d.PNG" alt="Team Image">
+                                </div>
+                                <div class="team-text">
+                                <p><spring:message code="pname7" /></p>
+                                    <p><spring:message code="pname7" /></p>
+                                </div>
+                                
+                            </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 wow fadeInUp line" data-wow-delay="0.4s">
+                            <a href="#" >
+                            <div class="team-item ">
+                                <div class="team-img big">
+                                    <img src="resources/img/esd.PNG" alt="Team Image">
+                                </div>
+                                <div class="team-text">
+                                 	 <p><spring:message code="pname8" /></p>
+                                    <p><spring:message code="pname8" /></p>
+                                </div>
+                                
+                            </div>
+                            </a>
+                        </div>
                         
                         
                      </div>

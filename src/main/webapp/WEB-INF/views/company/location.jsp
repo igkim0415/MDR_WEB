@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
+    <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -74,7 +75,7 @@
                                     <i class="flaticon-call"></i>
                                     <div class="contact-text">
                                         <h2><spring:message code="tel" /></h2>
-                                        <p>041-588-0903</p>
+                                        <p>T : 041-588-0903 <br> F : 041-588-0902</p>
                                     </div>
                                 </div>
                                 <div class="contact-item">
@@ -88,10 +89,12 @@
                         </div>
                         <div class="col-md-6">
                          
-           
+           						<c:if test="${language == 'ko' or language == 'null'}">
 								<div id="map" style="width:530px;height:470px;"></div>
-       
-        
+       							</c:if>
+       							<c:if test="${language == 'en'}">
+       							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d398.891489761619!2d127.159912!3d36.8871923!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b2f1ae442dd53%3A0x17a1101f8c2d79ce!2s43-1%20Sameun-ri%2C%20Jiksan-eup%2C%20Seobuk-gu%2C%20Cheonan%2C%20Chungcheongnam-do!5e0!3m2!1sen!2skr!4v1632970856994!5m2!1sen!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        						</c:if>
                         </div>
                     </div>
                 </div>
@@ -123,6 +126,7 @@
         <!-- Template Javascript -->
         <script src="resource/js/main.js"></script>
         <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=981aa31d5f0215d1020b91731495714d"></script>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNINM9an3UEecU4Mg8LAHnY4J2DkvN42E&language=en"></script>
 	<script>
 var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
     mapOption = { 
@@ -142,6 +146,8 @@ var marker = new kakao.maps.Marker({
 
 // 마커가 지도 위에 표시되도록 설정합니다
 marker.setMap(map);
+
+
 </script>
     </body>
 </html>

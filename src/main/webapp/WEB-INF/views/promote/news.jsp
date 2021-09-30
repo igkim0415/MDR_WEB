@@ -44,8 +44,8 @@
             
             <!-- Page Header Start -->
             <div class="page-header" >
-               <img src="resources/img/promo.jpg" alt="Carousel Image">
-                <div class="carousel-caption" style="margin-bottom: 250px;">
+               <img src="resources/img/promote.jpg" alt="Carousel Image">
+                <div class="carousel-caption" style="margin-bottom: 150px;">
                             <h1 style="color: #ffffff;"><spring:message code="notice" /></h1>
                         </div>
             </div>

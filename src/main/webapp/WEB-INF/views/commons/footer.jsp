@@ -9,7 +9,8 @@
                             <div class="footer-contact">
                                 <h2><spring:message code="company2" /></h2>
                                 <p><i class="fa fa-map-marker-alt"></i><spring:message code="location2" /></p>
-                                <p><i class="fa fa-phone-alt"></i>041-588-0903</p>
+                                <p><i class="fa fa-phone-alt"></i>T : 041-588-0903</p>
+                                <p><i class="fas fa-fax"></i> F : 041-588-0902</p>
                                 <p><i class="fa fa-envelope"></i>mdrinfo@mdrco.co.kr</p>
                                
                             </div>

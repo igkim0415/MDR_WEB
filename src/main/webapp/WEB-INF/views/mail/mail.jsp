@@ -72,7 +72,7 @@
                                     <i class="flaticon-call"></i>
                                     <div class="contact-text">
                                         <h2><spring:message code="tel" /></h2>
-                                        <p>041-588-0903</p>
+                                        <p>T : 041-588-0903 <br> F : 041-588-0902 </p>
                                     </div>
                                 </div>
                                 <div class="contact-item">

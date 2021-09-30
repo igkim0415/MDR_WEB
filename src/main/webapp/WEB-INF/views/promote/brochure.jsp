@@ -37,10 +37,10 @@
             
             <!-- Page Header Start -->
             <div class="page-header" >
-               <img src="resources/img/promo.jpg" alt="Carousel Image">
+               <img src="resources/img/promote.jpg" alt="Carousel Image">
                 <div class="container">
                     <div class="row">
-                        <div class="carousel-caption" style="margin-bottom: 150px;">
+                        <div class="carousel-caption" style="margin-bottom: 100px;">
                             <h1 style="color: #ffffff;"><spring:message code="promote" /></h1>
                             <p><spring:message code="mains" /></p>
                             <br>

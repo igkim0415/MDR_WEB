@@ -304,61 +304,94 @@ img {
                             </div>
                             </a>
                         </div>
+                        <div class="col-lg-3 col-md-3 wow fadeInUp" data-wow-delay="0.2s">
+                          <a href="#">  
+                            <div class="blog-item">
+                                <div class="blog-img">
+                                   <img src="resources/img/mess.PNG" alt="Image">
+                                </div>
+                                
+                                <div class="blog-meta">
+                               
+                                    <p>MES 시스템</p>
+                            
+                                 
+                                </div>
+                                <div class="blog-text">
+                                    <p style="color: #000000;">
+                                    	<spring:message code="pname5" />
+                                    </p>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-3 wow fadeInUp" data-wow-delay="0.2s">
+                          <a href="#">  
+                            <div class="blog-item">
+                                <div class="blog-img">
+                                   <img src="resources/img/scaner.PNG" alt="Image">
+                                </div>
+                                
+                                <div class="blog-meta">
+                               
+                                    <p>Smart Scanner</p>
+                            
+                                 
+                                </div>
+                                <div class="blog-text">
+                                    <p style="color: #000000;">
+                                    	<spring:message code="pname6" />
+                                    </p>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-3 wow fadeInUp" data-wow-delay="0.2s">
+                          <a href="#">  
+                            <div class="blog-item">
+                                <div class="blog-img">
+                                   <img src="resources/img/3d.PNG" alt="Image">
+                                </div>
+                                
+                                <div class="blog-meta">
+                               
+                                    <p>3차원 발목관절 운동 치료기</p>
+                            
+                                 
+                                </div>
+                                <div class="blog-text">
+                                    <p style="color: #000000;">
+                                    	<spring:message code="pname7" />
+                                    </p>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-3 wow fadeInUp" data-wow-delay="0.2s">
+                          <a href="#">  
+                            <div class="blog-item">
+                                <div class="blog-img">
+                                   <img src="resources/img/esd.PNG" alt="Image">
+                                </div>
+                                
+                                <div class="blog-meta">
+                               
+                                    <p>ESD 관리 시스템</p>
+                            
+                                 
+                                </div>
+                                <div class="blog-text">
+                                    <p style="color: #000000;">
+                                    	<spring:message code="pname8" />
+                                    </p>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
                     </div>
-	<h2 style="text-align:center">Slideshow Gallery</h2>
+	
 
-<div class="container">
-  <div class="mySlides">
-    <img src="resources/img/제품3.png" >
-  </div>
 
-  <div class="mySlides">
-    <img src="resources/img/제품2.png" >
-  </div>
-
-  <div class="mySlides">
-    <img src="resources/img/제품4.png" >
-  </div>
-    
-  <div class="mySlides">
-    <img src="resources/img/3023.png">
-  </div>
-
-  <div class="mySlides">
-    <img src="resources/img/mes.png" >
-  </div>
-    
-  <div class="mySlides">
-    <img src="resources/img/mes2.png" >
-  </div>
-    
-  <a class="prev" onclick="plusSlides(-1)">❮</a>
-  <a class="next" onclick="plusSlides(1)">❯</a>
-
-  <div class="caption-container">
-    <p id="caption"></p>
-  </div> 
-  <div class="row">
-    <div class="column">
-      <img class="demo cursor" src="http://placehold.it/500x100" style="width:100%" onclick="currentSlide(1)" alt="요건가?">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="http://placehold.it/500x100" style="width:100%" onclick="currentSlide(2)" alt="Trolltunga, Norway">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="http://placehold.it/500x100" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="resources/img/3023.png" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="http://placehold.it/500x100" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
-    </div>    
-    <div class="column">
-      <img class="demo cursor" src="http://placehold.it/500x100" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
-    </div>
-  </div>
-</div>
             <!-- Testimonial End -->
                 </div>
                 
@@ -384,35 +417,6 @@ img {
         <!-- Template Javascript -->
         <script src="resources/js/main.js"></script>
         
-     <script type="text/javascript">
-     var slideIndex = 1;
-     showSlides(slideIndex);
-
-     function plusSlides(n) {
-       showSlides(slideIndex += n);
-     }
-
-     function currentSlide(n) {
-       showSlides(slideIndex = n);
-     }
-
-     function showSlides(n) {
-       var i;
-       var slides = document.getElementsByClassName("mySlides");
-       var dots = document.getElementsByClassName("demo");
-       var captionText = document.getElementById("caption");
-       if (n > slides.length) {slideIndex = 1}
-       if (n < 1) {slideIndex = slides.length}
-       for (i = 0; i < slides.length; i++) {
-           slides[i].style.display = "none";
-       }
-       for (i = 0; i < dots.length; i++) {
-           dots[i].className = dots[i].className.replace(" active", "");
-       }
-       slides[slideIndex-1].style.display = "block";
-       dots[slideIndex-1].className += " active";
-       captionText.innerHTML = dots[slideIndex-1].alt;
-     }
-        </script>
+     
     </body>
 </html>
