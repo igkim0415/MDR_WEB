@@ -41,12 +41,13 @@
                <img src="resources/img/cont.jpg" alt="Carousel Image">
                 <div class="container">
                     <div class="row">
-                        <div class="carousel-item active" >
-                        <div class="carousel-caption" >
-                            <h1 class="animated fadeInLeft" style="margin-bottom: 250px; color: #FFF; font-size: 48px;"><spring:message code="contact" /></h1>
-                   
+                        <div class="carousel-caption" style="margin-bottom: 150px;">
+                            <h1 style="color: #ffffff;"><spring:message code="contact" /></h1>
+                            <p><spring:message code="mains" /></p>
+                            <br>
+                                <span>
+                            </span>
                         </div>
-                    </div>
                     </div>
                 </div>
             </div>
@@ -83,13 +84,13 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6" style="background:#00703d;">
                             <div class="contact-form">
                                 <div id="success"></div>
                                 <form action="mailsend.do" id="contactForm" novalidate="novalidate">
                                 <input type="hidden" class="form-control" name="mtitle" value="MDR 문의" />
                                 <input type="hidden" class="form-control" name="toemail"  value="chdl1229@gmail.com" />
-                                <c:if test="${language == 'ko'}">
+                                <c:if test="${language == 'ko' or language == 'null'}">
                                     <div class="control-group">
                                         <input type="text" class="form-control" name="name" id="name" placeholder="이름" required="required" data-validation-required-message="Please enter your name" />
                                         <p class="help-block text-danger"></p>

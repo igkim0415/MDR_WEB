@@ -39,13 +39,13 @@
                <img src="resources/img/promo.jpg" alt="Carousel Image">
                 <div class="container">
                     <div class="row">
-                        <div class="carousel-item active" >
-                        <div class="carousel-caption" >
-                        
-                            <h1 class="animated fadeInLeft" style="margin-bottom: 250px; color: #FFF;font-size: 48px;">홍보센터</h1>
-                   
+                        <div class="carousel-caption" style="margin-bottom: 150px;">
+                            <h1 style="color: #ffffff;"><spring:message code="promote" /></h1>
+                            <p><spring:message code="mains" /></p>
+                            <br>
+                                <span>
+                            </span>
                         </div>
-                    </div>
                     </div>
                 </div>
             </div>
@@ -58,14 +58,13 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="single-content wow fadeInUp">
-                                <img src="resources/img/ci.jpg" />
+                                <img src="resources/img/ci3.png" />
                                 <h2>디자인 의도</h2>
                                 <br>
                                 <p>
-                                	내용
+                                	태그가 컴퓨터 코딩과 소프트웨어를 연상시키며 연필은 여러과제와 연구나 공부를 연상시켜 나타냈습니다.
                                 </p>
-                                <hr>
-                                <img src="resources/img/ci.jpg" />
+                              
                             </div>
                             
                             

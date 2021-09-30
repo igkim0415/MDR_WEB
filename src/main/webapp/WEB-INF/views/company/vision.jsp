@@ -41,13 +41,13 @@
                <img src="resources/img/com.jpg" alt="Carousel Image">
                 <div class="container">
                     <div class="row">
-                        <div class="carousel-item active" >
-                        <div class="carousel-caption" >
-                        
-                            <h1 class="animated fadeInLeft" style="margin-bottom: 250px; color: #FFF; font-size: 48px;"><spring:message code="company" /></h1>
-                   
+                        <div class="carousel-caption" style="margin-bottom: 150px;">
+                            <h1 style="color: #ffffff;"><spring:message code="company" /></h1>
+                            <p><spring:message code="mains" /></p>
+                            <br>
+                                <span>
+                            </span>
                         </div>
-                    </div>
                     </div>
                 </div>
             </div>
@@ -60,10 +60,10 @@
                         <div class="col-lg-12">
                             <div class="single-content wow fadeInUp">
                                 <c:if test="${language == 'ko'}">
-                                <img src="resources/img/vision.jpg" />
+                                <img src="resources/img/visionn.jpg" />
                           	</c:if>
                                 <c:if test="${language == 'en'}">
-                                <img src="resources/img/vision_e.jpg" />
+                                <img src="resources/img/vision_ee.jpg" />
                           	</c:if>
                             </div>
                             

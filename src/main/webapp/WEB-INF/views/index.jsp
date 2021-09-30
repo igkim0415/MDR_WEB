@@ -25,13 +25,112 @@
         <link href="resources/lightbox/css/lightbox.min.css" rel="stylesheet">
         <link href="resources/slick/slick.css" rel="stylesheet">
         <link href="resources/slick/slick-theme.css" rel="stylesheet">
-
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
         <!-- Template Stylesheet -->
         <link href="resources/css/style.css" rel="stylesheet">
         
+        <style type="text/css">
+ * {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+      position: relative;
+    overflow: hidden;
+     width: 100%;
+     text-align: center;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: #00703d;
+  color : #ffffff;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 2px 16px;
+  color: black;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+        </style>
     </head>
 
     <body>
+  
         <div class="wrapper">
       
 		<jsp:include page="/WEB-INF/views/commons/headerAndLeft.jsp"></jsp:include>
@@ -108,14 +207,13 @@
                         </div>
                         <div class="col-lg-6 col-md-6">
                             <div class="section-header text-left">
-                                <p><spring:message code="main1" /></p>
-                                <h2><spring:message code="main2" /></h2>
+                                <h2 style="color: #003977;"><spring:message code="main2" /></h2>
+                                <h3 style="color: #8e8e8e;"><spring:message code="main3" /></h3>
                             </div>
                             <div class="about-text">
                                 <p>
                                <spring:message code="index2" />
                                 </p>
-                                <a class="btn" href="company.do"><spring:message code="more" /></a>
                             </div>
                         </div>
                     </div>
@@ -127,11 +225,11 @@
             <div class="blog">
                 <div class="container">
                     <div class="section-header text-center">
-                        <p>MDR</p>
-                        <h2><spring:message code="product" /></h2>
+                        <h2 style="color:#003977; "><spring:message code="products" /></h2>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                   
+                        <div class="row">
+                        <div class="col-lg-3 col-md-3 wow fadeInUp" data-wow-delay="0.2s">
                             <a href="product1.do"> 
                             <div class="blog-item">
                                 <div class="blog-img">
@@ -142,14 +240,14 @@
                                     <p>ITB-RTMS20</p>
                                 </div>
                                 <div class="blog-text">
-                                    <p>
+                                    <p style="color: #000000;"	>
                                      <spring:message code="pname1" />
                                     </p>
                                 </div>
                             </div>
                             </a>
                         </div>
-                        <div class="col-lg-6 col-md-6 wow fadeInUp">
+                        <div class="col-lg-3 col-md-3 wow fadeInUp">
                            <a href="product2.do">  
                             <div class="blog-item">
                                 <div class="blog-img">
@@ -160,14 +258,14 @@
                                     <p>ITB-IONDT20</p>
                                 </div>
                                 <div class="blog-text">
-                                    <p>
+                                    <p style="color: #000000;">
                                     	<spring:message code="pname2" />
                                     </p>
                                 </div>
                             </div>
                             </a>
                         </div>
-                        <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="col-lg-3 col-md-3 wow fadeInUp" data-wow-delay="0.2s">
                             <a href="product3.do"> 
                             <div class="blog-item">
                                 <div class="blog-img">
@@ -178,14 +276,14 @@
                              <p>ITB-VPSYS20</p>
                                 </div>
                                 <div class="blog-text">
-                                    <p>
+                                    <p style="color: #000000;">
                                     <spring:message code="pname3" />
                                     </p>
                                 </div>
                             </div>
                             </a>
                         </div>
-                        <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="col-lg-3 col-md-3 wow fadeInUp" data-wow-delay="0.2s">
                           <a href="product4.do">  
                             <div class="blog-item">
                                 <div class="blog-img">
@@ -199,7 +297,7 @@
                                  
                                 </div>
                                 <div class="blog-text">
-                                    <p>
+                                    <p style="color: #000000;">
                                     	<spring:message code="pname4" />
                                     </p>
                                 </div>
@@ -207,11 +305,65 @@
                             </a>
                         </div>
                     </div>
+	<h2 style="text-align:center">Slideshow Gallery</h2>
+
+<div class="container">
+  <div class="mySlides">
+    <img src="resources/img/제품3.png" >
+  </div>
+
+  <div class="mySlides">
+    <img src="resources/img/제품2.png" >
+  </div>
+
+  <div class="mySlides">
+    <img src="resources/img/제품4.png" >
+  </div>
+    
+  <div class="mySlides">
+    <img src="resources/img/3023.png">
+  </div>
+
+  <div class="mySlides">
+    <img src="resources/img/mes.png" >
+  </div>
+    
+  <div class="mySlides">
+    <img src="resources/img/mes2.png" >
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div> 
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="http://placehold.it/500x100" style="width:100%" onclick="currentSlide(1)" alt="요건가?">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="http://placehold.it/500x100" style="width:100%" onclick="currentSlide(2)" alt="Trolltunga, Norway">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="http://placehold.it/500x100" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="resources/img/3023.png" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="http://placehold.it/500x100" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="http://placehold.it/500x100" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+    </div>
+  </div>
+</div>
+            <!-- Testimonial End -->
                 </div>
+                
             </div>
             <!-- Blog End -->
-
-
            
 
             <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
@@ -232,13 +384,35 @@
         <!-- Template Javascript -->
         <script src="resources/js/main.js"></script>
         
-       <script type="text/javascript">
-       $(".regular").slick({
-           dots: true,
-           infinite: true,
-           slidesToShow: 3,
-           slidesToScroll: 3
-         });
-       </script>
+     <script type="text/javascript">
+     var slideIndex = 1;
+     showSlides(slideIndex);
+
+     function plusSlides(n) {
+       showSlides(slideIndex += n);
+     }
+
+     function currentSlide(n) {
+       showSlides(slideIndex = n);
+     }
+
+     function showSlides(n) {
+       var i;
+       var slides = document.getElementsByClassName("mySlides");
+       var dots = document.getElementsByClassName("demo");
+       var captionText = document.getElementById("caption");
+       if (n > slides.length) {slideIndex = 1}
+       if (n < 1) {slideIndex = slides.length}
+       for (i = 0; i < slides.length; i++) {
+           slides[i].style.display = "none";
+       }
+       for (i = 0; i < dots.length; i++) {
+           dots[i].className = dots[i].className.replace(" active", "");
+       }
+       slides[slideIndex-1].style.display = "block";
+       dots[slideIndex-1].className += " active";
+       captionText.innerHTML = dots[slideIndex-1].alt;
+     }
+        </script>
     </body>
 </html>

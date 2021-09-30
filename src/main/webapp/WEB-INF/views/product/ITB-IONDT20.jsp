@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
         <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+         <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -55,10 +56,10 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="single-content wow fadeInUp">
-                            <c:if test="${language == 'ko'}">
+                            <c:if test="${language == 'ko' or language == 'null'}">
                              <img src="resources/img/제품2-1.jpg" />
                              </c:if>
-                             <c:if test="${language == 'ko'}">
+                             <c:if test="${language == 'en'}">
                              
                              <img src="resources/img/제품e2.jpg" />
                              </c:if>
@@ -66,7 +67,7 @@
                             </div>
                             
                             
-                         <a class="btns" href="product.do">목록</a>
+                         <a class="btns" href="product.do"><spring:message code="list" /></a>
 
 
                             

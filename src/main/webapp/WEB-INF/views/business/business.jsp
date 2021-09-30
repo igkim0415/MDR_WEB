@@ -63,12 +63,13 @@
                <img src="resources/img/bis.jpg" alt="Carousel Image">
                 <div class="container">
                     <div class="row">
-                        <div class="carousel-item active" >
-                        <div class="carousel-caption" >
-                            <h1 class="animated fadeInLeft" style="margin-bottom: 250px; color: #FFF; font-size: 48px;"><spring:message code="business" /></h1>
-                   
+                        <div class="carousel-caption" style="margin-bottom: 150px;">
+                            <h1 style="color: #ffffff;"><spring:message code="business" /></h1>
+                            <p><spring:message code="mains" /></p>
+                            <br>
+                                <span>
+                            </span>
                         </div>
-                    </div>
                     </div>
                 </div>
             </div>

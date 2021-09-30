@@ -46,7 +46,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-4 col-md-12">
                                 <a href="index.do">
-                                    <img src="resources/img/ci1.jpg" style="max-width: 100%; height: auto !important;" >
+                                    <img src="resources/img/cis.png" style="max-width: 100%; height: auto !important;" >
                                     <!-- <img src="img/logo.jpg" alt="Logo"> -->
                                 </a>
                         </div>
@@ -59,39 +59,38 @@
                             <span class="navbar-toggler-icon"></span>
                         </button>
 
-                        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse"  >
                             <div class="navbar-nav mr-auto" >
-                                <a href="index.do" class="nav-item nav-link active"><spring:message code="main" /></a>
+                                <a href="index.do" class="nav-item nav-link active" style="color : #000000; font-size: 17px;"><spring:message code="main" /></a>
                                <div class="nav-item dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><spring:message code="company" /></a>
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" style="color : #000000; font-size: 17px;"><spring:message code="company" /></a>
                                     <div class="dropdown-menu">
-                                        <a href="company.do" class="dropdown-item"><spring:message code="company" /></a>
-                                        <a href="vision.do" class="dropdown-item"><spring:message code="vision" /></a>
+                                        <a href="vision.do" class="dropdown-item" 	><spring:message code="vision" /></a>
                                         <a href="history.do" class="dropdown-item"><spring:message code="history" /></a>
                                        <a href="certify.do" class="dropdown-item"><spring:message code="certify" /></a>
                                         <a href="location.do" class="dropdown-item"><spring:message code="location" /></a>
                                     </div>
                                 </div>
-                                <a href="business.do" class="nav-item nav-link"><spring:message code="business" /></a>
-                                <a href="product.do" class="nav-item nav-link"><spring:message code="product" /></a>
+                                <a href="business.do" class="nav-item nav-link" style="color : #000000; font-size: 17px;"><spring:message code="business" /></a>
+                                <a href="product.do" class="nav-item nav-link" style="color : #000000; font-size: 17px;"><spring:message code="product" /></a>
                                 <div class="nav-item dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><spring:message code="promote" /></a>
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" style="color : #000000; font-size: 17px;"><spring:message code="promote" /></a>
                                     <div class="dropdown-menu">
                                         <a href="cipage.do" class="dropdown-item"><spring:message code="ci" /></a>
                                         <a href="brochure.do" class="dropdown-item"><spring:message code="brochure" /></a>
                                         <a href="news.do" class="dropdown-item"><spring:message code="notice" /></a>
                                     </div>
                                 </div>
-                                <a href="mailPage.do" class="nav-item nav-link"><spring:message code="contact" /></a>
+                                <a href="mailPage.do" class="nav-item nav-link" style="color : #000000; font-size: 17px;"><spring:message code="contact" /></a>
                                 <div class="nav-item dropdown">
                                 <c:if test="${language == 'ko'}">
-                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><spring:message code="kor" /></a>
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" style="color : #000000; font-size: 17px;"><spring:message code="kor" /></a>
                                     <div class="dropdown-menu">
                                         <a href="index.do?lang=en" class="dropdown-item"><spring:message code="eng" /></a>
                                     </div>
                                     </c:if>
                                 <c:if test="${language == 'en'}">
-                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><spring:message code="eng" /></a>
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" style="color : #000000; font-size: 17px;"><spring:message code="eng" /></a>
                                     <div class="dropdown-menu">
                                         <a href="index.do?lang=ko" class="dropdown-item"><spring:message code="kor" /></a>
                                     </div>

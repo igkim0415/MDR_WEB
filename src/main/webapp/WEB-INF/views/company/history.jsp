@@ -161,6 +161,10 @@ CORE STYLES
   display: var(--timelineDisplay, grid);
   grid-row-gap: var(--timelineGroupsGap, 2rem);
 }
+.timeline4{
+  display: var(--timelineDisplay, grid);
+  grid-row-gap: var(--timelineGroupsGap, 2rem);
+}
 
 /*
 1. If timeline__year isn't displaed the gap between it and timeline__cards isn't displayed too
@@ -201,6 +205,15 @@ SKIN
 }
 
 .timeline3{
+  --uiTimelineMainColor: var(--timelineMainColor, #222);
+  --uiTimelineSecondaryColor: var(--timelineSecondaryColor, #fff);
+
+  border-left: var(--timelineLineWidth, 3px) solid var(--timelineLineBackgroundColor, var(--uiTimelineMainColor));
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+.timeline4{
   --uiTimelineMainColor: var(--timelineMainColor, #222);
   --uiTimelineSecondaryColor: var(--timelineSecondaryColor, #fff);
 
@@ -259,6 +272,9 @@ SETTINGS
 
 .timeline3{
   --timelineMainColor: #4b3e7a;
+}
+.timeline4{
+  --timelineMainColor: #f3dd54;
 }
 
 /*
@@ -319,24 +335,46 @@ p:last-child{
                <img src="resources/img/com.jpg" alt="Carousel Image">
                 <div class="container">
                     <div class="row">
-                        <div class="carousel-item active" >
-                        <div class="carousel-caption" >
-                        
-                            <h1 class="animated fadeInLeft" style="margin-bottom: 250px; color: #FFF; font-size: 48px;"><spring:message code="company" /></h1>
-                   
+                        <div class="carousel-caption" style="margin-bottom: 150px;">
+                            <h1 style="color: #ffffff;"><spring:message code="company" /></h1>
+                            <p><spring:message code="mains" /></p>
+                            <br>
+                                <span>
+                            </span>
                         </div>
-                    </div>
                     </div>
                 </div>
             </div>
 		<!-- Page Header End -->
+		
 
 
 		<!-- About Start -->
 		<div class="about wow fadeInUp" data-wow-delay="0.1s">
 			<div class="container">
+			<div class="section-header text-center">
+                        <h2 style="color: #003977"><spring:message code="history" /></h2>
+                    </div>
 				<div class="row align-items-center">
 <div class="page">
+  <div class="timeline4">
+    <div class="timeline__group">
+     <span class="timeline__year time" aria-hidden="true">2021</span>
+      <div class="timeline__cards">
+        <div class="timeline__card card">
+          <header class="card__header">
+            <time class="time" datetime="2020-05-05">
+              <span class="time__month"><spring:message code="06" /></span>
+            </time>
+          </header>
+          <div class="card__content">
+            <p><spring:message code="06m" /></p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    </div>
   <div class="timeline">
     <div class="timeline__group">
      <span class="timeline__year time" aria-hidden="true">2020</span>

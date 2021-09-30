@@ -40,13 +40,13 @@
                <img src="resources/img/promo.jpg" alt="Carousel Image">
                 <div class="container">
                     <div class="row">
-                        <div class="carousel-item active" >
-                        <div class="carousel-caption" >
-                        
-                            <h1 class="animated fadeInLeft" style="margin-bottom: 250px; color: #FFF;font-size: 48px;"><spring:message code="promote" /></h1>
-                   
+                        <div class="carousel-caption" style="margin-bottom: 150px;">
+                            <h1 style="color: #ffffff;"><spring:message code="promote" /></h1>
+                            <p><spring:message code="mains" /></p>
+                            <br>
+                                <span>
+                            </span>
                         </div>
-                    </div>
                     </div>
                 </div>
             </div>
@@ -60,7 +60,7 @@
                         <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="service-item">
                                 <div class="service-img">
-                                   <img src="resources/img/bros.jpg" alt="Image">
+                                   <img src="resources/img/bross.jpg" alt="Image">
                                    
                                 </div>
                                 <div class="service-text">
@@ -72,7 +72,7 @@
                         <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
                             <div class="service-item">
                                 <div class="service-img">
-                                    <img src="resources/img/bros.jpg" alt="Image">
+                                    <img src="resources/img/bross.jpg" alt="Image">
                                 </div>
                                 <div class="service-text">
                                     <h3><spring:message code="brochuree" /></h3>

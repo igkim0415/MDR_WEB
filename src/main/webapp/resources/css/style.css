@@ -967,24 +967,24 @@ a:focus {
     position: relative;
     padding: 25px 15px;
     text-align: center;
-    background: #00703d;
+    background: #ffffff;
     transition: .5s;
 }
 
 .team .team-text h2 {
     font-size: 20px;
     font-weight: 600;
-    color: #ffffff;
+    color: #000000;
     transition: .5s;
 }
 
 .team .team-text p {
     margin: 0;
-    color: #ffffff;
+    color: #000000;
 }
 
 .team .team-item:hover .team-text {
-    background: #00703d;
+    background: #ffffff;
 }
 
 .team .team-item:hover .team-text h2 {
@@ -1307,7 +1307,7 @@ a:focus {
 .blog .blog-meta {
     position: relative;
     padding: 25px 0 10px 0;
-    background: #2c2a29;
+    background: #ffffff;
 }
 
 .blog .blog-meta::after {
@@ -1324,10 +1324,10 @@ a:focus {
     display: inline-block;
     margin: 0;
     padding: 0 3px;
-    font-size: 20px;
+    font-size: 13px;
     font-weight: 300;
     font-style: italic;
-    color: #00b050;
+    color: #000000;
 }
 
 .blog .blog-meta p a {
@@ -1337,7 +1337,7 @@ a:focus {
 
 .blog .blog-text {
     padding: 10px 25px 25px 25px;
-    background: #2c2a29;
+    background: #ffffff;
 }
 
 .blog .blog-text p {
@@ -1952,11 +1952,11 @@ a:focus {
 }
 
 .contact .col-md-6:first-child {
-    background: #2c2a29;
+    background: #ffffff;
 }
 
 .contact .col-md-6:last-child {
-    background: #00703d;
+    background: #ffffff;
 }
 
 .contact .contact-info {
@@ -1995,7 +1995,7 @@ a:focus {
 
 .contact .contact-text p {
     margin: 0;
-    color: #ffffff;
+    color: #000000;
     font-size: 16px;
 }
 
@@ -2048,15 +2048,15 @@ a:focus {
     padding: 16px 30px;
     font-size: 16px;
     font-weight: 600;
-    color: #00b050;
-    background: #2c2a29;
+    color: #000000;
+    background: #ffffff;
     border: none;
     border-radius: 0;
     transition: .3s;
 }
 
 .contact .contact-form .btn:hover {
-    color: #030f27;
+    color: #00703d;
     background: #ffffff;
 }
 

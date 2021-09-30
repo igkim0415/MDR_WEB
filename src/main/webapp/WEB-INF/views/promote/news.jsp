@@ -31,7 +31,7 @@
         <link href="resources/css/style.css" rel="stylesheet">
         <style type="text/css">
         	.newsc {
-        		color:#ffffff;
+        		color:#000000;
         	}
         
         </style>
@@ -45,17 +45,9 @@
             <!-- Page Header Start -->
             <div class="page-header" >
                <img src="resources/img/promo.jpg" alt="Carousel Image">
-                <div class="container">
-                    <div class="row">
-                        <div class="carousel-item active" >
-                        <div class="carousel-caption" >
-                        
-                            <h1 class="animated fadeInLeft" style="margin-bottom: 250px; color: #FFF;font-size: 48px;"><spring:message code="promote" /></h1>
-                   
+                <div class="carousel-caption" style="margin-bottom: 250px;">
+                            <h1 style="color: #ffffff;"><spring:message code="notice" /></h1>
                         </div>
-                    </div>
-                    </div>
-                </div>
             </div>
             <!-- Page Header End -->
 
@@ -67,7 +59,7 @@
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
                             <div class="blog-item">
                                 <div class="blog-img">
-                                     <c:if test="${language == 'ko'}">
+                                     <c:if test="${language == 'ko' or language == 'null'}">
                                 <img src="resources/img/news1.png" />
                                 </c:if>
                                 <c:if test="${language == 'en'}">
@@ -82,7 +74,7 @@
                                     <p>
                                      <spring:message code="news2m" />
                                     </p>
-                                    <a href="newsDetail.do" style="font-size: 8px; color: " ><spring:message code="read" /></a>
+                                    <a href="newsDetail.do" style="font-size: 8px; color:#000000;" ><spring:message code="read" /></a>
                                 </div>
                             </div>
                         </div>
@@ -96,7 +88,9 @@
                                 </div>
                                 <div class="blog-text newsc">
                                 <c:if test="${language == 'ko'}">
+                                <p>
                                 <spring:message code="news1m" />
+                                </p>
                                     <br>
                                     </c:if>
                                  <c:if test="${language == 'en'}">
@@ -104,7 +98,7 @@
 										<spring:message code="news1s" />
                                     </p>
                                     </c:if>
-                                    <a href="newsDetail2.do" style="font-size: 10px; color: " ><spring:message code="read" /></a>
+                                    <a href="newsDetail2.do" style="font-size: 10px; color:#000000;'" ><spring:message code="read" /></a>
                                 </div>
                             </div>
                         </div>

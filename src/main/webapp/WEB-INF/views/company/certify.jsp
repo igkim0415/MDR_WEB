@@ -45,13 +45,13 @@
                <img src="resources/img/com.jpg" alt="Carousel Image">
                 <div class="container">
                     <div class="row">
-                        <div class="carousel-item active" >
-                        <div class="carousel-caption" >
-                        
-                            <h1 class="animated fadeInLeft" style="margin-bottom: 250px; color: #FFF; font-size: 48px;"><spring:message code="company" /></h1>
-                   
+                        <div class="carousel-caption" style="margin-bottom: 150px;">
+                            <h1 style="color: #ffffff;"><spring:message code="company" /></h1>
+                            <p><spring:message code="mains" /></p>
+                            <br>
+                                <span>
+                            </span>
                         </div>
-                    </div>
                     </div>
                 </div>
             </div>
@@ -81,6 +81,15 @@
                                 </div>
 
                     </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item first wow  line" data-wow-delay="0.1s">
+                            
+
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item first wow  line" data-wow-delay="0.1s">
+                         
+
+                    </div>
+                    <hr>
                         <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item second wow fadeInUp line" data-wow-delay="0.2s">
                             <div class="team-item">
                                 <div class="team-img">
@@ -117,6 +126,13 @@
                      			</div> 
                             </div>
                         </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item second wow fadeInUp line" data-wow-delay="0.5s">
+                            
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item second wow fadeInUp line" data-wow-delay="0.5s">
+                           
+                        </div>
+                        <hr>
                         <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item third wow fadeInUp line" data-wow-delay="0.6s">
                             <div class="team-item">
                                 <div class="team-img">

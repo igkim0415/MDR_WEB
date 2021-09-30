@@ -59,13 +59,13 @@
                <img src="resources/img/pro2.jpg" alt="Carousel Image">
                 <div class="container">
                     <div class="row">
-                        <div class="carousel-item active" >
-                        <div class="carousel-caption" >
-                        
-                            <h1 class="animated fadeInLeft" style="margin-bottom: 250px; color: #fff;"><spring:message code="product" /></h1>
-                   
+                        <div class="carousel-caption" style="margin-bottom: 150px;">
+                            <h1 style="color: #ffffff;"><spring:message code="product" /></h1>
+                            <p><spring:message code="mains" /></p>
+                            <br>
+                                <span>
+                            </span>
                         </div>
-                    </div>
                     </div>
                 </div>
             </div>
@@ -76,7 +76,6 @@
             <div class="team">
                 <div class="container">
                     <div class="section-header text-center">
-                        <p style="color: #000000;">MDR</p>
                         <h2><spring:message code="mproduct" /></h2>
                     </div>
                     <div class="row">
@@ -87,7 +86,7 @@
                                     <img src="resources/img/제품1.png" alt="Team Image">
                                 </div>
                                 <div class="team-text">
-                                      <h2>ITB-RTMS20</h2>
+                                      <p>ITB-RTMS20</p>
                                     <p><spring:message code="pname1" /></p>
                                 </div>
                                 
@@ -101,7 +100,7 @@
                                     <img src="resources/img/제품2.png" alt="Team Image">
                                 </div>
                                 <div class="team-text">
-                                    <h2>ITB-IONDT20</h2>
+                                    <p>ITB-IONDT20</p>
                                     <p><spring:message code="pname2" /></p>
                                 </div>
                                 
@@ -115,7 +114,7 @@
                                     <img src="resources/img/제품3.png" alt="Team Image">
                                 </div>
                                 <div class="team-text">
-                                 <h2>ITB-VPSYS20</h2>
+                                 <p>ITB-VPSYS20</p>
                                     <p><spring:message code="pname3" /></p>
                                 </div>
                                 
@@ -129,7 +128,7 @@
                                     <img src="resources/img/제품4.png" alt="Team Image">
                                 </div>
                                 <div class="team-text">
-                                 	 <h2>ITB-H RSYS20</h2>
+                                 	 <p>ITB-H RSYS20</p>
                                     <p><spring:message code="pname4" /></p>
                                 </div>
                                 
