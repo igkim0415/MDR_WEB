@@ -42,10 +42,10 @@
             
             <!-- Page Header Start -->
             <div class="page-header" >
-               <img src="resources/img/com.jpg" alt="Carousel Image">
+               <img src="resources/img/comm.jpg" alt="Carousel Image">
                 <div class="container">
                     <div class="row">
-                        <div class="carousel-caption" style="margin-bottom: 150px;">
+                        <div class="carousel-caption" style="margin-bottom: 210px;">
                             <h1 style="color: #ffffff;"><spring:message code="company" /></h1>
                             <p><spring:message code="mains" /></p>
                             <br>
@@ -61,6 +61,9 @@
             <!-- Portfolio Start -->
             <div class="portfolio">
                 <div class="container">
+                <div class="section-header text-center">
+                        <h2 style="color: #003977"><spring:message code="certify" /></h2>
+                    </div>
                     <div class="row">
                         <div class="col-12">
                             <ul id="portfolio-flters">
@@ -83,6 +86,11 @@
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item first wow  line" data-wow-delay="0.1s">
                             
+                                <div class="team-img">
+                                <a href="resources/pdf/벤처확인서.pdf" target="_blank">
+                                    <img src="resources/img/patent/벤처확인서.jpg" alt="Image">
+                                </a>
+                                </div>
 
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item first wow  line" data-wow-delay="0.1s">

@@ -172,6 +172,7 @@ CORE STYLES
 
 .timeline__year{
   margin-bottom: 1.25rem; /* 1 */
+  font-size: 23px;
 }
 
 .timeline__cards{
@@ -297,6 +298,7 @@ p{
   margin-top: 0;
   margin-bottom: 1rem;
   line-height: 1.5;
+  font-size: 17px;
 }
 
 p:last-child{
@@ -332,10 +334,10 @@ p:last-child{
 
 		<!-- Page Header Start -->
 		<div class="page-header" >
-               <img src="resources/img/com.jpg" alt="Carousel Image">
+               <img src="resources/img/comm.jpg" alt="Carousel Image">
                 <div class="container">
                     <div class="row">
-                        <div class="carousel-caption" style="margin-bottom: 150px;">
+                        <div class="carousel-caption" style="margin-bottom: 210px;">
                             <h1 style="color: #ffffff;"><spring:message code="company" /></h1>
                             <p><spring:message code="mains" /></p>
                             <br>
@@ -360,6 +362,19 @@ p:last-child{
   <div class="timeline4">
     <div class="timeline__group">
      <span class="timeline__year time" aria-hidden="true">2021</span>
+      <div class="timeline__cards">
+        <div class="timeline__card card">
+          <header class="card__header">
+            <time class="time" datetime="2020-05-05">
+              <span class="time__month"><spring:message code="09" /></span>
+            </time>
+          </header>
+          <div class="card__content">
+            <p><spring:message code="10m" /></p>
+          </div>
+        </div>
+        
+      </div>
       <div class="timeline__cards">
         <div class="timeline__card card">
           <header class="card__header">

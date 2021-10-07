@@ -6,7 +6,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Bisuness - MDR Co., Ltd.</title>
+<title>Business - MDR Co., Ltd.</title>
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 <meta content="Construction Company Website Template" name="keywords">
 <meta content="Construction Company Website Template" name="description">
@@ -60,10 +60,10 @@
 
 		<!-- Page Header Start -->
 		<div class="page-header" >
-               <img src="resources/img/bis.jpg" alt="Carousel Image">
+               <img src="resources/img/bisu.jpg" alt="Carousel Image">
                 <div class="container">
                     <div class="row">
-                        <div class="carousel-caption" style="margin-bottom: 150px;">
+                        <div class="carousel-caption" style="margin-bottom: 210px;">
                             <h1 style="color: #ffffff;"><spring:message code="business" /></h1>
                             <p><spring:message code="mains" /></p>
                             <br>
@@ -80,7 +80,9 @@
     <!-- lastest_project_strat -->
     <div class="lastest_project">
         <div class="container">
-          	
+          	<div class="section-header text-center">
+                        <h2 style="color: #003977"><spring:message code="business" /></h2>
+                    </div>
             <div class="row align-items-center mb-80">
                 <div class="col-xl-6 col-md-6">
                     <div class="single_project_thumb">

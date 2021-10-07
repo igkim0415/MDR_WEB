@@ -37,10 +37,10 @@
             
             <!-- Page Header Start -->
             <div class="page-header" >
-               <img src="resources/img/promote.jpg" alt="Carousel Image">
+               <img src="resources/img/promote2.jpg" alt="Carousel Image">
                 <div class="container">
                     <div class="row">
-                        <div class="carousel-caption" style="margin-bottom: 100px;">
+                        <div class="carousel-caption" style="margin-bottom: 180px;">
                             <h1 style="color: #ffffff;"><spring:message code="promote" /></h1>
                             <p><spring:message code="mains" /></p>
                             <br>
@@ -65,7 +65,7 @@
                                 </div>
                                 <div class="service-text">
                                     <h3><spring:message code="brochurek" /></h3>
-                                    <a class="btn" href="resources/pdf/Korean.pdf" target="_blank">+</a>
+                                    <a class="btn" href="resources/pdf/회사소개.pdf" target="_blank">+</a>
                                 </div>
                             </div>
                         </div>
@@ -76,7 +76,7 @@
                                 </div>
                                 <div class="service-text">
                                     <h3><spring:message code="brochuree" /></h3>
-                                    <a class="btn" href="resources/pdf/English.pdf" target="_blank">+</a>
+                                    <a class="btn" href="resources/pdf/회사소개.pdf" target="_blank">+</a>
                                 </div>
                             </div>
                         </div>

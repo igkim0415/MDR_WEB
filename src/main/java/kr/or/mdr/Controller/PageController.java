@@ -76,6 +76,30 @@ public class PageController {
 		return "product/ITB-H RSYS20";
 	}
 	
+	//제품5 
+	@RequestMapping(value = "product5.do" , method = RequestMethod.GET)
+	public String productPage5() {
+		return "product/mes";
+	}
+	
+	//제품6 
+	@RequestMapping(value = "product6.do" , method = RequestMethod.GET)
+	public String productPage6() {
+		return "product/scan";
+	}
+	
+	//제품7 
+	@RequestMapping(value = "product7.do" , method = RequestMethod.GET)
+	public String productPage7() {
+		return "product/3d";
+	}
+	
+	//제품8 
+	@RequestMapping(value = "product8.do" , method = RequestMethod.GET)
+	public String productPage8() {
+		return "product/esd";
+	}
+	
 	
 	
 	

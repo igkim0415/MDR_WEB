@@ -38,10 +38,10 @@
             
             <!-- Page Header Start -->
             <div class="page-header" >
-               <img src="resources/img/cont.jpg" alt="Carousel Image">
+               <img src="resources/img/cont2.jpg" alt="Carousel Image">
                 <div class="container">
                     <div class="row">
-                        <div class="carousel-caption" style="margin-bottom: 150px;">
+                        <div class="carousel-caption" style="margin-bottom: 210px;">
                             <h1 style="color: #ffffff;"><spring:message code="contact" /></h1>
                             <p><spring:message code="mains" /></p>
                             <br>

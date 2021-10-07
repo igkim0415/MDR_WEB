@@ -3,7 +3,6 @@
 /*******************************/
 body {
     color: #000000;
-    background: #dddddd;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
@@ -19,7 +18,7 @@ h6 {
 }
 
 .btns{
-    			position: relative;
+    position: relative;
     margin-top: 15px;
     padding: 15px 35px;
     font-size: 16px;
@@ -52,7 +51,6 @@ a:focus {
 .wrapper {
     position: relative;
     width: 100%;
-    max-width: 1366px;
     margin: 0 auto;
     background: #ffffff;
 }
@@ -152,13 +150,13 @@ a:focus {
     font-weight: 400;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1920px) {
     .top-bar {
         padding: 0 60px;
     }
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1920px) {
     .top-bar .logo {
         text-align: center;
     }
@@ -182,7 +180,6 @@ a:focus {
     position: fixed;
     top: 0;
     width: 100%;
-    max-width: 1366px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
     z-index: 999;
 }
@@ -225,7 +222,7 @@ a:focus {
     border-color: #fdbe33;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1920px) {
     .nav-bar {
         padding: 0 75px;
     }
@@ -249,7 +246,7 @@ a:focus {
     }
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1920px) {
     .nav-bar .navbar {
         padding: 15px;
     }
@@ -350,7 +347,7 @@ a:focus {
     border-color: #ffffff;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 992px) {
     .carousel .carousel-caption h1 {
         font-size: 40px;
         font-weight: 700;
@@ -368,7 +365,7 @@ a:focus {
     }
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 768px) {
     .carousel .carousel-caption h1 {
         font-size: 30px;
         font-weight: 500;
@@ -399,7 +396,7 @@ a:focus {
     position: relative;
     margin-bottom: 45px;
     text-align: center;
-    background: #030f27;
+    background: #ffffff;
 }
 
 .page-header h2 {
@@ -447,9 +444,9 @@ a:focus {
     display: none;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1920px) {
     .page-header {
-        padding: 60px 0;
+        padding-bottom: 60px;
     }
     
     .page-header h2 {
@@ -461,7 +458,7 @@ a:focus {
     }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 992px) {
     .page-header {
         padding: 45px 0;
     }
@@ -499,7 +496,7 @@ a:focus {
     font-weight: 700;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 992px) {
     .section-header h2 {
         font-size: 30px;
     }
@@ -649,7 +646,7 @@ a:focus {
    
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 992px) {
     .about .about-img {
         margin-bottom: 30px;
         height: auto;
@@ -1070,7 +1067,7 @@ a:focus {
     padding-left: 15px;
 }
 
-@media(max-width: 767.98px) {
+@media(max-width: 992px) {
     .faqs .row::after {
         display: none;
     }
@@ -1342,7 +1339,7 @@ a:focus {
 
 .blog .blog-text p {
     margin: 0;
-    font-size: 14px;
+    font-size: 0.7292vw;
 }
 
 .blog .pagination .page-link {
@@ -2249,3 +2246,5 @@ a:focus {
         text-align: center;
     }
 }
+
+

@@ -1,11 +1,17 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-    <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
+        <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+         <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Corporate Identity - MDR Co., Ltd.</title>
+        <c:if test="${language == 'ko'}">
+        <title>ITB-VPSYS20 비전 이미지 딥러닝을 AI 주차 시스템 - MDR Co., Ltd.</title>
+        </c:if>
+        <c:if test="${language == 'en'}">
+        <title>ITB-VPSYS20 Vision Parking System - MDR Co., Ltd.</title>
+        </c:if>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Construction Company Website Template" name="keywords">
         <meta content="Construction Company Website Template" name="description">
@@ -28,49 +34,43 @@
 
         <!-- Template Stylesheet -->
         <link href="resources/css/style.css" rel="stylesheet">
+        <style type="text/css">
+      	.btns:hover {
+        		    color: #000000;
+    outline: none;
+    text-decoration: none;
+        	}
+        
+        </style>
     </head>
 
     <body>
         <div class="wrapper">
                <jsp:include page="/WEB-INF/views/commons/headerAndLeft.jsp"></jsp:include>
-			
-			
-			<div class="page-header" >
-               <img src="resources/img/promote2.jpg" alt="Carousel Image">
-                <div class="container">
-                    <div class="row">
-                        <div class="carousel-caption" style="margin-bottom: 180px;">
-                            <h1 style="color: #ffffff;"><spring:message code="promote" /></h1>
-                            <p><spring:message code="mains" /></p>
-                            <br>
-                                <span>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
 
             
 
             <!-- Single Post Start-->
             <div class="single" style="text-align: center;">
+            
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="single-content wow fadeInUp">
-                                <img src="resources/img/ci3.png" />
-                                <h2><spring:message code="cis" /></h2>
-                                <br>
-                                <p>
-                                	<spring:message code="cis2" />
-                                </p>
-                              	
-                              	<img src="resources/img/ci5.jpg" />
-                              	<img src="resources/img/ci4.png" />
+                                  <c:if test="${language == 'ko'}">
+                             <img src="resources/img/esd.PNG" />
+                             </c:if>
+                             <c:if test="${language == 'en'}">
+                             
+                             <img src="resources/img/esd.PNG" />
+                             </c:if>
+                                
                             </div>
                             
                             
-                            
+                    
+                         <a class="btns" href="product.do"><spring:message code="list" /></a>
                             
                             
                         </div>

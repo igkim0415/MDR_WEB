@@ -30,103 +30,7 @@
         <!-- Template Stylesheet -->
         <link href="resources/css/style.css" rel="stylesheet">
         
-        <style type="text/css">
- * {
-  box-sizing: border-box;
-}
 
-img {
-  vertical-align: middle;
-}
-
-/* Position the image container (needed to position the left and right arrows) */
-.container {
-  position: relative;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-      position: relative;
-    overflow: hidden;
-     width: 100%;
-     text-align: center;
-}
-
-/* Add a pointer when hovering over the thumbnail images */
-.cursor {
-  cursor: pointer;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: #00703d;
-  color : #ffffff;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* Container for image text */
-.caption-container {
-  text-align: center;
-  background-color: #ffffff;
-  padding: 2px 16px;
-  color: black;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Six columns side by side */
-.column {
-  float: left;
-  width: 16.66%;
-}
-
-/* Add a transparency effect for thumnbail images */
-.demo {
-  opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-  opacity: 1;
-}
-        </style>
     </head>
 
     <body>
@@ -141,42 +45,55 @@ img {
                     <li data-target="#carousel" data-slide-to="0" class="active"></li>
                     <li data-target="#carousel" data-slide-to="1"></li>
                     <li data-target="#carousel" data-slide-to="2"></li>
+                    <li data-target="#carousel" data-slide-to="3"></li>
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="resources/img/main.jpg" alt="Carousel Image">
+                        <img src="resources/img/1.jpg" alt="Carousel Image">
                         <div class="carousel-caption">
                             <h1 class="animated fadeInLeft"><spring:message code="index1" /></h1>
                             <p><spring:message code="index2" /></p>
                             <br>
                                 <span>
-                            <a class="btn animated fadeInUp" href="company.do"><spring:message code="more" /></a>
+                            <a class="btn animated fadeInUp" href="vision.do"><spring:message code="more" /></a>
                             <a class="btn animated fadeInUp" href="product.do"><spring:message code="product3" /></a>
                             </span>
                         </div>
                     </div>
 
                     <div class="carousel-item">
-                        <img src="resources/img/main2.jpg" alt="Carousel Image">
+                        <img src="resources/img/2.jpg" alt="Carousel Image">
                         <div class="carousel-caption">
                            <h1 class="animated fadeInLeft"><spring:message code="index1" /></h1>
                             <p><spring:message code="index2" /></p>
                             <br>
                                 <span>
-                                       <a class="btn animated fadeInUp" href="company.do"><spring:message code="more" /></a>
+                                       <a class="btn animated fadeInUp" href="vision.do"><spring:message code="more" /></a>
                             <a class="btn animated fadeInUp" href="product.do"><spring:message code="product3" /></a>
                             </span>
                         </div>
                     </div>
 
                     <div class="carousel-item">
-                        <img src="resources/img/main3.jpg" alt="Carousel Image">
+                        <img src="resources/img/3.jpg" alt="Carousel Image">
                         <div class="carousel-caption">
                         <h1 class="animated fadeInLeft"><spring:message code="index1" /></h1>
                             <p><spring:message code="index2" /></p>
                             <br>
                             <span>
-                              <a class="btn animated fadeInUp" href="company.do"><spring:message code="more" /></a>
+                              <a class="btn animated fadeInUp" href="vision.do"><spring:message code="more" /></a>
+                            <a class="btn animated fadeInUp" href="product.do"><spring:message code="product3" /></a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="resources/img/4.jpg" alt="Carousel Image" style="">
+                        <div class="carousel-caption">
+                        <h1 class="animated fadeInLeft"><spring:message code="index1" /></h1>
+                            <p><spring:message code="index2" /></p>
+                            <br>
+                            <span>
+                              <a class="btn animated fadeInUp" href="vision.do"><spring:message code="more" /></a>
                             <a class="btn animated fadeInUp" href="product.do"><spring:message code="product3" /></a>
                             </span>
                         </div>
@@ -313,7 +230,7 @@ img {
                                 
                                 <div class="blog-meta">
                                
-                                    <p>MES 시스템</p>
+                                    <p><spring:message code="pname5" /></p>
                             
                                  
                                 </div>
@@ -334,7 +251,7 @@ img {
                                 
                                 <div class="blog-meta">
                                
-                                    <p>Smart Scanner</p>
+                                    <p><spring:message code="pname6" /></p>
                             
                                  
                                 </div>
@@ -350,12 +267,12 @@ img {
                           <a href="#">  
                             <div class="blog-item">
                                 <div class="blog-img">
-                                   <img src="resources/img/3d.PNG" alt="Image">
+                                   <img style="max-width:100%; height:auto;" src="resources/img/3d.PNG" alt="Image">
                                 </div>
                                 
                                 <div class="blog-meta">
                                
-                                    <p>3차원 발목관절 운동 치료기</p>
+                                    <p><spring:message code="pname7" /></p>
                             
                                  
                                 </div>
@@ -376,7 +293,7 @@ img {
                                 
                                 <div class="blog-meta">
                                
-                                    <p>ESD 관리 시스템</p>
+                                    <p><spring:message code="pname8" /></p>
                             
                                  
                                 </div>

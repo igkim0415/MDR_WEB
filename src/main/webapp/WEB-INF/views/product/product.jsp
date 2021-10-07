@@ -56,10 +56,10 @@
             
             <!-- Page Header Start -->
             <div class="page-header" >
-               <img src="resources/img/pro2.jpg" alt="Carousel Image">
+               <img src="resources/img/pro3.jpg" alt="Carousel Image">
                 <div class="container">
                     <div class="row">
-                        <div class="carousel-caption" style="margin-bottom: 150px;">
+                        <div class="carousel-caption" style="margin-bottom: 210px;">
                             <h1 style="color: #ffffff;"><spring:message code="product" /></h1>
                             <p><spring:message code="mains" /></p>
                             <br>
@@ -86,7 +86,7 @@
                                     <img src="resources/img/제품1.png" alt="Team Image">
                                 </div>
                                 <div class="team-text">
-                                      <p>ITB-RTMS20</p>
+                                      <p><b>ITB-RTMS20</b></p>
                                     <p><spring:message code="pname1" /></p>
                                 </div>
                                 
@@ -100,7 +100,7 @@
                                     <img src="resources/img/제품2.png" alt="Team Image">
                                 </div>
                                 <div class="team-text">
-                                    <p>ITB-IONDT20</p>
+                                    <p><b>ITB-IONDT20</b></p>
                                     <p><spring:message code="pname2" /></p>
                                 </div>
                                 
@@ -114,7 +114,7 @@
                                     <img src="resources/img/제품3.png" alt="Team Image">
                                 </div>
                                 <div class="team-text">
-                                 <p>ITB-VPSYS20</p>
+                                 <p><b>ITB-VPSYS20</b></p>
                                     <p><spring:message code="pname3" /></p>
                                 </div>
                                 
@@ -128,7 +128,7 @@
                                     <img src="resources/img/제품4.png" alt="Team Image">
                                 </div>
                                 <div class="team-text">
-                                 	 <p>ITB-H RSYS20</p>
+                                 	 <p><b>ITB-H RSYS20</b></p>
                                     <p><spring:message code="pname4" /></p>
                                 </div>
                                 
@@ -136,7 +136,7 @@
                             </a>
                         </div>
                         <div class="col-lg-4 col-md-4 wow fadeInUp line" data-wow-delay="0.4s">
-                            <a href="#" >
+                            <a href="product5.do" >
                             <div class="team-item ">
                                 <div class="team-img big">
                                     <img src="resources/img/mess.PNG" alt="Team Image">
@@ -150,7 +150,7 @@
                             </a>
                         </div>
                         <div class="col-lg-4 col-md-4 wow fadeInUp line" data-wow-delay="0.4s">
-                            <a href="#" >
+                            <a href="product6.do" >
                             <div class="team-item ">
                                 <div class="team-img big">
                                  <img src="resources/img/scaner.PNG" alt="Team Image">
@@ -165,7 +165,7 @@
                             </a>
                         </div>
                         <div class="col-lg-4 col-md-4 wow fadeInUp line" data-wow-delay="0.4s">
-                            <a href="#" >
+                            <a href="product7.do" >
                             <div class="team-item ">
                                 <div class="team-img big">
                                     <img src="resources/img/3d.PNG" alt="Team Image">
@@ -179,7 +179,7 @@
                             </a>
                         </div>
                         <div class="col-lg-4 col-md-4 wow fadeInUp line" data-wow-delay="0.4s">
-                            <a href="#" >
+                            <a href="product8.do" >
                             <div class="team-item ">
                                 <div class="team-img big">
                                     <img src="resources/img/esd.PNG" alt="Team Image">

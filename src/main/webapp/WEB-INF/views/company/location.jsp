@@ -38,10 +38,10 @@
             
             <!-- Page Header Start -->
             <div class="page-header" >
-               <img src="resources/img/com.jpg" alt="Carousel Image">
+               <img src="resources/img/comm.jpg" alt="Carousel Image">
                 <div class="container">
                     <div class="row">
-                        <div class="carousel-caption" style="margin-bottom: 150px;">
+                        <div class="carousel-caption" style="margin-bottom: 210px;">
                             <h1 style="color: #ffffff;"><spring:message code="company" /></h1>
                             <p><spring:message code="mains" /></p>
                             <br>
@@ -58,7 +58,7 @@
             <div class="contact wow fadeInUp">
                 <div class="container">
                     <div class="section-header text-center">
-                        <h2><spring:message code="location" /></h2>
+                        <h2 style="color: #003977"><spring:message code="location" /></h2>
                     </div>
                     <div class="row">
                         <div class="col-md-6">
@@ -90,7 +90,7 @@
                         <div class="col-md-6">
                          
            						<c:if test="${language == 'ko' or language == 'null'}">
-								<div id="map" style="width:530px;height:470px;"></div>
+							<a href="https://map.kakao.com/link/to/충남테크노파크번영관,36.887227,127.160277"><div id="map" style="width:530px;height:470px;"></div></a>
        							</c:if>
        							<c:if test="${language == 'en'}">
        							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d398.891489761619!2d127.159912!3d36.8871923!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b2f1ae442dd53%3A0x17a1101f8c2d79ce!2s43-1%20Sameun-ri%2C%20Jiksan-eup%2C%20Seobuk-gu%2C%20Cheonan%2C%20Chungcheongnam-do!5e0!3m2!1sen!2skr!4v1632970856994!5m2!1sen!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
