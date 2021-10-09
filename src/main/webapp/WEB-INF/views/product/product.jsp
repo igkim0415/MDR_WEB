@@ -86,8 +86,7 @@
                                     <img src="resources/img/제품1.png" alt="Team Image">
                                 </div>
                                 <div class="team-text">
-                                      <p><b>ITB-RTMS20</b></p>
-                                    <p><spring:message code="pname1" /></p>
+                                    <p><b><spring:message code="pname1" /></b></p>
                                 </div>
                                 
                             </div>
@@ -100,8 +99,7 @@
                                     <img src="resources/img/제품2.png" alt="Team Image">
                                 </div>
                                 <div class="team-text">
-                                    <p><b>ITB-IONDT20</b></p>
-                                    <p><spring:message code="pname2" /></p>
+                                    <p><b><spring:message code="pname2" /></b></p>
                                 </div>
                                 
                             </div>
@@ -114,8 +112,7 @@
                                     <img src="resources/img/제품3.png" alt="Team Image">
                                 </div>
                                 <div class="team-text">
-                                 <p><b>ITB-VPSYS20</b></p>
-                                    <p><spring:message code="pname3" /></p>
+                                    <p><b><spring:message code="pname3" /></b></p>
                                 </div>
                                 
                             </div>
@@ -128,8 +125,7 @@
                                     <img src="resources/img/제품4.png" alt="Team Image">
                                 </div>
                                 <div class="team-text">
-                                 	 <p><b>ITB-H RSYS20</b></p>
-                                    <p><spring:message code="pname4" /></p>
+                                    <p><b><spring:message code="pname4" /></b></p>
                                 </div>
                                 
                             </div>
@@ -142,8 +138,7 @@
                                     <img src="resources/img/mess.PNG" alt="Team Image">
                                 </div>
                                 <div class="team-text">
-                                 	 <p><spring:message code="pname5" /></p>
-                                    <p><spring:message code="pname5" /></p>
+                                    <p><b><spring:message code="pname5" /></b></p>
                                 </div>
                                 
                             </div>
@@ -157,8 +152,7 @@
                                    
                                 </div>
                                 <div class="team-text">
-                                 	  <p><spring:message code="pname6" /></p>
-                                    <p><spring:message code="pname6" /></p>
+                                    <p><b><spring:message code="pname6" /></b></p>
                                 </div>
                                 
                             </div>
@@ -171,8 +165,7 @@
                                     <img src="resources/img/3d.PNG" alt="Team Image">
                                 </div>
                                 <div class="team-text">
-                                <p><spring:message code="pname7" /></p>
-                                    <p><spring:message code="pname7" /></p>
+                                    <p><b><spring:message code="pname7" /></b></p>
                                 </div>
                                 
                             </div>
@@ -185,8 +178,7 @@
                                     <img src="resources/img/esd.PNG" alt="Team Image">
                                 </div>
                                 <div class="team-text">
-                                 	 <p><spring:message code="pname8" /></p>
-                                    <p><spring:message code="pname8" /></p>
+                                    <p><b><spring:message code="pname8" ></spring:message></b></p>
                                 </div>
                                 
                             </div>

@@ -52,10 +52,10 @@
                         <div class="col-lg-12">
                             <div class="single-content wow fadeInUp">
                             <c:if test="${language == 'ko'}">
-                                <img src="resources/img/news1.png" />
+                                <img src="resources/img/mdr.PNG" />
                                 </c:if>
                                 <c:if test="${language == 'en'}">
-                                <img src="resources/img/news1e.png" />
+                                <img src="resources/img/mdre.PNG" />
                                 </c:if>
                                
                                 <p>

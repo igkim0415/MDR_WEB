@@ -60,10 +60,10 @@
                             <div class="blog-item">
                                 <div class="blog-img">
                                      <c:if test="${language == 'ko' or language == 'null'}">
-                                <img src="resources/img/news1.png" />
+                                <img src="resources/img/mdr.PNG" />
                                 </c:if>
                                 <c:if test="${language == 'en'}">
-                                <img src="resources/img/news1e.png" />
+                                <img src="resources/img/mdre.PNG" />
                                 </c:if>
                                 </div>
                                 

@@ -97,7 +97,7 @@
                          
 
                     </div>
-                    <hr>
+                
                         <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item second wow fadeInUp line" data-wow-delay="0.2s">
                             <div class="team-item">
                                 <div class="team-img">
@@ -140,7 +140,10 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item second wow fadeInUp line" data-wow-delay="0.5s">
                            
                         </div>
-                        <hr>
+                        <div>
+                          
+                        </div>
+                        
                         <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item third wow fadeInUp line" data-wow-delay="0.6s">
                             <div class="team-item">
                                 <div class="team-img">

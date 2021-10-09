@@ -154,7 +154,6 @@
                                 </div>
                                 
                                 <div class="blog-meta">
-                                    <p>ITB-RTMS20</p>
                                 </div>
                                 <div class="blog-text">
                                     <p style="color: #000000;"	>
@@ -172,7 +171,6 @@
                                 </div>
                                 
                                 <div class="blog-meta">
-                                    <p>ITB-IONDT20</p>
                                 </div>
                                 <div class="blog-text">
                                     <p style="color: #000000;">
@@ -190,7 +188,6 @@
                                 </div>
                                 
                                 <div class="blog-meta">
-                             <p>ITB-VPSYS20</p>
                                 </div>
                                 <div class="blog-text">
                                     <p style="color: #000000;">
@@ -209,9 +206,6 @@
                                 
                                 <div class="blog-meta">
                                
-                                    <p>ITB-H RSYS20</p>
-                            
-                                 
                                 </div>
                                 <div class="blog-text">
                                     <p style="color: #000000;">
@@ -230,7 +224,6 @@
                                 
                                 <div class="blog-meta">
                                
-                                    <p><spring:message code="pname5" /></p>
                             
                                  
                                 </div>
@@ -251,7 +244,6 @@
                                 
                                 <div class="blog-meta">
                                
-                                    <p><spring:message code="pname6" /></p>
                             
                                  
                                 </div>
@@ -272,7 +264,6 @@
                                 
                                 <div class="blog-meta">
                                
-                                    <p><spring:message code="pname7" /></p>
                             
                                  
                                 </div>
@@ -293,7 +284,6 @@
                                 
                                 <div class="blog-meta">
                                
-                                    <p><spring:message code="pname8" /></p>
                             
                                  
                                 </div>
